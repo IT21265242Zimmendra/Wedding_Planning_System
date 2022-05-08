@@ -1,5 +1,5 @@
 body{
-    background-image: url(photo-1460364157752-926555421a7e.jpg) ;
+    background-image: url("./../images/photo-1460364157752-926555421a7e.jpg") ;
     background-size: cover;
     box-sizing: border-box;
     font: Arial, Helvetica, sans-serif;

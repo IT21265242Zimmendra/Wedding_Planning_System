@@ -1,8 +1,9 @@
 body{
      margin:0;
      padding: 0;
-     background-image: url(aboutus.jpg);
+     background-image: url("./../images/aboutus.jpg"); 
      background-size: cover;
+
 
 }
 h1{
@@ -79,5 +80,5 @@ li{
     top: 82%;
     padding-left: 42%;
     position: absolute;
-    opacity: %;
+    
 }

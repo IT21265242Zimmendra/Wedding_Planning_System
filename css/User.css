@@ -1,0 +1,255 @@
+/*--------Body--------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+}
+
+nav{
+    flex:1;
+    text-align:right;
+}
+
+nav ul{
+    display:inline-flex;
+    margin-top: 1px;
+}
+
+nav ul li{
+    list-style:none;
+    margin: 0 60px;
+    cursor: pointer;
+}
+
+
+.logo1 img
+{
+    width: 220px;
+    height:180px;
+    margin-left: -100px;
+}
+
+.sign-in img{
+    width: 30px;
+    margin-bottom: -10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-left: 0px;
+}
+
+.signinbtn {
+    background-color: #02120c;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-right:50px;
+    padding-left: 2px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    width: 100%;
+    
+
+  }
+  
+  .sign-in {
+    position: relative;
+    display: inline-block;
+    margin-right: -60px;
+  }
+  
+  .sign-in-content {
+    display: none;
+    position: absolute;
+    background-color: #fefbfb;
+    min-width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .sign-in-content a {
+    color: rgb(253, 245, 245);
+    padding: 12px 20px 0px 20px;
+    background-color: #000;
+    border-bottom: 1px dotted #fff;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .sign-in-content a:hover {background-color: rgb(16, 11, 11);}
+  
+  .sign-in:hover .sign-in-content {display: block;}
+  
+  .sign-in:hover .signinbtn {background-color: #3c3f3cf1;}
+
+.active1
+{
+    color:rgb(230, 233, 236);
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+    background-color: #000;
+    border-radius: 5px;
+    border: 1px solid #fff;
+  
+    margin-right:75px;
+}
+
+.active1:hover{
+  background-color: rgba(54, 54, 49, 0.788);
+}
+
+p{
+    color: #555;
+}
+
+.container1{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0px;
+}
+
+.col-2{
+    font-size: 30px;
+    line-height: 60px;
+    margin: 25px 0px;
+}
+
+.btn{
+    display:inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.header
+{
+    background-image: url("./../IMAGES/backheader.png");
+}
+
+/*--------Footer--------*/
+.footer{
+    background:rgba(0, 0, 0, 0.979);
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    bottom: 0%;
+}
+
+.footer-contend{
+    display:inline;
+    margin-left:2%;
+    padding-bottom: 1%;
+}
+
+.logo2 {
+   
+    padding-right: 0%;
+}
+
+.bind1 {
+    padding-bottom: 1%;
+    margin-right: -20%;
+    margin-left: 20%;
+}
+
+.bind2 {
+    padding-bottom: 1%;
+    margin-right:-35%;
+    margin-left: 35%;
+   
+}
+
+/*--------Slide Show--------*/
+
+.slideshow-container {
+  max-width: 1000px;
+  padding-top: 2%;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  Top: 8%;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.container2{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+

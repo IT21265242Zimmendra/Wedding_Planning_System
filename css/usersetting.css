@@ -1,0 +1,53 @@
+.body{
+	height: 100vh;
+	background-image: linear-gradient(to bottom right, rgb(0, 68, 255), rgba(0, 204, 255, 0.634));
+	background-repeat: no-repeat;
+ }
+
+.container1{
+
+    background-color: rgba(0, 0, 0, 0.24);
+	margin: auto auto;
+	padding: 30px 0px 85px 0px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #000;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 500px;
+	height: 320px;
+    margin-top: 5%;
+	color: rgb(238, 241, 244);
+}
+
+h1{
+    text-align: center;
+    color: rgb(238, 241, 244);
+}
+
+#setting
+{
+    margin-left: 16%;
+}
+
+.btn
+{
+	background-color:rgb(80, 101, 124);
+	margin-left: 23%;
+	color: rgb(238, 241, 244);
+	cursor: pointer;
+}
+
+.btndlt
+{
+	background-color:rgb(80, 101, 124);
+	margin-left: 37%;
+	color: rgb(238, 241, 244);
+	padding-right: 15px;
+	text-align: center;
+	cursor: pointer;
+}
+
+

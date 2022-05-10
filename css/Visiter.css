@@ -10,12 +10,13 @@
     display:flex;
     align-items: center;
     padding: 40px;
-    width: 100%;
+    width: 110%;
 }
 
 nav{
     flex:1;
     text-align:right;
+    margin-right: 30px;
 }
 
 nav ul{
@@ -37,59 +38,6 @@ nav ul li{
     margin-left: -100px;
 }
 
-.sign-in img{
-    width: 30px;
-    margin-bottom: -10px;
-    margin-left: 10px;
-    margin-top: 5px;
-    padding-left: 0px;
-}
-
-.signinbtn {
-    background-color: #02120c;
-    color: white;
-    padding-top: 2px;
-    padding-bottom: 10px;
-    padding-right:50px;
-    padding-left: 2px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid #fff;
-    width: 100%;
-    
-
-  }
-  
-  .sign-in {
-    position: relative;
-    display: inline-block;
-    margin-right: -60px;
-  }
-  
-  .sign-in-content {
-    display: none;
-    position: absolute;
-    background-color: #fefbfb;
-    min-width: 110px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .sign-in-content a {
-    color: rgb(253, 245, 245);
-    padding: 12px 20px 0px 20px;
-    background-color: #000;
-    border-bottom: 1px dotted #fff;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .sign-in-content a:hover {background-color: rgb(16, 11, 11);}
-  
-  .sign-in:hover .sign-in-content {display: block;}
-  
-  .sign-in:hover .signinbtn {background-color: #3c3f3cf1;}
-
 .active1
 {
     color:rgb(230, 233, 236);
@@ -103,22 +51,33 @@ nav ul li{
     border-radius: 5px;
     border: 1px solid #fff;
   
-    margin-right:75px;
 }
 
 .active1:hover{
   background-color: rgba(54, 54, 49, 0.788);
 }
 
-.prev{
-    text-decoration: none;
-    color: #555;
+.sign-in
+{
+    display: flex;
+    margin-left: 110px;
 }
 
-.next{
-    text-decoration: none;
-    color: #555;
-}
+.visitorbtn {
+    background-color: #02120c;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-left: 40px;
+  }
+  
+  
+  
 
 
 p{
@@ -130,44 +89,48 @@ p{
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+    padding-bottom:25px;
 }
 
-.row{
+.row
+{
     display:flex;
     align-items: center;
     flex-wrap:wrap;
-    justify-content: space-around;
+    margin-top: 30px;
 }
 
-.col-2{
-    flex-basis: 50%;
-    min-width: 300px;
+.row h1
+{
+    font-size: 190px;
+    line-height: 160px;
+    margin-left: -10px;
+    color:transparent; 
+    -webkit-text-stroke: 1px #fff;
+    background: url("./../IMAGES/back.png");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
 }
 
-.col-2 img{
-    max-width: 100%;
-    padding: 50px 0px;
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
 }
 
-.col-2{
-    font-size: 30px;
-    line-height: 60px;
-    margin: 25px 0px;
-}
-
-.btn{
-    display:inline-block;
-    background: #ff523b;
-    color: #fff;
-    padding: 8px 30px;
-    margin: 30px 0;
-    border-radius: 30px;
-    text-decoration: none;
+.row h3
+{
+    font-size: 40px;
+    padding-left: 1%;
+    font-weight:500;
+    color:#fff;
 }
 
 .header
 {
-    background-image: url("./../images/");
+    background-image: url("./../IMAGES/backheader.png");
+
 }
 
 /*--------Footer--------*/
@@ -200,8 +163,8 @@ p{
     padding-bottom: 1%;
     margin-right:-35%;
     margin-left: 35%;
-   
 }
+
 
 /*--------Slide Show--------*/
 
@@ -221,7 +184,7 @@ p{
   position: absolute;
   Top: 8%;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 

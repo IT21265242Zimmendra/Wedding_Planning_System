@@ -1,0 +1,68 @@
+body{
+    background-image: url("./../IMAGES/payment.png");
+    background-size: cover;
+    box-sizing: border-box;
+
+    
+}
+
+.container1{
+
+    background-color: rgba(168, 164, 164, 0.523);
+	margin: auto auto;
+	padding-top: 40px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgb(53, 50, 50);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 500px;
+	height: 320px;
+    text-align: center;
+    display: inline-block;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.container2
+{
+    padding-top: 10%;
+}
+
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  [type=radio]+img {
+    cursor: pointer;
+    margin-right: 0.3rem;
+  }
+  
+  [type=radio]:checked + img {
+    outline: 4px solid red;
+  }
+
+  img{
+    border-radius: 5px;
+    width:18%;
+}
+
+[type=radio]+img:hover
+{
+    width:20%;
+}
+
+button{
+    margin-top: 18%;
+    padding:5px;
+    background-color:rgb(184, 184, 177);
+    width: 75%;
+    cursor: pointer;
+}
+
+

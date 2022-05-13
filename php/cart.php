@@ -8,19 +8,28 @@
 <html>
 <form >
     <div class ="container">
-     <h1>Cart</h1>
-                       
-        
-
-        <button class = btnpayment>Proceed to payment</button>
-        <button class = addmore>Add the more categories</button>
+        <h1>Cart</h1>
     <div>
-    </html>
+    <div class="buttons">
+        <button class = btnpayment>Payment</button>
+        <button class = addmore>Add Category</button>
+    </div>
+</html>
+
+<script>
+
+function deleteCategory(category)
+{
+    console.log(category);
+}
+   
+
+</script>
     
 
-        <?php 
+<?php 
 
-    $sql = "select v.category_name,v.name,p.price
+    $sql = "select c.Name,p.Package_Name,p.price
     from vendors v,package p,category c,customer_package cp
     Where p.vid = v.vid and v.category_name = c.name and cp.pid = p.pid and cp.Cid ='$id'";
   
@@ -33,19 +42,20 @@
 
     if($result->num_rows>0)
     {
-        echo "<table border = '1'><tr><th>Category</th><th>Item Name</th></th><th>Price</th></tr>";
+        echo "<table border = '1'><tr><th></th><th>Category</th><th>Item Name</th></th><th>Price</th></tr>";
 
        
 
         while($row = $result ->fetch_assoc())
         {
+                $category = $row["Name"];
 
-            
-            
+                echo "<script> deleteCategory('$category') </script> ";
                 
                 echo "<tr>";
-                echo "<td >".$row["name"]."</td>";
-                echo "<td>".$row["name"]."</td>";
+                echo "<td>" . "<button onclick = deleteCategory( '$category' )>". "-</button></td>";
+                echo "<td >".$row["Name"]."</td>";
+                echo "<td>"."<a href = ''>".$row["Package_Name"]."</a>"."</td>";
                 echo "<td>".$row["price"]."</td>";
                 echo "</tr>";
 
@@ -61,6 +71,7 @@
         echo "No result";
     }
     $con->close();
+
 
 ?>
 <style>      
@@ -121,13 +132,14 @@ margin-left:-1%;
 .btnpayment{
     position:absolute;
     top:80%;
-    margin-left:60%;
+    margin-left:65%;
     background-color: #4CAF50; 
      border: none;
      color: white;
     padding: 10px 32px;
     text-align: center;
     font-size: 14px;
+    cursor: pointer;
 
   
     
@@ -138,16 +150,21 @@ margin-left:-1%;
 .addmore{
     position:absolute;
     top:80%;
-    margin-left:-5%;
     background-color: #4169e1;
      border: none;
      color: white;
     padding: 10px 10px;
     text-align: center;
     font-size: 14px;
+    cursor: pointer;
 }
 .addmore:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
     </style>

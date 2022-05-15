@@ -1,0 +1,88 @@
+.Categories
+{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;    
+    grid-template-rows: 50% 50%;
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align:center;
+    font-family: 'Papyrus';
+}
+
+
+.FoodVen
+{
+    background-image: url("./Pictures/Food&Ven.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.Florist
+{
+    background-image: url("./Pictures/Florist.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.InvCards
+{
+    background-image: url("./Pictures/Inv\ cards.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.Photography
+{
+    background-image: url("./Pictures/Photography.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.Saloon
+{
+    background-image: url("./Pictures/Salon.jpg");
+    background-position: center;
+    background-size: cover;
+}   
+
+.Vehicle
+{
+    background-image: url("./Pictures/Vehicle.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+p
+{
+    padding-top: 52%;
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+h2
+{
+    font-family: 'Lucida Handwriting';
+    color: white;
+    padding-left: 5%;
+    padding-top: 2%;
+    font-size: 35px;
+}
+
+body
+{
+    background-image: url("Pictures/bg4\ \(1\).png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+span
+{
+    background-color: white;
+}

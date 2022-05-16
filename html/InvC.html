@@ -3,13 +3,39 @@
         <link rel="stylesheet" href="../css/InvC.css">
     </head>
     <body>
-        <header></header>
+
+        <header>
+            <!----------------------------------------Header------------------------------------------->
+            <div class="header">
+                <div class = "container1">
+                    <div class="navbar">
+                        <div class = "logo1">
+                            <img src = "./../IMAGES/logo.png" width = "125px">
+                        </div>
+                        <nav>
+                            <ul>
+                                <li> <a href="#" class="active1">Home</a></li>
+                                <li> <a href="#"class="active1">Categories</a></li>
+                                <li> <a href="#" class="active1">About Us</a></li>
+                            </ul>
+                        </nav>
+                            <div class="sign-in">
+                                <button class="visitorbtn">Sign Up</button>
+                                <button class="visitorbtn">Log In</button>
+                            </div>
+                    </div> 
     
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-------------------------------------------------Body------------------------------------------------->
+
         <form>
             <h1>Anim8 (Pvt.) Ltd.</h1>
         
         <div class="layout">
-            <div id="slider">
+            <div id="slider"> <!--------------Slideshow----------->
                 <figure>
                     <img src="../images/IC006.jpg">
                     <img src="../images/IC007.jpg">
@@ -19,6 +45,7 @@
 
                 <br><br>
                 <div class="specs">
+                    <!-----------------------------Selecting the design----------------------->
                     <label>Design</label><br>
                     <select name="designs">
                         <option value="001">Design 001</option>
@@ -29,6 +56,7 @@
                     </select>
 
                     <br><br>
+                    <!---------------------Color selector------------------->
                     <label>Color</label><br>
                     <select name="color">
                         <option value="White">White</option>
@@ -40,6 +68,7 @@
                     </select>
 
                     <br><br>
+                    <!------------------Selecting the quantity------------------->
                     <label>Quantity</label><br>
                     <input type="number" name="quantity" min="25" max="500">
 
@@ -60,5 +89,25 @@
             </div>
         </div>
         </form>
+
+        <!----------------------------------------Footer------------------------------------------->
+        
+        <footer>
+
+            <div class="footer">
+                    
+                <img src="./../IMAGES/logo.png" class="logo2" height="10%" width="10%">
+                    <img src="./../IMAGES/play-store.png" class="bind1" height="10%" width="10%">
+                    <img src="./../IMAGES/app-store.png" class="bind1" height="10%" width="10%">
+                    <img src="./../IMAGES/Contact us.png" class="bind1" height="10%" width="10%">
+                    
+
+                <img src="./../IMAGES/fb.png" class="bind2"  width="3%">
+                <img src="./../IMAGES/inster.png" class="bind2" width="3%">
+                <img src="./../IMAGES/tw.png" class="bind2" width="3%">
+                
+            </div>
+            
+        </footer>
     </body>
 </html>

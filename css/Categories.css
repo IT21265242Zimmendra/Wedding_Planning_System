@@ -84,70 +84,98 @@ nav ul li{
     padding-bottom:25px;
 }
 
-/*-------------------------Body--------------------------*/
+/*-----------------------Body-------------------------------*/
 
-form
+.Categories
 {
-    width: 500px;
-    height: 500px;
-    background-color: rgba(0, 0, 0, 0.863);
-    margin: auto;
-    color: #FFFFFF;
-    padding: 50px 50px 50px 50px;
-    text-align: justify;
-    border-radius: 15px 15px 15px 15px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;    
+    grid-template-rows: 50% 50%;
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align:center;
+    font-family: 'Papyrus';
+}
+
+
+.FoodVen
+{
+    background-image: url("../images/Food&Ven.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.Florist
+{
+    background-image: url("../images/Florist.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.InvCards
+{
+    background-image: url("../images/Inv\ cards.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.Photography
+{
+    background-image: url("../images/Photography.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.Saloon
+{
+    background-image: url("../images/Salon.jpg");
+    background-position: center;
+    background-size: cover;
+}   
+
+.Vehicle
+{
+    background-image: url("../images/Vehicle.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+p
+{
+    padding-top: 52%;
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+h2
+{
+    font-family: 'Lucida Handwriting';
+    color: white;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    font-size: 35px;
 }
 
 body
 {
-    background-image: url(../images/bg3.png);
+    background-image: url("../images/bg4\ \(1\).png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
-#cvn
+span
 {
-    float: right;
-    padding-right: 145px;
+    background-color: white;
 }
 
-.pay {
-    background-color:  rgba(243, 243, 243, 0.836);
-    border: none;
-    color: rgb(7, 7, 7);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    font-weight: bolder;
-    margin: 4px 2px;
-    cursor: pointer;
-    width: 420px;
-    border-radius: 25px;
-  }
-
-  #tot
-  {
-    background-color: rgba(190, 211, 190, 0.411);
-    color: rgb(7, 7, 7);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    font-weight: bolder;
-    margin: 4px 2px;
-    width: 425px;
-    border-radius: 25px;
-  }
-
-  .form
-  {
-      padding-bottom: 5%;
-  }
-
-  /*----------------------------------Footer--------------------------------*/
+/*--------------------------------------Footer---------------------------------*/
 
 .footer{
     background:rgba(0, 0, 0, 0.979);
@@ -179,3 +207,5 @@ body
     margin-right:-35%;
     margin-left: 35%;
 }
+
+

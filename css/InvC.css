@@ -1,0 +1,250 @@
+/*------------------------Header------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    padding: 40px;
+    width: 110%;
+}
+
+nav{
+    flex:1;
+    text-align:right;
+    margin-right: 30px;
+}
+
+nav ul{
+    display:inline-flex;
+    margin-top: 1px;
+}
+
+nav ul li{
+    list-style:none;
+    margin: 0 60px;
+    cursor: pointer;
+}
+
+
+.logo1 img
+{
+    width: 220px;
+    height:180px;
+    margin-left: -100px;
+}
+
+.active1
+{
+    color:rgb(230, 233, 236);
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+    background-color: #000;
+    border-radius: 5px;
+    border: 1px solid #fff;
+  
+}
+
+.active1:hover{
+  background-color: rgba(54, 54, 49, 0.788);
+}
+
+.sign-in
+{
+    display: flex;
+    margin-left: 110px;
+}
+
+.visitorbtn {
+    background-color: #02120c;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-left: 40px;
+  }
+
+  .container1{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom:25px;
+}
+
+/*-----------------------------Body-------------------------------------*/
+.layout
+{
+    display: grid;
+    grid-template-columns: 40% 40%;    
+    grid-template-rows: 50% 50%;
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align:center;
+}
+
+#slider
+{
+    overflow: hidden;
+    width: 100%;
+    height: 175%;
+    padding-top: 10%;
+}
+
+#slider figure
+{
+    position: relative;
+    width: 400%;
+    height: 45%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+}
+
+#slider figure img
+{
+    float: left;
+    width: 25%;
+    position: relative;
+}
+
+@keyframes slider 
+{
+    0%{
+        left:0;
+    }
+    25%{
+        left:0;
+    }
+    30%{
+        left: -100%
+    }
+    50%{
+        left: -100%;
+    }
+    55%{
+        left: -200%;
+    }
+    75%{
+        left:-200%;
+    }
+    80%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+body
+{
+    background-image: url(../images/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form label
+{
+    font-size: 20px;
+}
+
+form select
+{
+    font-size: 15px;
+}
+
+mark
+{
+    background-color: black;
+}
+
+h1
+{
+    padding-top: 2%;
+    font-family: 'Lucida Handwriting';
+    text-align: center;
+    color: white;
+}
+
+h3
+{
+    font-weight: bold;
+}
+
+form
+{
+    width: 900px;
+    height: 700px;
+    background-color: rgba(24, 22, 22, 0.76);
+    margin: auto;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.Confirmbtn
+{
+    background-color:  rgb(248, 248, 248);
+    border: none;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+}
+
+/*----------------------------------Footer--------------------------------*/
+
+.footer{
+    background:rgba(0, 0, 0, 0.979);
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    bottom: 0%;
+}
+
+.footer-contend{
+    display:inline;
+    margin-left:2%;
+    padding-bottom: 1%;
+}
+
+.logo2 {
+   
+    padding-right: 0%;
+}
+
+.bind1 {
+    padding-bottom: 1%;
+    margin-right: -20%;
+    margin-left: 20%;
+}
+
+.bind2 {
+    padding-bottom: 1%;
+    margin-right:-35%;
+    margin-left: 35%;
+}

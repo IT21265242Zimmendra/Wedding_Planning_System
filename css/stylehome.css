@@ -1,0 +1,31 @@
+.button{
+    padding-left: 40.3%; 
+    top: 89%;
+    position: relative;
+    
+}
+
+.btn1{
+    border-style: none;
+    height: 44px;
+    width: 249px;
+    text-decoration-style: solid;
+    background-color: rgba(255, 255, 255, 0.671);
+    font-size: 25px;
+   
+    border-style: groove;
+    border-color: pink;
+    
+}
+.btn1:hover{
+    background-image: linear-gradient( rgba(234, 0, 255, 0.205) , rgba(255, 0, 255, 0.178));
+    height: 45px;
+    width: 250px;
+    border-color: rgb(192, 193, 255);
+}
+
+body{
+    background-image: url(332.png);
+    background-size: cover;
+    font: Arial, Helvetica, sans-serif;
+}

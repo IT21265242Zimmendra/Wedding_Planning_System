@@ -1,0 +1,66 @@
+<!DOCTYPE html>>
+    <head>
+<link rel="stylesheet" href="./../css/stylesignup.css">
+    </head>
+<title>
+    home page
+</title>
+<body>
+    
+    <form>
+    <div class ="container">
+       
+        <h1>Sign-Up</h1>
+        
+    <input type = "text" id="name" name="Uname" placeholder="User name" pattern="{8,15}" title="  8 to 15 characters required"  required> &nbsp
+    <input type="password" id="password" name="pword" placeholder="Password" pattern="{8,}" title="  at least 8 or more characters"  required >
+    <br><br>
+    <input type = "text" id="noofguest" name="Uname" placeholder="Number of Guests" required> &nbsp
+    <input type = "date" id="weddingdate" name="Uname" placeholder="Wedding date"  required>
+    <br><br>
+    
+    <input type = "text" id="nameofthegroom" name="Uname" placeholder="Name of the groom" required>  &nbsp
+    <input type = "text" id="nameofthebride" name="Uname" placeholder="Name of the bride" required>
+    <br><br>
+    <input type = "text" id="E-mail" name="Uname" placeholder="E-mail" required> &nbsp
+    <input type = "text" id="contactinfo" name="Uname" placeholder="Contact info" pattern="[0-9]{10}" title="the contact info should be exactly 10 digits " required>
+    <p>
+    <input type="checkbox" id="rememberpassword" name="rpword" required>
+    <label id="checkbox" >
+        Agreement on the terms and conditions
+   </label>
+    </p>
+    <br>
+   
+    <div id="button">
+    <button id="button" onclick="password()">
+        Sign-Up
+    </button>
+</div>
+</div>
+</form>
+
+
+
+
+</body>
+<script>
+        function password(){
+            let x = document.getElementById("password").value;
+            let text;
+            if (password.length<8){
+                        alert ('Password should contain more than 8 characters');
+            }
+            let p = document.getElementById("weddingdate").value;
+            if(weddingdate<=Date()){
+                        text = 'Date should be after the current date'
+            }     
+            let b = document.getElementById("contactinfo").value;
+            if(contactinfo.length < 10 & contactinfo.length >10){
+                    text = 'The length of the contact number shiuld exactly 10 characters'
+            }
+            
+        }
+
+</script>
+</html>

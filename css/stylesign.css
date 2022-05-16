@@ -1,0 +1,60 @@
+body{
+    background-image: url("./../images/Couples_in_love_Bouquets_Men_Grass_Two_Wedding_564819_1920x1080.jpg") ;
+    background-size: cover;
+    box-sizing: border-box;
+    font: Arial, Helvetica, sans-serif;
+    
+}
+
+.container{
+
+    background-color: rgba(0, 0, 0, 0.24);
+	margin: auto auto;
+	padding: 40px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #000;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 500px;
+	height: 320px;
+}
+.container input{
+    margin: 10px 0px;
+    border: none;
+    padding: 8px;
+border-radius: 8px;
+font-size: 18px;
+
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+.container .button{
+    padding-left: 48%; 
+    top: 64%;
+    position: relative;
+}
+button{
+        
+        border-style: none;
+        text-decoration-style: solid;
+
+        height: 30px;
+        width: 500px;
+        border-radius: 15px;
+        
+    }
+button:hover{
+        background-image: linear-gradient( rgba(234, 0, 255, 0.205) , rgba(255, 0, 255, 0.178));
+        height: 30px;
+        width: 500px;
+        border-radius: 20px;
+        
+    }
+p{
+    color: aliceblue;
+}

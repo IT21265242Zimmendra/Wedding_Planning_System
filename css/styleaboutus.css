@@ -1,0 +1,84 @@
+body{
+     margin:0;
+     padding: 0;
+     background-image: url("./../images/aboutus.jpg"); 
+     background-size: cover;
+
+
+}
+h1{
+    position: absolute;
+    top: 10%;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    padding-left:43%;
+    color: white;
+}
+.p1{
+    
+    position: absolute;
+    top: 65%;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: white;
+    font-size: 120%;
+
+}
+.p2{
+    
+    position: absolute;
+    top: 89%;
+    padding-left: 10%;
+    padding-right:70%;
+    color: white;
+    font-size: 120%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+li{
+    position: absolute;
+    top: 25%;
+    display: inline;
+    padding-left: 28%;
+}
+.img {
+    width:17.5%;
+    height:33.5%;
+    padding-left:1%;
+}
+.vendorheading{
+    position: absolute;
+    top: 83%;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    padding-left:76.5%;
+    color: white;
+}
+.customerheading{
+    position: absolute;
+    top: 83%;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    padding-left:15%;
+    color: white;
+}
+
+.p3{
+    
+    position: absolute;
+    top: 89%;
+    padding-left: 70%;
+    padding-right:10%;
+    color: white;
+    font-size: 120%;
+}
+.redheart{
+    width:17.5%;
+    height:33.5%;
+    padding-left:1%;
+    top: 82%;
+    padding-left: 42%;
+    position: absolute;
+    
+}

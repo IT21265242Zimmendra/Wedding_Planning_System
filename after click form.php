@@ -7,13 +7,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-<link rel = "stylesheet" href = "./../CSS/afterclickform.css?v=<?php echo time(); ?>">
+    <link rel = "stylesheet" href = "css/afterclickform.css">
      <script>
 
 
         function addImage(index)
       {
-            const Images = [ "./../images/grand-kandyan.jpg" ];
+            const Images = [ "images/grand-kandyan.jpg" ];
 
             document.getElementById("vendorImage").style.backgroundImage = "url(" + Images[index] + ")";
             document.getElementById("vendorImage").style.backgroundSize = "contain";
@@ -23,16 +23,6 @@
      </script>
 
      <style>
-        
-
-
-     </style>
-
-    </head>
-    <body>
-    <form>
-        <div class ="container">
-            <div id = "vendorImage" style = "width: 100%; height: 40vh;" >
 
             <?php
                 echo "<script> addImage(0); </script>";

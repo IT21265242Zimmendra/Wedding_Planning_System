@@ -4,107 +4,17 @@
 
 ?>
 <html>
-    <link rel="stylesheet" href="./../css/styleauserbashboard.css">
-    <head>
-        <style>
-            body{
-    margin:0;
-    padding: 0;
-    background-image: url("./../images/userdashboard.jpg"); 
-    background-size: cover;
-    background-color: aliceblue;
-
-
-}
-.container{
-
-    background-color: rgba(0, 0, 0, 0.24);
-	margin: auto auto auto;
-	padding: 40px;
-	border-radius: 8px;
-	box-shadow: 0 0 10px #000;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	width: 1000px;
-	height: 320px;
-}
-
-tr:nth-child(even)
-{
-	background-color: #f2f2f2;
-}
-
- tr:hover {
-	 background-color: #ddd;
-}
-th {
-	
-	text-align: left;
-	background-color: #FFC0CB;
-	color: white;
-    width:400px;
-  
-  }
-  td,th {
-	border: 1px solid #ddd;
-    width:400px;
-  }
-  table{
-	font-family: Arial, Helvetica, sans-serif;
-	width:997.9px;
-    position: absolute;
-    top:30%;
-    margin-left:11%;
     
-  }
- .addfeedback{
-    position:absolute;
-    top:80%;
-    margin-left:0%;
-    background-color: #c68a93;
-     border: none;
-     color: white;
-    padding: 10px 10px;
-    text-align: center;
-    font-size: 14px;
-    border-style:none;
-  }
-  
-  .addmoreitems{
-    position:absolute;
-    top:80%;
-    margin-left:83%;
-    background-color: #4169e1;
-     border: none;
-     color: white;
-    padding: 10px 10px;
-    text-align: center;
-    font-size: 14px;
-  }
-  
-  .addfeedback:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  .addmoreitems:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  h1{
-      top:0%;
-      position:absolute;
-  }
-
-  
-  </style>
-    </head>
+    <link rel = "stylesheet" href = "./../css/styleauserbashboard.css?v=<?php echo time(); ?>">
+    <head>
+  </head>
     <body>
         <div class ="container">
           <h1>User dashboard</h1>  
-
+        
            <button class = "addfeedback" >Add feedback</button>
            <button class = "addmoreitems" >Add more Items</button>
+           <button class = "setting"> Settings </button>
            
             
         </div>

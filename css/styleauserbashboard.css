@@ -19,8 +19,8 @@ body{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	width: 500px;
-	height: 320px;
+	width: 700px;
+	height: 400px;
 }
 
 tr:nth-child(even)
@@ -46,4 +46,34 @@ th {
 	font-family: Arial, Helvetica, sans-serif;
 	border-collapse: collapse;
 	width: 100%;
+	position:absolute;
+	top: 40%;
+	width: 50%;
+	margin-left:300px;
+  }
+  .addfeedback{
+	  position:absolute;
+	  top: 85%;
+	  background-color:#04AA6D;
+	  border-style: none;
+	  height: min-content;
+	  
+  }
+  .addmoreitems{
+	  position:absolute;
+	  top:85%;
+	  margin-left:600px;
+	  border-style: none;
+	  background-color:crimson;
+	  height: min-content;
+  }
+  .setting{
+	  position:absolute;
+	  top:85%;
+	 
+	  border-style:none;
+	  background-color: rgba(95, 95, 95, 0.644);
+	  color:white;
+	  height: min-content;
+	  margin-left:300px;
   }

@@ -6,6 +6,7 @@
 
 <!DOCTYPE html>
 <html>
+<link rel = "stylesheet" href = "./../CSS/cart.css?v=<?php echo time(); ?>">
 <form >
     <div class ="container">
         <h1>Cart</h1>
@@ -75,96 +76,6 @@ function deleteCategory(category)
 
 ?>
 <style>      
-h1{
-    color:white;
-}  
-body{
-    background-image: url("./../images/formimages.png") ;
-    background-size:cover;
-    box-sizing: border-box;
-    font: Arial, Helvetica, sans-serif;
-}
-.container{
 
-background-color: rgba(0, 0, 0, 0.24);
-margin: auto auto auto;
-padding: 40px;
-border-radius: 8px;
-box-shadow: 0 0 10px #000;
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-width: 500px;
-height: 320px;
-}
-
-tr:nth-child(even)
-{
-background-color: #800000;
-}
-
-tr:hover {
- background-color: green;
-}
-th {
-
-text-align: left;
-background-color: grey;
-color: black;
-width:400px;
-
-}
-td,th {
-border: 1px solid #ddd;
-width:400px;
-color:white;
-}
-table{
-font-family: Arial, Helvetica, sans-serif;
-width:500px;
-position: absolute;
-top:30%;
-margin-left:-1%;
-
-}
-.btnpayment{
-    position:absolute;
-    top:80%;
-    margin-left:65%;
-    background-color: #4CAF50; 
-     border: none;
-     color: white;
-    padding: 10px 32px;
-    text-align: center;
-    font-size: 14px;
-    cursor: pointer;
-
-  
-    
-}
-.btnpayment:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-.addmore{
-    position:absolute;
-    top:80%;
-    background-color: #4169e1;
-     border: none;
-     color: white;
-    padding: 10px 10px;
-    text-align: center;
-    font-size: 14px;
-    cursor: pointer;
-}
-.addmore:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
 
     </style>

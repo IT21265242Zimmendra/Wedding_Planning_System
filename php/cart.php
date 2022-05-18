@@ -14,24 +14,15 @@
         <button class = btnpayment>Payment</button>
         <button class = addmore>Add Category</button>
     </div>
+    </form>
 </html>
 
-<script>
-
-function deleteCategory(category)
-{
-    console.log(category);
-}
-   
-
-</script>
-    
 
 <?php 
 
-    $sql = "select c.Name,p.Package_Name,p.price
+    $sql = "select c.Category_Name,v.Name, p.Package_Name,p.price
     from vendors v,package p,category c,customer_package cp
-    Where p.vid = v.vid and v.category_name = c.name and cp.pid = p.pid and cp.Cid ='$id'";
+    Where p.vid = v.vid and v.category_name = c.Category_Name and cp.pid = p.pid and cp.Cid ='$id'";
   
 
 

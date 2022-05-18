@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel = "stylesheet" href = "Admin.css">
+        <link rel = "stylesheet" href = "./../CSS/Admin.css?v=<?php echo time(); ?>">
 
     </head>
 

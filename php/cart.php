@@ -1,7 +1,5 @@
 <?php
     require('config.php');
-    require('cid.php');
-
 ?>
 
 <!DOCTYPE html>
@@ -21,9 +19,9 @@
 
 <?php 
 
-    $sql = "select c.Category_Name,v.Name, p.Package_Name,p.price
+    $sql = "select c.Category_Name,v.Name, p.Package_Name,p.price, p.pid
     from vendors v,package p,category c,customer_package cp
-    Where p.vid = v.vid and v.category_name = c.Category_Name and cp.pid = p.pid and cp.Cid ='$id'";
+    Where p.vid = v.vid and v.category_name = c.Category_Name and cp.pid = p.pid and cp.Cid ='ID001'";
   
 
 
@@ -40,10 +38,10 @@
 
         while($row = $result ->fetch_assoc())
         {
-                $vendor = $row["Name"];
+                $pid = $row["Name"];
                 
                 echo "<tr>";
-                echo "<td>" . "<button>"."-</button></td>";
+                echo "<td>" . "<button> type = 'submit' <a href = 'cart.php?id=$pid'>-</a></button></td>";
                 echo "<td >".$row["Category_Name"]."</td>";
                 echo "<td>".$row["Name"]."</td>";
                 echo "<td>"."<a href = ''>".$row["Package_Name"]."</a>"."</td>";
@@ -68,6 +66,19 @@
 
 
 <?php
+    $record_id = $_GET['id'];
+
+    $sql = "delete from customer_package where pid = '$record_id'";
+  
+    if ( $con -> query($sql))
+    {
+        echo "<script>Deleted succesfully</script>";
+        header("location:cart.php");
+    }
+    else
+    {
+         echo "<script>Error in deleting</script>";
+    }
 
 
 ?>

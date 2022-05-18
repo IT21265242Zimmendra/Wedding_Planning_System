@@ -42,25 +42,24 @@ function deleteCategory(category)
 
     if($result->num_rows>0)
     {
-        echo "<table border = '1'><tr><th></th><th>Category</th><th>Item Name</th></th><th>Price</th></tr>";
+        echo "<table border = '1'><tr><th></th><th>Category</th><th>Vendor</th><th>Item Name</th></th><th>Price</th></tr>";
 
        
 
         while($row = $result ->fetch_assoc())
         {
-                $category = $row["Name"];
-
-                echo "<script> deleteCategory('$category') </script> ";
+                $vendor = $row["Name"];
                 
                 echo "<tr>";
-                echo "<td>" . "<button onclick = deleteCategory( '$category' )>". "-</button></td>";
-                echo "<td >".$row["Name"]."</td>";
+                echo "<td>" . "<button>"."-</button></td>";
+                echo "<td >".$row["Category_Name"]."</td>";
+                echo "<td>".$row["Name"]."</td>";
                 echo "<td>"."<a href = ''>".$row["Package_Name"]."</a>"."</td>";
                 echo "<td>".$row["price"]."</td>";
                 echo "</tr>";
 
 
-
+                
         }
         echo "</table>";
     }
@@ -74,6 +73,13 @@ function deleteCategory(category)
 
 
 ?>
+
+
+<?php
+
+
+?>
+    
 <style>      
 h1{
     color:white;

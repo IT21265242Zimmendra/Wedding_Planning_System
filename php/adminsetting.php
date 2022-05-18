@@ -9,7 +9,7 @@
        
        $uname = $_POST["uname"];
        $sql = "UPDATE users SET Username = '$uname' WHERE Uid = 'UD001'";
-       var_dump($uname)
+       
 
        if($con -> query($sql))
        {
@@ -25,7 +25,16 @@
            echo "updated successfully";
        }
    }
-   
+   if(isset($_POST["deletaccount"])){
+        
+       $delete = $_POST["deletaccount"];
+       $sql = "DELETE FROM users where Uid = 'UD001'";
+
+       if($con->query($sql)){
+           echo "updated successfully";
+       }
+   }
+  
 
 
 ?>

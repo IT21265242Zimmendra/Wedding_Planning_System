@@ -96,12 +96,13 @@ nav ul li{
     align-content: center;
     text-align:center;
     font-family: 'Papyrus';
+    margin-bottom: 5%;
 }
 
 
 .FoodVen
 {
-    background-image: url("../images/Salon.jpg");
+    background-image: url("../images/Food&Ven.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -115,28 +116,28 @@ nav ul li{
 
 .InvCards
 {
-    background-image: url("../images/Food&Ven.jpg");
+    background-image: url("../images/Inv\ cards.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .Photography
 {
-    background-image: url("../images/Inv\ cards.jpg");
+    background-image: url("../images/Photography.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .Saloon
 {
-    background-image: url("../images/Vehicle.jpg");
+    background-image: url("../images/Salon.jpg");
     background-position: center;
     background-size: cover;
 }   
 
 .Vehicle
 {
-    background-image: url("../images/Photography.jpg");
+    background-image: url("../images/Vehicle.jpg");
     background-position: center;
     background-size: cover;
 }

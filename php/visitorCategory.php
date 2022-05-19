@@ -7,7 +7,7 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href="../css/Categories.css">
+        <link rel="stylesheet" href = "../css/Categories.css?v=<?php echo time(); ?>"> 
     </head>
     <body>
         <!------------------------------Header------------------------------------>
@@ -20,14 +20,14 @@
                         </div>
                         <nav>
                             <ul>
-                                <li> <a href="#" class="active1">Home</a></li>
+                                <li> <a href="./../html/Visitor.html" class="active1">Home</a></li>
                                 <li> <a href="#"class="active1">Categories</a></li>
-                                <li> <a href="#" class="active1">About Us</a></li>
+                                <li> <a href="./../html/About Us.html" class="active1">About Us</a></li>
                             </ul>
                         </nav>
                             <div class="sign-in">
-                                <button class="visitorbtn">Sign Up</button>
-                                <button class="visitorbtn">Log In</button>
+                                <button class="visitorbtn" onclick = "location.href = './../html/sign-up.html'">Sign Up</button>
+                                <button class="visitorbtn" onclick = "location.href = './../html/log in.html'">Log In</button>
                             </div>
                     </div> 
     
@@ -42,12 +42,12 @@
 
         <!--------------------------------Grid---------------------------------->
         <div class="Categories">
-            <a href="#"><div class="FoodVen"><p><span id = "1">Food & Venue</span></p></div></a>
+            <a href='#'><div class="Saloon"><p><span id = "1">Bridal Saloon</span></p></div></a>
             <a href="#"><div class="Florist"><p><span id = "2">Florist</span></p></div></a>
-            <a href="#"><div class="InvCards"><p><span id = "3">Invitation Cards</span></p></div></a>
-            <a href="#"><div class="Photography"><p><span id = "4">Wedding Photographers</span></p></div></a>
-            <a href="#"><div class="Saloon"><p><span id = "5">Salons</span></p></div></a>
-            <a href="#"><div class="Vehicle"><p><span id = "6">Wedding Cars</span></p></div></a>
+            <a href="#"><div class="FoodVen"><p><span id = "3">Hotel and Food</span></p></div></a>
+            <a href="#"><div class="InvCards"><p><span id = "4">Invitation Card</span></p></div></a>
+            <a href="#"><div class="Vehicle"><p><span id = "5">Wedding cCars</span></p></div></a>
+            <a href="#"><div class="Photography"><p><span id = "6">Photography</span></p></div></a>
         </div>
 
         <!-----------------------------------------Footer---------------------------->

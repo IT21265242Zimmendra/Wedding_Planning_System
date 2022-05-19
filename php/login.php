@@ -5,11 +5,11 @@
     session_start();
 
     if(isset($_POST["uname"]) && isset($_POST["pword"])){
-        $gname = $_POST["uname"];
+        $uname = $_POST["uname"];
         $pword = $_POST["pword"];
         
         $sql = "SELECT * from users WHERE Username = '$uname'  AND password  = '$pword' " ;
-        $result = $con - > query($sql);
+        $result = $con -> query($sql);
         if(num_rows($result)===1){
             
             $row = fetch_assoc($result);

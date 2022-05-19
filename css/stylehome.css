@@ -2,7 +2,7 @@
     padding-left: 39.5%; 
     top: 68%;
     position: absolute;
-    
+    cursor: pointer;
 }
 
 .btn1{
@@ -12,7 +12,6 @@
     text-decoration-style: solid;
     background-color: rgba(255, 255, 255, 0.671);
     font-size: 25px;
-   
     
 }
 .btn1:hover{

@@ -1,17 +1,51 @@
+
 body{
      margin:0;
      padding: 0;
      background-image: url("./../images/aboutus.jpg"); 
-     background-size: cover;
+     background-size:cover;
+    
 
+}
 
+.btnactive{
+    color:rgb(230, 233, 236);
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+    background-color: #000;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin: 20px;
+}
+.btnactive:hover{
+    background-color: rgba(54, 54, 49, 0.788);
+  }
+.logo1{
+    width:17.5%;
+    height:25%;
+    
+    top: 0%;
+    padding-left: 0%;
+    position: absolute;
+}
+.li1{
+    position: absolute;
+    display: inline;
+    padding-left: 60%;
+    top:5%;
+
+    
 }
 h1{
     position: absolute;
     top: 10%;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     padding-left:43%;
-    color: white;
+    color:#000;
 }
 .p1{
     
@@ -19,7 +53,7 @@ h1{
     top: 65%;
     padding-left: 20%;
     padding-right: 20%;
-    color: white;
+    color:#000;
     font-size: 120%;
 
 }
@@ -29,21 +63,22 @@ h1{
     top: 89%;
     padding-left: 10%;
     padding-right:70%;
-    color: white;
+    color:#000;
     font-size: 120%;
 }
-ul {
+.ul2 {
     list-style-type: none;
     margin: 0;
     padding: 0;
     
   }
-li{
+.li2{
     position: absolute;
     top: 25%;
     display: inline;
     padding-left: 28%;
 }
+
 .img {
     width:17.5%;
     height:33.5%;
@@ -54,14 +89,14 @@ li{
     top: 83%;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     padding-left:76.5%;
-    color: white;
+    color:#000;
 }
 .customerheading{
     position: absolute;
     top: 83%;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     padding-left:15%;
-    color: white;
+    color:#000;
 }
 
 .p3{
@@ -70,7 +105,7 @@ li{
     top: 89%;
     padding-left: 70%;
     padding-right:10%;
-    color: white;
+    color:#000;
     font-size: 120%;
 }
 .redheart{
@@ -82,3 +117,39 @@ li{
     position: absolute;
     
 }
+
+/*--------------------------------------Footer---------------------------------*/
+
+.footer{
+    background:rgba(0, 0, 0, 0.979);
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    bottom: -45%;
+    position: absolute;
+}
+
+.footer-contend{
+    display:inline;
+    margin-left:2%;
+    padding-bottom: 1%;
+}
+
+.logo2 {
+   
+    padding-right: 0%;
+}
+
+.bind1 {
+    padding-bottom: 1%;
+    margin-right: -20%;
+    margin-left: 20%;
+}
+
+.bind2 {
+    padding-bottom: 1%;
+    margin-right:-35%;
+    margin-left: 35%;
+}
+
+

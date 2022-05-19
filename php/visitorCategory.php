@@ -42,12 +42,12 @@
 
         <!--------------------------------Grid---------------------------------->
         <div class="Categories">
-            <a href="#"><div class="FoodVen"><p><span id = "1">Food & Venue</span></p></div></a>
+            <a href='#'><div class="Saloon"><p><span id = "1">Bridal Saloon</span></p></div></a>
             <a href="#"><div class="Florist"><p><span id = "2">Florist</span></p></div></a>
-            <a href="#"><div class="InvCards"><p><span id = "3">Invitation Cards</span></p></div></a>
-            <a href="#"><div class="Photography"><p><span id = "4">Wedding Photographers</span></p></div></a>
-            <a href="#"><div class="Saloon"><p><span id = "5">Salons</span></p></div></a>
-            <a href="#"><div class="Vehicle"><p><span id = "6">Wedding Cars</span></p></div></a>
+            <a href="#"><div class="FoodVen"><p><span id = "3">Hotel and Food</span></p></div></a>
+            <a href="#"><div class="InvCards"><p><span id = "4">Invitation Card</span></p></div></a>
+            <a href="#"><div class="Vehicle"><p><span id = "5">Wedding cCars</span></p></div></a>
+            <a href="#"><div class="Photography"><p><span id = "6">Photography</span></p></div></a>
         </div>
 
         <!-----------------------------------------Footer---------------------------->

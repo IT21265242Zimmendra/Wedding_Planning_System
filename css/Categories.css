@@ -177,6 +177,11 @@ nav ul li{
     background-size: cover;
 }
 
+.hvr:hover
+{
+    transform: scale(1.1);
+}
+
 p
 {
     padding-top: 52%;

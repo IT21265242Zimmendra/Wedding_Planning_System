@@ -45,14 +45,12 @@
 
         <!--------------------------------Grid---------------------------------->
         <div class="Categories">
-            <a href='navvendors.php?id=Bridal Salons'><div class="Saloon"><p><span id = "1">Bridal Saloon</span></p></div></a>
-            <a href="navvendors.php?id=Florists"><div class="Florist"><p><span id = "2">Florist</span></p></div></a>
-            <a href="navvendors.php?id=Hotels and Food"><div class="FoodVen"><p><span id = "3">Hotel and Food</span></p></div></a>
-            <a href="navvendors.php?id=Invitation Cards"><div class="InvCards"><p><span id = "4">Invitation Card</span></p></div></a>
-            <a href="navvendors.php?id=Wedding Cars"><div class="Vehicle"><p><span id = "5">Wedding cCars</span></p></div></a>
-            <a href="navvendors.php?id=Wedding Photography"><div class="Photography"><p><span id = "6">Photography</span></p></div></a>
-            <a><div class="invisible"></div></a>
-            <a href="navvendors.php?id=Music"><div class="Music"><p><span id = '7'>Music</span></p></div></a>
+            <div class = "hvr"><a href='vendor.php?id=Bridal Salons'><div class="Saloon"><p><span id = "1">Bridal Saloon</span></p></div></a></div>
+            <div class = "hvr"><a href="vendor.php?id=Florists"><div class="Florist"><p><span id = "2">Florist</span></p></div></a></div>
+            <div class = "hvr"><a href="vendor.php?id=Hotels and Food"><div class="FoodVen"><p><span id = "3">Hotel and Food</span></p></div></a></div>
+            <div class = "hvr"><a href="vendor.php?id=Invitation Cards"><div class="InvCards"><p><span id = "4">Invitation Card</span></p></div></a></div>
+            <div class = "hvr"><a href="vendor.php?id=Wedding Cars"><div class="Vehicle"><p><span id = "5">Wedding cCars</span></p></div></a></div>
+            <div class = "hvr"><a href="vendor.php?id=Wedding Photography"><div class="Photography"><p><span id = "6">Photography</span></p></div></a></div>
         </div>
 
         <!-----------------------------------------Footer---------------------------->

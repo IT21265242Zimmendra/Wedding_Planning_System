@@ -40,6 +40,10 @@
     {
         header('location:./../html/Vehicles.html');
     }
+    else
+    {
+        header('location:./../html/Photographers.html');
+    }
 
 
    

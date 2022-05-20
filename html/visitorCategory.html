@@ -7,7 +7,7 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href = "../css/Categories.css"> 
+        <link rel="stylesheet" href = "./../css/Categories.css"> 
     </head>
     <body>
         <!------------------------------Header------------------------------------>
@@ -72,29 +72,5 @@
 
         </footer>
 
-        <?php
-
-          $sql = "select* from category";
-          $result = $con -> query($sql);
-
-         
-
-          if ( $result -> num_rows > 0)
-          {
-              $id = 0;
-        
-              while ($row = $result -> fetch_assoc())
-              {
-                  $id++;
-                  $category = $row['Category_Name'];
-                  echo "<script> document.getElementById('$id').innerHTML =  '$category' </script>";
-              }
-          }
-          else
-          {
-            echo "<script> console.log('No entires') </script>";
-          }
-          // document.getElementById('$id').innerHTML = " . $row["Category_Name"] . 
-        ?>
     </body>
 </html>

@@ -109,6 +109,20 @@ nav ul li{
   background-color: rgba(54, 54, 49, 0.788);
 }
 
+.visitorbtn {
+    background-color: #02120c;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-left: 40px;
+
+  }
+
 /*-----------------------Body-------------------------------*/
 
 .Categories

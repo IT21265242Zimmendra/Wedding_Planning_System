@@ -18,31 +18,31 @@
 
     if ($category_name == 'Bridal Salons')
     {
-        header('location:./../html/Salons.html');
+        header('location:./../php/Salons.php');
     }
     else if($category_name == 'Florists')
     {
-        header('location:./../html/Florists.html');
+        header('location:./../php/Florists.php');
     }
     else if($category_name == 'Hotels and Food')
     {
-        header('location:./../html/Hotels and Food.html');
+        header('location:./../php/Hotels and Food.php');
     }
     else if($category_name == 'Invitation Cards')
     {
-        header('location:./../html/InvC.html');
+        header('location:./../php/Invitation.php');
     }
     else if($category_name == 'Music')
     {
-        header('location:./../html/Music.html');
+        header('location:./../php/Music.php');
     }
     else if($category_name == 'Wedding Cars')
     {
-        header('location:./../html/Vehicles.html');
+        header('location:./../php/Vehicles.php');
     }
-    else
+    else if($category_name == 'Wedding Photography')
     {
-        header('location:./../html/Photographers.html');
+        header('location:./../php/Photographers.php');
     }
 
 

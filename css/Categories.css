@@ -177,16 +177,16 @@ nav ul li{
     background-size: cover;
 }   
 
-.Vehicle
+.Music
 {
-    background-image: url("../images/Vehicle.jpg");
+    background-image: url("../images/Music.png");
     background-position: center;
     background-size: cover;
 }
 
-.Music
+.Vehicle
 {
-    background-image: url("../images/Music.png");
+    background-image:url("../images/Vehicle.jpg");
     background-position: center;
     background-size: cover;
 }

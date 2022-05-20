@@ -1,8 +1,27 @@
+<?php
+
+  session_start();
+
+  $username = "";
+
+  if (isset($_SESSION["Username"]))
+  {
+      $username = $_SESSION['Username'];
+  }
+  else
+  {
+      header('Location:login.php');
+  }
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang = "en">
     <head>
         <meta charset="UTF-8">
-        <link rel = stylesheet href ="./../CSS/User.css">
+        <link rel = stylesheet href ="../css/User.css?v=<?php echo time();?>"> 
     </head>
     <body>
 
@@ -20,7 +39,7 @@
                         </ul>
                     </nav>
                     <div class="sign-in">
-                      <button class="signinbtn"><img src = "./../IMAGES/pro.png"> &nbsp Sign In</button>
+                      <button class="signinbtn"><img src = "./../IMAGES/pro.png"> &nbsp <?php echo $username ?></button>
                       <div class="sign-in-content">
                         <ul>
                             <li><a href="./../html/Visitor.html">Log Out</a></li>

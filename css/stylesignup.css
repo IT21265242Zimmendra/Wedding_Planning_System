@@ -38,8 +38,8 @@ h1{
     top: 64%;
     position: relative;
 }
-button{
-        
+
+.button{
         border-style: none;
         text-decoration-style: solid;
 
@@ -48,7 +48,8 @@ button{
         border-radius: 15px;
         
     }
-button:hover{
+
+.button:hover{
         background-image: linear-gradient( rgba(234, 0, 255, 0.205) , rgba(255, 0, 255, 0.178));
         height: 30px;
         width: 500px;

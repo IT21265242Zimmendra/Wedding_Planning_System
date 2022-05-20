@@ -1,34 +1,40 @@
 <?php
     require('config.php');
-    require('cid.php');
 
     session_start();
 
-    if(isset($_POST["uname"]) && isset($_POST["pword"])){
-        $uname = $_POST["uname"];
-        $pword = $_POST["pword"];
-        
-        $sql = "SELECT * from users WHERE Username = '$uname'  AND password  = '$pword' " ;
+    if (isset($_POST['btnLogIn']))
+    {
+        $username = $_POST["Uname"];
+        $password = $_POST["pword"];
+    
+        $sql = "SELECT * from users WHERE Username = '$username'  AND password  = '$password'";
         $result = $con -> query($sql);
-        if(num_rows($result)===1){
+    
+        if( $result -> num_rows == 1)
+        {
             
-            $row = fetch_assoc($result);
+            $row = $result-> fetch_assoc();
 
-            if($row['Username'] === $uname && $row ['Password'] === $psword){
+            if($row['Username'] == $username && $row ['Password'] == $password)
+            {
                 echo "You have successfully logged in";
 
                 $_SESSION['Username'] = $row['Username'];
                 $_SESSION['Type'] = $row['Type'];
 
-                header("location:");
-                exit();
-            }
-            else{
-                echo "Incorrect user name or password";
-                exit();
+                header("location:User.php");
             }
 
         }
+        else
+        {
+            echo "Incorrect user name or password";
+            header("location:log in.html");
+        }
+
 
     }
+
+   
 ?>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <link rel= "stylesheet" href = "../css/addFeedback.css">
+ <title> Add Feedback | The Wedding Table </title>
+ </head>
+ <body>
+     <div class = navbar>
+
+             <!----Navigation Bar -->
+
+     <header>
+        <div class="header">
+            <div class = "container1">
+                <div class="navbar">
+                    <div class = "logo1">
+                        <img src = "../images/logo.png" width = "125px">
+                    </div>
+                    <nav>
+                        <ul>
+                            <li> <a href="#" class="active1">Home</a></li>
+                            <li> <a href="#"class="active1">Categories</a></li>
+                            <li> <a href="#" class="active1">About Us</a></li>
+                        </ul>
+                    </nav>
+                        <div class="sign-in">
+                            <button class="visitorbtn">Sign Up</button>
+                        </div>
+                </div> 
+
+                </div>
+            </div>
+        </div>
+    </header>
+<!---------------------------------------------------------------------------------------->
+     </div>
+     <div class="flex-wrap">
+    <div class = container>
+        <form method="post" action="../php/submitAddFeedback.php" >
+            <!--textarea to include feedback-->
+            <label>Your Feedback</label><br>
+            <textarea name="descr" placeholder="Share your comments and suggestions with us." maxlength="500" required></textarea><br><br>
+
+            <!--Upload image-->
+            <label>Upload Image</label><br>
+            <input type="file" id="fileToUpload" name="fileToUpload" accept="image/*" ><br><br>
+
+            <!--submit feedback-->
+            <button type="submit" id = "btn" name="btnS">Submit Feedback</button>
+            
+
+        </form>
+    </div>
+ 
+    <!-----------------------Footer--------------------------->
+
+    
+        <div class="footer">
+                
+            <img src="../images/logo.png" class="logo2" height="10%" width="10%">
+                <img src="./../IMAGES/play-store.png" class="bind1" height="10%" width="10%">
+                <img src="./../IMAGES/app-store.png" class="bind1" height="10%" width="10%">
+                <img src="../images/Contact us.png" class="bind1" height="10%" width="10%">
+                
+
+            <img src="../images/fb.png" class="bind2"  width="3%">
+            <img src="../images/inster.png" class="bind2" width="3%">
+            <img src="../images/info.png" class="bind2" width="3%">
+            
+        </div>
+
+    </div>
+
+        
+
+ 
+ </body>
+</html>

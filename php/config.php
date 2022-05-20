@@ -3,7 +3,7 @@
     $server = "localhost";
     $username = "root";
     $password = "";
-    $database = "wedding_planing_system";
+    $database = "weddingplanningsystem";
 
     $con = new mysqli($server, $username, $password, $database);
 

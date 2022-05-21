@@ -25,7 +25,7 @@ nav ul{
 
 nav ul li{
     list-style:none;
-    margin: 0 60px;
+    margin: 0 30px;
     cursor: pointer;
 }
 
@@ -34,7 +34,7 @@ nav ul li{
 {
     width: 220px;
     height:180px;
-    margin-left: -100px;
+    margin-left: 0%;
 }
 
 .sign-in img{
@@ -93,11 +93,10 @@ nav ul li{
 .active1
 {
     color:rgb(230, 233, 236);
-
-    padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 30px;
     padding-left: 30px;
+    padding-top: 10px;
     text-decoration: none;
     background-color: #000;
     border-radius: 5px;
@@ -124,8 +123,8 @@ nav ul li{
 {
     display: grid;
     grid-template-columns: 30% 30% 30%;    
-    grid-template-rows: 50% 50%;
-    grid-gap: 20px;
+    grid-template-rows: 50% 50% 50%;
+    grid-column-gap: 5%;
     justify-content: center;
     align-content: center;
     text-align:center;
@@ -176,6 +175,13 @@ nav ul li{
     background-size: cover;
 }
 
+.Music
+{
+    background-image: url("../images/Music.png");
+    background-position: center;
+    background-size: cover;
+}
+
 p
 {
     padding-top: 52%;
@@ -193,15 +199,14 @@ h2
 {
     font-family: 'Lucida Handwriting';
     color: white;
-    padding-left: 5%;
-    padding-bottom: 2%;
-    font-size: 35px;
+    font-size: 40px;
+    text-align: center;
 }
 
 body
 {
     background-image: url("../images/bg4\ \(1\).png");
-    background-size: 100% 100%;
+    background-size: 110% 150%;
     background-repeat: no-repeat;
 }
 

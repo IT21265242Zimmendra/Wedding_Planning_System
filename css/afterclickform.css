@@ -1,0 +1,92 @@
+body
+{
+   background-image: url("../images/formimages.png") ;
+   background-size:cover;
+   box-sizing: border-box;
+   font: Arial, Helvetica, sans-serif;
+}
+
+.imagesample
+{
+   height:300px;
+   width:auto;
+}
+
+.container
+{
+     background-color: rgba(0, 0, 0, 0.24);
+   
+     margin: auto auto;
+	padding: 40px 0px 85px 85px;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgb(245, 237, 4);
+     position: absolute;
+     top: 10%;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     width: 600px;
+     height: 490px;
+     color: rgb(238, 241, 244);
+  
+}
+.description{
+   position: absolute;
+   
+   
+
+}
+   
+.btnpackage
+{
+
+   background-color: rgba(21,13,43,0.24);
+   text-decoration: none;
+   margin:20px;
+   border-radius: 8px;
+   box-shadow: 0 0 10px #000;
+   position: relative;
+   width: 100%;
+   height: 60%;
+   top:70%;
+   
+
+}
+
+.btnpackage:hover
+{
+   width: 105%;
+   height: 65%;
+}
+
+nav
+{
+   position: absolute;
+   top:75%;
+}
+
+ul li
+{
+   list-style-type: none;
+   display: inline-block;
+   list-style-type: none;
+   margin-top: 30px;
+   margin-bottom: 10px;
+   margin-left: 10px; 
+   margin-right: 10px;
+
+   position:relative;
+   top:50%;
+   text-decoration: none;
+   
+
+}
+#description{
+    color:white;
+   
+}
+.hotelimages{
+   height: 300px;
+   width: 500px;
+
+}

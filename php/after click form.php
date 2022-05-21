@@ -7,113 +7,38 @@
 <!DOCTYPE html>
 <html>
     <head>
+<link rel = "stylesheet" href = "./../CSS/afterclickform.css?v=<?php echo time(); ?>">
 
-     <script>
-
-
-        function addImage(index)
-      {
-            const Images = [ "./../images/grand-kandyan.jpg" ];
-
-            document.getElementById("vendorImage").style.backgroundImage = "url(" + Images[index] + ")";
-            document.getElementById("vendorImage").style.backgroundSize = "cover";
-
-       }
-
-     </script>
-
-     <style>
-         body
-         {
-            background-image: url("./../images/formimages.png") ;
-            background-size:cover;
-            box-sizing: border-box;
-            font: Arial, Helvetica, sans-serif;
-        }
-
-        .imagesample
-        {
-            height:300px;
-            width:auto;
-        }
-
-        .container
-        {
-
-            background-color: rgba(0, 0, 0, 0.24);
-            margin: auto auto;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px #000;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            width: 500px;
-            height: 450px;
-        }
-            
-        button
-        {
-
-            background-color: rgba(21,13,43,0.24);
-
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px #000;
-            position: relative;
-            width: 20%;
-            height: 3%;
-            text
-        }
-    
-        button:hover
-        {
-            width: 25%;
-            height: 6%;
-        }
-
-        nav
-        {
-            position: absolute;
-            top:75%;
-        }
-
-        ul li
-        {
-            list-style-type: none;
-            display:inline;
-            padding: 10px 10px 5px 5px;
-            float:bottom;
-            position:relative;
-            top:50%;
-            margin: 10px 20px ;
-
-        }
-
-        #vendorImage
-        {
-            margin-left: 10%;
-        }
-
-
-     </style>
 
     </head>
     <body>
+    <div class ="container">
     <form>
-        <div class ="container">
-            <div id = "vendorImage" style = "width: 100%; height: 40vh;" >
+       
+       
+        <h1>
+        <?php 
+            require("config.php");
 
-            <?php
-                echo "<script> addImage(0); </script>";
-            ?>
-            </div>
-                       
-            <div class="description">
+        $sql = "SELECT Name 
+        From vendors    
+        Where vid = '1'";
+
+        $result = $con -> query($sql);
+        if($result->num_rows>0){
+        while($row = $result -> fetch_assoc()){
+        echo $row["Name"] ;
+        }
+
+        }
+
+
+?>
+</h1>
+            <img src = "./../images/cinnamon grand.jpg" class = "hotelimages">
+            <div class="description"><h3>
                 <?php 
-                    $sql = "select description from vendors where vid = 'VD001'";
+                    $sql = "select description from vendors where vid = '1'";
                     $result = $con->query($sql);
 
                     if($result ->num_rows>0)
@@ -132,21 +57,66 @@
 
                     $con->close();
                 ?>
-            </div>
-            <div class="mapping">
-            
-            </div>
-            <div class="image">
-
-            </div>
+            <h3></div>
 
     
             <div class="package">
                 <nav>
                     <ul>
-                        <li><button><a href="#">package 1</a></button></li>
-                        <li><button><a href="#">package 2</a></button></li>
-                        <li><button><a href="#">package 3</a></button></li>
+                        <li><button class = "btnpackage"><a href="#">
+ 
+
+                        <?php
+  require("config.php");
+
+  $sql = "SELECT Package_Name,Price
+  From Package
+  Where vid = '1' AND Package_Name = 'Package 1'";
+
+  $result = $con -> query($sql);
+  if($result->num_rows>0){
+    while($row = $result -> fetch_assoc()){
+      echo $row["Package_Name"] . "<br>". $row["Price"];
+    }
+
+  }
+ 
+
+?></a></button></li>
+                        <li><button class = "btnpackage"><a href="#">         <?php
+  require("config.php");
+
+  $sql = "SELECT Package_Name,Price
+  From Package
+  Where vid = '1' AND Package_Name = 'Package 2'";
+
+  $result = $con -> query($sql);
+  if($result->num_rows>0){
+    while($row = $result -> fetch_assoc()){
+      echo $row["Package_Name"] . "<br>". $row["Price"];
+    }
+
+  }
+ 
+
+?></a></button></li>
+                        <li><button class = "btnpackage"><a href="#"><?php
+  require("config.php");
+
+  $sql = "SELECT Package_Name,Price
+  From Package
+  Where vid = '1' AND Package_Name = 'Package 3'";
+
+  $result = $con -> query($sql);
+  if($result->num_rows>0){
+    while($row = $result -> fetch_assoc()){
+      echo $row["Package_Name"] . "<br>". $row["Price"];
+    }
+
+  }
+ 
+
+?></a></button></li>
                         
                     </ul>
                 </nav>

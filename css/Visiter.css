@@ -41,7 +41,6 @@ nav ul li{
 .active1
 {
     color:rgb(230, 233, 236);
-
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 30px;
@@ -69,11 +68,12 @@ nav ul li{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 30px;
-    padding-left: 30px;
+    padding-left: 10px;
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #fff;
     margin-left: 40px;
+
   }
   
   

@@ -1,20 +1,17 @@
 .button{
-    padding-left: 40.3%; 
-    top: 89%;
-    position: relative;
-    
+    padding-left: 39.5%; 
+    top: 68%;
+    position: absolute;
+    cursor: pointer;
 }
 
 .btn1{
-    border-style: none;
+    border-style:none;
     height: 44px;
     width: 249px;
     text-decoration-style: solid;
     background-color: rgba(255, 255, 255, 0.671);
     font-size: 25px;
-   
-    border-style: groove;
-    border-color: pink;
     
 }
 .btn1:hover{
@@ -25,7 +22,7 @@
 }
 
 body{
-    background-image: url(332.png);
+    background-image: url(./../images/332.png);
     background-size: cover;
     font: Arial, Helvetica, sans-serif;
 }

@@ -9,7 +9,8 @@
 .navbar{
     display:flex;
     align-items: center;
-    padding: 40px;
+    padding-bottom: 1%;
+    padding-right: 10%;
     width: 100%;
 }
 
@@ -50,7 +51,7 @@ nav ul li{
     color: white;
     padding-top: 2px;
     padding-bottom: 10px;
-    padding-right:50px;
+    padding-right:30px;
     padding-left: 2px;
     font-size: 16px;
     border-radius: 5px;
@@ -101,7 +102,6 @@ nav ul li{
     background-color: #000;
     border-radius: 5px;
     border: 1px solid #fff;
-  
     margin-right:75px;
 }
 
@@ -109,13 +109,19 @@ nav ul li{
   background-color: rgba(54, 54, 49, 0.788);
 }
 
-.container1{
-    max-width: 1300px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-}
+.visitorbtn {
+    background-color: #02120c;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-left: 40px;
 
+  }
 
 /*-----------------------Body-------------------------------*/
 
@@ -129,13 +135,16 @@ nav ul li{
     align-content: center;
     text-align:center;
     font-family: 'Papyrus';
-    padding-bottom: 5%;
+    margin-bottom: 8%;
+    padding-left: 1%;
+    margin-top: 15%;
+    padding: 2%;
 }
 
 
 .FoodVen
 {
-    background-image: url("../images/Salon.jpg");
+    background-image: url("../images/Food&Ven.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -149,28 +158,28 @@ nav ul li{
 
 .InvCards
 {
-    background-image: url("../images/Food&Ven.jpg");
+    background-image: url("../images/Inv\ cards.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .Photography
 {
-    background-image: url("../images/Inv\ cards.jpg");
+    background-image: url("../images/Photography.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .Saloon
 {
-    background-image: url("../images/Vehicle.jpg");
+    background-image: url("../images/Salon.jpg");
     background-position: center;
     background-size: cover;
 }   
 
 .Vehicle
 {
-    background-image: url("../images/Photography.jpg");
+    background-image: url("../images/Vehicle.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -180,6 +189,11 @@ nav ul li{
     background-image: url("../images/Music.png");
     background-position: center;
     background-size: cover;
+}
+
+.hvr:hover
+{
+    transform: scale(1.1);
 }
 
 p

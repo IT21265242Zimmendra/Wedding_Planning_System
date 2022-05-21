@@ -5,36 +5,34 @@
  <title> Add Feedback | The Wedding Table </title>
  </head>
  <body>
-     <div class = navbar>
 
-             <!----Navigation Bar -->
 
-     <header>
-        <div class="header">
-            <div class = "container1">
-                <div class="navbar">
-                    <div class = "logo1">
-                        <img src = "../images/logo.png" width = "125px">
-                    </div>
-                    <nav>
-                        <ul>
-                            <li> <a href="#" class="active1">Home</a></li>
-                            <li> <a href="#"class="active1">Categories</a></li>
-                            <li> <a href="#" class="active1">About Us</a></li>
-                        </ul>
-                    </nav>
-                        <div class="sign-in">
-                            <button class="visitorbtn">Sign Up</button>
-                        </div>
-                </div> 
-
-                </div>
-            </div>
+             <!------------------------------Header------------------------------------>
+      <div class="navbar">
+        <div class = "logo1">
+            <img src = "./../IMAGES/logo.png" width = "125px">
         </div>
-    </header>
-<!---------------------------------------------------------------------------------------->
-     </div>
-     <div class="flex-wrap">
+        <nav>
+            <ul>
+                <li> <a href="#" class="active1">Home</a></li>
+                <li> <a href="#"class="active1">Categories</a></li>
+                <li> <a href="#" class="active1">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="sign-in">
+          <button class="signinbtn"><img src = "./../IMAGES/pro.png"> &nbsp Sign In</button>
+          <div class="sign-in-content">
+            <ul>
+                <li><a href="#">Log Out</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Dashboard</a></li>
+            </ul>
+          </div>
+        </div>
+    </div> 
+      
+<!----------------------------------body------------------------------------------------------>
+    
     <div class = container>
         <form method="post" action="../php/submitAddFeedback.php" >
             <!--textarea to include feedback-->
@@ -46,30 +44,32 @@
             <input type="file" id="fileToUpload" name="fileToUpload" accept="image/*" ><br><br>
 
             <!--submit feedback-->
-            <button type="submit" id = "btn" name="btnS">Submit Feedback</button>
+            <button type="submit" id = "btn" class="subbtn" name="btnS">Submit Feedback</button>
             
 
         </form>
     </div>
  
-    <!-----------------------Footer--------------------------->
+    <!-----------------------------------------Footer---------------------------->
 
-    
+    <footer>
+
         <div class="footer">
                 
-            <img src="../images/logo.png" class="logo2" height="10%" width="10%">
+            <img src="./../IMAGES/logo.png" class="logo2" height="15%" width="10%">
                 <img src="./../IMAGES/play-store.png" class="bind1" height="10%" width="10%">
                 <img src="./../IMAGES/app-store.png" class="bind1" height="10%" width="10%">
-                <img src="../images/Contact us.png" class="bind1" height="10%" width="10%">
+                <img src="./../IMAGES/Contact us.png" class="bind1" height="10%" width="10%">
                 
-
-            <img src="../images/fb.png" class="bind2"  width="3%">
-            <img src="../images/inster.png" class="bind2" width="3%">
-            <img src="../images/info.png" class="bind2" width="3%">
+        
+            <img src="./../IMAGES/fb.png" class="bind2"  width="3%">
+            <img src="./../IMAGES/inster.png" class="bind2" width="3%">
+            <img src="./../IMAGES/tw.png" class="bind2" width="3%">
             
         </div>
+        
+        </footer>
 
-    </div>
 
         
 

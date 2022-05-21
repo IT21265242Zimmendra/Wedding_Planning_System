@@ -1,0 +1,119 @@
+body
+{
+   background-image: url("../images/formimages.png") ;
+   background-size:cover;
+   box-sizing: border-box;
+   font: Arial, Helvetica, sans-serif;
+   color: white;
+}
+
+.imagesample
+{
+   height:300px;
+   width:auto;
+}
+
+.container
+{
+     background-color: rgba(0, 0, 0, 0.24);
+   
+     margin: auto auto;
+	padding: 0px 0px 85px 75px;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(4, 36, 245, 0.547);
+     position: absolute;
+     top: 2%;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     width: 600px;
+     height: 570px;
+     color: rgb(238, 241, 244);
+  
+}
+.description{
+   position: absolute;
+   
+   
+
+}
+   
+.btnpackage
+{
+
+   background-color: rgba(72, 15, 226, 0.764);
+   text-decoration:solid;
+   margin-top:20px;
+   margin-right: 20px;
+   
+   
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgb(186, 175, 17);
+   position: relative;
+   width: 120%;
+   height: 10%;
+   top:70%;
+   color: cornsilk;
+
+}
+a:link{
+   
+      text-decoration: none;
+      color: white;
+    
+}
+
+.btnpackage:hover
+{
+   width: 130%;
+   height: 65%;
+}
+
+nav
+{
+   position: absolute;
+   top:75%;
+}
+
+ul li
+{
+   list-style-type: none;
+   display: inline-block;
+   list-style-type: none;
+   margin-top: 30px;
+   margin-bottom: 10px;
+   margin-left: 10px; 
+   margin-right: 10px;
+   padding-right: 5px;
+   
+   position:relative;
+   top:50%;
+   text-decoration: none;
+   
+
+}
+#description{
+    color:white;
+   
+}
+.hotelimages{
+   height: 300px;
+   width: 220px;
+   padding-left: 25%;
+   position: relative;
+
+}
+h3{
+   padding-right: 10%;
+   position: relative;
+   font-size: 90%;
+  align-content: center;
+   justify-content: center;
+   text-align:justify;
+   margin: 0px 40px 10px ;
+
+}
+p{
+   color:white;
+   
+}

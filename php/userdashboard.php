@@ -24,7 +24,7 @@
 <?php 
     $sql = "select o.OrderId, Order_date, o.Amount, p.Package_Name, v.Name, p.price  
     from orders o , customer c, customer_package cp, package p, vendors v 
-    Where o.Cid = c.Cid and c.Cid = cp.cid and cp.Pid = p.Pid and p.Vid = v.Vid and c.Cid ='$id'";
+    Where o.Cid = c.Cid and c.Cid = cp.cid and cp.Pid = p.Pid and p.Vid = v.Vid and c.Cid ='1'";
     $order = "";
     $count = 0;
 

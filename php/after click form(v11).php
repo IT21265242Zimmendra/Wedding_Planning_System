@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-<link rel = "stylesheet" href = "./../CSS/afterclickform.css?v=<?php echo time(); ?>">
+<link rel = "stylesheet" href = "./../CSS/afterclickform(v11).css?v=<?php echo time(); ?>">
 
 
     </head>
@@ -22,7 +22,7 @@
 
         $sql = "SELECT Name 
         From vendors    
-        Where vid = '1'";
+        Where vid = '11'";
 
         $result = $con -> query($sql);
         if($result->num_rows>0){
@@ -35,10 +35,10 @@
 
 ?>
 </h1>
-            <img src = "./../images/cinnamon grand.jpg" class = "hotelimages">
+            <img src = "./../images/inba.jpg" class = "hotelimages">
             <div class="description"><h3>
                 <?php 
-                    $sql = "select description from vendors where vid = '1'";
+                    $sql = "select description from vendors where vid = '11'";
                     $result = $con->query($sql);
 
                     if($result ->num_rows>0)
@@ -63,7 +63,8 @@
             <div class="package">
                 <nav>
                     <ul>
-                        <li><button class = "btnpackage"><a href="#">
+                    
+                    &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="#"><p>
  
 
                         <?php
@@ -71,52 +72,52 @@
 
   $sql = "SELECT Package_Name,Price
   From Package
-  Where vid = '1' AND Package_Name = 'Package 1'";
+  Where vid = '11' AND Package_Name = 'Package 1'";
 
   $result = $con -> query($sql);
   if($result->num_rows>0){
     while($row = $result -> fetch_assoc()){
-      echo $row["Package_Name"] . "<br>". $row["Price"];
+        echo $row["Package_Name"] . "<br><br>Rs.". $row["Price"].".00";
     }
 
   }
  
 
-?></a></button></li>
-                        <li><button class = "btnpackage"><a href="#">         <?php
+?></p></a></button></li>
+                    &nbsp;&nbsp; &nbsp; <li><button class = "btnpackage"><a href="#"><p><?php
   require("config.php");
 
   $sql = "SELECT Package_Name,Price
   From Package
-  Where vid = '1' AND Package_Name = 'Package 2'";
+  Where vid = '11' AND Package_Name = 'Package 2'";
 
   $result = $con -> query($sql);
   if($result->num_rows>0){
     while($row = $result -> fetch_assoc()){
-      echo $row["Package_Name"] . "<br>". $row["Price"];
+        echo $row["Package_Name"] . "<br><br>Rs.". $row["Price"].".00";
     }
 
   }
  
 
-?></a></button></li>
-                        <li><button class = "btnpackage"><a href="#"><?php
+?></p></a></button></li>
+                     &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="#"><p><?php
   require("config.php");
 
   $sql = "SELECT Package_Name,Price
   From Package
-  Where vid = '1' AND Package_Name = 'Package 3'";
+  Where vid = '11' AND Package_Name = 'Package 3'";
 
   $result = $con -> query($sql);
   if($result->num_rows>0){
     while($row = $result -> fetch_assoc()){
-      echo $row["Package_Name"] . "<br>". $row["Price"];
+      echo $row["Package_Name"] . "<br><br>Rs.". $row["Price"].".00";
     }
 
   }
  
 
-?></a></button></li>
+?></p></a></button></li>
                         
                     </ul>
                 </nav>

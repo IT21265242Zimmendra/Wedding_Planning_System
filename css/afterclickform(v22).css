@@ -27,7 +27,7 @@ body
      left: 0;
      right: 0;
      width: 600px;
-     height: 530px;
+     height: 500px;
      color: rgb(238, 241, 244);
   
 }
@@ -43,11 +43,9 @@ body
 
    background-color: rgba(72, 15, 226, 0.764);
    text-decoration:solid;
-   margin-top:20px;
-   margin-right: 20px;
-   
-   
-   border-radius: 8px;
+   margin-top:15px;
+   margin-right: 10px;
+ border-radius: 8px;
    box-shadow: 0 0 10px rgb(186, 175, 17);
    position: relative;
    width: 120%;
@@ -97,14 +95,23 @@ ul li
    
 }
 .hotelimages{
-   height: 300px;
-   width: 500px;
+   height: 280px;
+   width: 420px;
+   padding-left: 10%;
+   position: relative;
 
 }
 h3{
-   padding-left: -10%;
+   padding-right: 10%;
    position: relative;
+   font-size:110%;
+  align-content: center;
+   justify-content: center;
+   text-align:justify;
+   margin: 0px 40px 10px ;
+
 }
 p{
    color:white;
+   
 }

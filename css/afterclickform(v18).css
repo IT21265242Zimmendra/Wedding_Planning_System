@@ -27,7 +27,7 @@ body
      left: 0;
      right: 0;
      width: 600px;
-     height: 530px;
+     height: 570px;
      color: rgb(238, 241, 244);
   
 }
@@ -98,13 +98,22 @@ ul li
 }
 .hotelimages{
    height: 300px;
-   width: 500px;
+   width: 220px;
+   padding-left: 25%;
+   position: relative;
 
 }
 h3{
-   padding-left: -10%;
+   padding-right: 10%;
    position: relative;
+   font-size: 90%;
+  align-content: center;
+   justify-content: center;
+   text-align:justify;
+   margin: 0px 40px 10px ;
+
 }
 p{
    color:white;
+   
 }

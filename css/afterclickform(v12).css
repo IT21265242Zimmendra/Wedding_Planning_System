@@ -99,12 +99,16 @@ ul li
 .hotelimages{
    height: 300px;
    width: 500px;
+   padding-left: 2%;
+   position: relative;
 
 }
 h3{
    padding-left: -10%;
    position: relative;
+   font-size: 110%;
 }
 p{
    color:white;
+   
 }

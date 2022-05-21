@@ -7,7 +7,7 @@
                 justify-content: center;
                 align-content: center;
                 text-align:center;
-                font-family: 'Arial';
+                font-family: 'Papyrus';
                 padding-bottom: 25px;
             }
            
@@ -97,7 +97,8 @@
 
             h2
             {
-                font-family: 'Arial';
+                font-family: 'Lucida Handwriting';
+                text-align: center;
                 color: white;
                 padding-left: 5%;
                 padding-top: 2%;

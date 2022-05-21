@@ -7,7 +7,7 @@
                 justify-content: center;
                 align-content: center;
                 text-align:center;
-                font-family: 'Arial';
+                font-family: 'Papyrus';
                 padding-bottom: 25px;
             }
 
@@ -98,13 +98,14 @@
 
             h2
             {
-                font-family: 'Arial';
+                font-family: 'Lucida Handwriting';
                 color: white;
                 padding-left: 5%;
                 padding-top: 2%;
                 font-size: 35px;
                 padding-bottom: 10px;
                 padding-bottom: 25px;
+                text-align: center;
             }
 
             body

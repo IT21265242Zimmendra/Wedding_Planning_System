@@ -1,6 +1,6 @@
 .body{
 	height: 100vh;
-	background-image: url();
+	background-image: linear-gradient(to bottom right, rgb(37, 143, 8), rgba(17, 196, 82, 0.634));
 	background-repeat: no-repeat;
  }
 
@@ -44,29 +44,21 @@ h1{
 .btndlt
 {
 	background-color:rgb(80, 101, 124);
-	margin-left: 37%;
+	margin-left: 38.5%;
 	color: rgb(238, 241, 244);
-	padding-right: 15px;
 	text-align: center;
 	cursor: pointer;
 }
 
-.btnadd
-{
-	background-color:rgb(80, 101, 124);
-	margin-left: 30.5%;
-	color: rgb(238, 241, 244);
-	padding-right: 31px;
-	text-align: center;
-	cursor: pointer;
-}
+
 .addadminacoount{
 	background-color:rgb(80, 101, 124);
-	text-align: center;
 	cursor: pointer;
-	margin-left: 47%;
+	margin-left: 35%;
 	color:white;
+	text-decoration: none;
 }
+
 .btnsubmit{
 	position: absolute;
 	height: 30px;
@@ -83,19 +75,4 @@ h1{
     border-radius: 20px;
 	margin-left: 10%;
 }
-.adminpassword{
-	margin-left: 10%;
-	position: absolute;
-}
-.adminame{
-	margin-left: 10%;
-	position: absolute;
-}
- input{
-    margin: 10px 0px;
-    border: none;
-    padding: 8px;
-    border-radius: 8px;
-    font-size: 18px;
 
-}

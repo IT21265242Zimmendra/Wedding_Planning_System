@@ -42,12 +42,12 @@
         <h2>Hotels and Food</h2>
 
         <div class="Categories">
-            <a href="#"><div class="item1"><p><span>Cinnamon Grand</span></p></div></a>
-            <a href="#"><div class="item2"><p><span>Shangri-La</span></p></div></a>
-            <a href="#"><div class="item3"><p><span>The Grand Kandyan Hotel</span></p></div></a>
-            <a href="#"><div class="item4"><p><span>Golden Crown Hotel</span></p></div></a>
-            <a href="#"><div class="item5"><p><span>Mahaweli Reach Hotel</span></p></div></a>
-            <a href="#"><div class="item6"><p><span>The Kingsbury</span></p></div></a>
+            <a href="./../php/after click form(v1).php"><div class="item1 item"><p><span>Cinnamon Grand</span></p></div></a>
+            <a href="./../php/after click form(v2).php"><div class="item2 item"><p><span>Shangri-La</span></p></div></a>
+            <a href="./../php/after click form(v3).php"><div class="item3 item"><p><span>The Grand Kandyan Hotel</span></p></div></a>a
+            <a href="./../php/after click form(v4).php"><div class="item4 item"><p><span>Golden Crown Hotel</span></p></div></a>
+            <a href="./../php/after click form(v5).php"><div class="item5 item"><p><span>Mahaweli Reach Hotel</span></p></div></a>
+            <a href="./../php/after click form(v6).php"><div class="item6 item"><p><span>The Kingsbury</span></p></div></a>
         </div>
 
          <!-----------------------------------------Footer---------------------------->

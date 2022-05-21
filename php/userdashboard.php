@@ -107,7 +107,6 @@
 
     else{
         echo "<script> alert('No record')</script>";
-        echo "No result";
     }
     $con->close();
 

@@ -1,5 +1,6 @@
 <?php
     require('setSession.php');
+
 ?>
 
 
@@ -101,3 +102,18 @@
         ?>
     </body>
 </html>
+
+<?php
+
+
+if(isset($_SESSION['AddedCategory']))
+{
+    if ($_SESSION['AddedCategory'] == 1)
+    {
+        $_SESSION['AddedCategory'] = 0;
+        echo "<script>alert('Category already added to cart')</script>";
+    }
+}
+
+
+?>

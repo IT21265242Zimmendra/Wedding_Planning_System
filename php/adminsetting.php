@@ -22,7 +22,7 @@
        $password = $_POST["pswd"];
        $sql = "UPDATE users set Password = '$password' where Uid = 'UD001'";
        if($con ->query($sql)){
-           echo "updated successfully";
+           echo "Updated successfully";
        }
    }
    if(isset($_POST["deletaccount"])){
@@ -31,7 +31,7 @@
        $sql = "DELETE FROM users where Uid = 'UD001'";
 
        if($con->query($sql)){
-           echo "updated successfully";
+           echo "Deleted successfully";
        }
    }
   

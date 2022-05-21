@@ -47,7 +47,7 @@ nav ul li{
 }
 
 .signinbtn {
-    background-color: #02120c;
+    background-color: #050807;
     color: white;
     padding-top: 2px;
     padding-bottom: 10px;
@@ -139,6 +139,7 @@ nav ul li{
     padding-left: 1%;
     margin-top: 15%;
     padding: 2%;
+    right: 20%;
 }
 
 
@@ -168,6 +169,7 @@ nav ul li{
     background-image: url("../images/Photography.jpg");
     background-position: center;
     background-size: cover;
+    right:20%;
 }
 
 .Saloon

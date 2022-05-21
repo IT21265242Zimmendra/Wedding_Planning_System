@@ -19,9 +19,9 @@
             </div>
             <nav>
                 <ul>
-                    <li> <a href="#" class="active1">Home</a></li>
-                    <li> <a href="#"class="active1">Categories</a></li>
-                    <li> <a href="#" class="active1">About Us</a></li>
+                <li> <a href="./../html/User.html" class="active1">Home</a></li>
+                    <li> <a href="./../php/userCategory.php"class="active1">Categories</a></li>
+                    <li> <a href="./../html/about us.html" class="active1">About Us</a></li>
                 </ul>
             </nav>
             <div class="sign-in">
@@ -41,12 +41,12 @@
         <h2>Music</h2>
 
         <div class="Categories">
-            <a href="#"><div class="item1"><p><span>Kurumba</span></p></div></a>
-            <a href="#"><div class="item2"><p><span>Ministry</span></p></div></a>
-            <a href="#"><div class="item3"><p><span>The Gypsies</span></p></div></a>
-            <a href="#"><div class="item4"><p><span>Marians</span></p></div></a>
-            <a href="#"><div class="item5"><p><span>JAYASRI</span></p></div></a>
-            <a href="#"><div class="item6"><p><span>2FORTY2</span></p></div></a>
+            <a href="./../php/after click form(37).php"><div class="item1 item"><p><span>Kurumba</span></p></div></a>
+            <a href="./../php/after click form(38).php"><div class="item2 item"><p><span>Ministry</span></p></div></a>
+            <a href="./../php/after click form(39).php"><div class="item3 item"><p><span>The Gypsies</span></p></div></a>
+            <a href="./../php/after click form(40).php"><div class="item4 item"><p><span>Marians</span></p></div></a>
+            <a href="./../php/after click form(41).php"><div class="item5 item"><p><span>JAYASRI</span></p></div></a>
+            <a href="./../php/after click form(42).php"><div class="item6 item"><p><span>2FORTY2</span></p></div></a>
         </div>
 
          <!-----------------------------------------Footer---------------------------->
@@ -55,15 +55,15 @@
 
             <div class="footer">
                     
-                <img src="./../IMAGES/logo.png" class="logo2" height="15%" width="10%">
-                    <img src="./../IMAGES/play-store.png" class="bind1" height="10%" width="10%">
-                    <img src="./../IMAGES/app-store.png" class="bind1" height="10%" width="10%">
-                    <img src="./../IMAGES/Contact us.png" class="bind1" height="10%" width="10%">
+                <img src="./../images/logo.png" class="logo2" height="15%" width="10%">
+                    <img src="./../images/play-store.png" class="bind1" height="10%" width="10%">
+                    <img src="./../images/app-store.png" class="bind1" height="10%" width="10%">
+                    <img src="./../images/Contact us.png" class="bind1" height="10%" width="10%">
                     
 
-                <img src="./../IMAGES/fb.png" class="bind2"  width="3%">
-                <img src="./../IMAGES/inster.png" class="bind2" width="3%">
-                <img src="./../IMAGES/tw.png" class="bind2" width="3%">
+                <img src="./../images/fb.png" class="bind2"  width="3%">
+                <img src="./../images/inster.png" class="bind2" width="3%">
+                <img src="./../images/tw.png" class="bind2" width="3%">
                 
             </div>
 

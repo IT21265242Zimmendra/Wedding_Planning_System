@@ -160,6 +160,76 @@ p{
     background-image: url("./../IMAGES/backheader.png");
 }
 
+.hearts img{
+  width:100px;
+  animation: bubble 8s linear infinite;
+}
+
+.hearts{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom:-350px;
+}
+
+@keyframes bubble{
+  0%{
+      transform: translateY(0);
+      opacity: 0;
+  }
+
+  50%{
+      opacity: 1;
+  }
+
+  70%{
+      opacity: 1;
+  }
+
+  100%{
+      transform: translateY(-170vh);
+      opacity: 0;
+  }
+}
+
+.hearts img:nth-child(1){
+  animation-delay: 2s;
+  width:50px;
+}
+
+.hearts img:nth-child(2){
+  animation-delay: 1s;
+  width:88px;
+}
+
+.hearts img:nth-child(3){
+  animation-delay: 3s;
+  width:70px;
+}
+
+.hearts img:nth-child(4){
+  animation-delay: 2.5s;
+  width:55px;
+}
+
+.hearts img:nth-child(5){
+  animation-delay: 3.4s;
+  width:60px;
+}
+
+.hearts img:nth-child(6){
+  animation-delay: 2s;
+  width:79px;
+}
+
+.hearts img:nth-child(7){
+  animation-delay: 4.5s;
+  width:85px;
+}
+
+
 /*--------Footer--------*/
 .footer{
     background:rgba(0, 0, 0, 0.979);

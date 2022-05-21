@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
     <head>
-<link rel="stylesheet" href="./../CSS/adminsetting.css?v=<?php echo time(); ?>">
+<link rel="stylesheet" href="./../css/adminsetting.css">
     </head>
 <title>
     home page
@@ -13,7 +13,7 @@
             <h1>Admin Account Settings</h1>
             
             <form class="container2" method = "post" action = "./../php/adminsetting.php">
-                <label for="uname" >Change Admin Name</label><br>
+                <label for="uname" id="setting">Change Admin Name</label><br>
                 <input type="text" id="setting" name="uname" pattern="{8,15}" title="  At least 8 or more characters" >
                 <input type = "submit" class="btn" name = "adminname"><br><br>
             
@@ -26,10 +26,10 @@
             </form>
             
             <form method = "post" action="./../php/adminsetting.php">
-            <label for="delete account">delete account</label>
-               <input type = "submit" value="delete" class="btn" name = "deletaccount"><br><br>  
+            <label for="delete account"  id="setting">Delete account</label>
+               <input type = "submit" value="Delete" class="btndlt" name = "deletaccount"><br><br>  
          </form>
-           <a><button class = "addadminacoount"><a href="">Add Admin account</button></a>
+           <a href="#"><button class = "addadminacoount">Add Admin account</button></a>
          </form>
         </div>
 

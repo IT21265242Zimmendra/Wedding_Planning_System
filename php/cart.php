@@ -1,5 +1,9 @@
 <?php
     require('config.php');
+
+    session_start();
+
+    $_SESSION['cart'] = array();
 ?>
 
 <!DOCTYPE html>
@@ -15,8 +19,8 @@
         <h1>Cart</h1>
     <div>
     <div class="buttons">
-        <button type = "submit" class = btnpayment name = "Payment" onclick = "location.href = 'paymentmethod.html'">Payment</button>
-        <button class = addmore>Add Category</button>
+        <a href="./../html/paymentmethod.html" class="button">Payment</a>
+        <a href="./../php/userCategory.php" class="addmore">Add Category</a>
     </div>
     </form>
 </html>
@@ -45,6 +49,7 @@
         {
                 $pid = $row["pid"];
                 $pid = intval($pid);
+                array_push($_SESSION['cart'],$row["Category_Name"]); 
 
                 echo "<tr>";
                 echo "<td width = '20%'>" . "<button type = 'submit'>"."<a href = 'deleteItem.php?id=$pid'>-</a></button></td>";

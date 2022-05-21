@@ -2,9 +2,23 @@
     
     require('config.php');
 
+    session_start();
 
     $category_name = $_GET['id'];
 
+    if(isset($_SESSION['cart']))
+    {
+          for($i = 0 ; $i < count($_SESSION['cart']) ; $i++) 
+          {
+             if ($_SESSION['cart'][$i] == $category_name)
+             {
+                 $_SESSION['AddedCategory'] = 1;
+                 header('location:./../php/userCategory.php');
+                 exit();
+             }
+          }
+    }
+    
     $sql = "Update category SET Number_of_Clicks = Number_of_clicks + 1 where Category_Name = '$category_name'";
 
     if ( $con -> query($sql))
@@ -44,6 +58,10 @@
     {
         header('location:./../php/Photographers.php');
     }
+
+    
+
+    
 
 
    

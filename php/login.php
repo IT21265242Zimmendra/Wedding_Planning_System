@@ -21,9 +21,18 @@
                 echo "You have successfully logged in";
 
                 $_SESSION['Username'] = $row['Username'];
-                $_SESSION['Type'] = $row['Type'];
 
-                header("location:User.php");
+                if($row['Type'] == 'User')
+                {
+                    $_SESSION['Cid'] = $row['Cid'];
+                    header("location:User.php");
+                }
+                else if($row['Type'] == 'Admin')
+                {
+                    header("location:Admin.php");
+                }
+
+
             }
 
         }

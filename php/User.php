@@ -43,7 +43,7 @@
                       <div class="sign-in-content">
                         <ul>
                             <li><a href="./../html/Visitor.html">Log Out</a></li>
-                            <li><a href="./../php/adminsetting.php">Settings</a></li>
+                            <li><a href="./../html/usersetting.html">Settings</a></li>
                             <li><a href="./../php/userdashboard.php">Dashboard</a></li>
                         </ul>
                       </div>
@@ -65,7 +65,16 @@
             </div>
         </div>
        
-
+        <div class="hearts">
+            <img src="./../images/an3.png">
+            <img src="./../images/an3.png">
+            <img src="./../images/an3.png">
+            <img src="./../images/an3.png">
+            <img src="./../images/an3.png">
+            <img src="./../images/an3.png">
+            <img src="./../images/an3.png">
+        
+        </div> 
         
        
         <div class="footer">

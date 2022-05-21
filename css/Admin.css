@@ -96,27 +96,27 @@ nav .details a{
  }
 
 .card1{
-    background-image: url("bg1.jpg");
+    background-image: url("./../images/1.png");
     background-size: cover;
 }
 
 .card2{
-    background-image: url("bg2.png"); 
+    background-image: url("./../images/2.png"); 
     background-size: cover;
 }
 
 .card3{
-    background-image: url("bg3.png"); 
+    background-image: url("./../images/3.png"); 
     background-size: cover;
 }
 
 .card4{
-    background-image: url("bg4.png"); 
+    background-image: url("./../images/4.png"); 
     background-size: cover;
 }
 
 .card5{
-    background-image: url("bg5.png"); 
+    background-image: url("./../images/5.png"); 
     background-size: cover;
 }
 

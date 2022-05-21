@@ -107,20 +107,20 @@
              }
          }
          
-         $sql = "select Name from vendors Where Number_of_Clicks = ( select max(Number_of_Clicks) from  vendors )";
+         $sql = "select Category_Name from vendors Where Number_of_Clicks = ( select max(Number_of_Clicks) from  vendors )";
          $result = $con -> query($sql);
          $maxVendor = "";
    
          while ($row = $result->fetch_assoc()) {
-            $maxVendor = $row['Name'];
+            $maxVendor = $row['Category_Name'];
         }
 
-        $sql = "select Name from category Where Number_of_Clicks = ( select max(Number_of_Clicks) from  category)";
+        $sql = "select Category_Name from category Where Number_of_Clicks = ( select max(Number_of_Clicks) from  category)";
          $result = $con -> query($sql);
          $maxCate = "";
    
          while ($row = $result->fetch_assoc()) {
-            $maxCate = $row['Name'];
+            $maxCate = $row['Category_Name'];
         }
 
          echo '<script>'. 
@@ -147,6 +147,8 @@
 
 
        ?>
+       <button class = "btnexistingpackage"><a href = "">Updating<br>existing package</button>
+       
     </body>
 
 

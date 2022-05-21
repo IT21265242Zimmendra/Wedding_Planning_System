@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <head>
+<link rel="stylesheet" href="./../css/adminsetting.css">
+    </head>
+<title>
+    Package updating page 
+</title>
+<body class="body">
+        <div class ="container1">
+       
+            <h1>Updating Existing Package </h1>
+            
+            <form class="container2" method = "post" action = "./../php/packageupdate.php">
+                <label for="packagename" id="packagename">Package name</label>
+                <select name ="packagename" id = "packagename">
+                    <option value="Package 1">package 1</option>
+                    <option value="Package 2">package 2</option>
+                    <option value="Package 3">package 3</option>
+                </select>
+            
+                <label for="vendorname" id="vendorname">Vendor Name</label>
+                <select name ="vendorname" id = "vendorname">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">7</option>
+                </select><br><br>
+        
+            
+            <label for="amounttobechanged"  id="amounttobechanged">Amount to be changed </label> &nbsp;
+            <input type="text" name="amounttobechanged">
+           <br><br> <input type = "submit" value="update" class="btnypdate" name = "btnypdate"><br><br>
+         </form>
+           
+        </div>
+
+             
+
+</body>
+</html>

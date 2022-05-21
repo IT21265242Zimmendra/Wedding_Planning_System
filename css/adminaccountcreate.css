@@ -1,0 +1,48 @@
+body{
+    background-image: url("./../images/adminacccreate.webp") ;
+    background-size: cover;
+    box-sizing: border-box;
+    font: Arial, Helvetica, sans-serif;
+    
+}
+
+.container{
+
+    background-color: rgba(0, 0, 0, 0.529);
+	margin: auto auto;
+	padding: 40px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #000;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 500px;
+	height: 350px;
+    
+}
+.container input{
+    margin: 10px 0px;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 18px;
+
+}
+
+.btnsubmit
+{
+    height: 30px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.btnsubmit:hover
+{
+    background-image: linear-gradient( rgba(220, 4, 239, 0.205) , rgba(76, 45, 76, 0.178));
+}
+
+h1{
+    color: rgb(240, 230, 230);
+}

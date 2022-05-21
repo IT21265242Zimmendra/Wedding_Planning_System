@@ -6,7 +6,7 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href="./../CSS/Categories.css?v=<?php echo time(); ?>"> 
+        <link rel="stylesheet" href="./../css/Categories.css?v=<?php echo time(); ?>"> 
     </head>
     <body>
         <!------------------------------Header------------------------------------>
@@ -15,7 +15,7 @@
                 <div class = "container1">
                 <div class="navbar">
                     <div class = "logo1">
-                        <img src = "./../IMAGES/logo.png" width = "125px">
+                        <img src = "./../images/logo.png" width = "125px">
                     </div>
                     <nav>
                         <ul>
@@ -51,8 +51,9 @@
             <div class = "hvr"><a href="navvendors.php?id=Invitation Cards"><div class="InvCards"><p><span id = "4">Invitation Card</span></p></div></a></div>
             <div class = "hvr"><a href="navvendors.php?id=Music"><div class="Music"><p><span id = "5">Music</span></p></div></a></div>
             <div class = "hvr"><a href="navvendors.php?id=Wedding Cars"><div class="Vehicle"><p><span id = "6">Wedding cars</span></p></div></a></div>
-            <a><div class="invisible"></div></a>
-            <a href="#"><a href="navvendors.php?id=Wedding Photography"><div class="Photography hvr"><p><span id = "7">Photography</span></p></div></a>
+
+            <a href="navvendors.php?id=Wedding Photography"><div class="Photography hvr"><p><span id = "7">Photography</span></p></div></a>
+                   
         </div>
 
         <!-----------------------------------------Footer---------------------------->

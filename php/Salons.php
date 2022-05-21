@@ -7,7 +7,7 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href= "./../CSS/Salons.css?v=<?php echo time(); ?>">  
+        <link rel="stylesheet" href= "./../css/Salons.css?v=<?php echo time(); ?>">  
         <title>Bridal Salons| The Wedding Table</title>
     </head>
     <body>
@@ -15,17 +15,17 @@
          <!------------------------------Header------------------------------------>
          <div class="navbar">
             <div class = "logo1">
-                <img src = "./../IMAGES/logo.png" width = "125px">
+                <img src = "./../images/logo.png" width = "125px">
             </div>
             <nav>
                 <ul>
-                    <li> <a href="#" class="active1">Home</a></li>
-                    <li> <a href="#"class="active1">Categories</a></li>
-                    <li> <a href="#" class="active1">About Us</a></li>
+                    <li> <a href="./../html/User.html" class="active1">Home</a></li>
+                    <li> <a href="./../php/userCategory.php"class="active1">Categories</a></li>
+                    <li> <a href="./../html/about us.html" class="active1">About Us</a></li>
                 </ul>
             </nav>
             <div class="sign-in">
-              <button class="signinbtn"><img src = "./../IMAGES/pro.png"> &nbsp <?php echo $username ?></button>
+              <button class="signinbtn"><img src = "./../images/pro.png"> &nbsp <?php echo $username ?></button>
               <div class="sign-in-content">
                 <ul>
                     <li><a href="#">Log Out</a></li>
@@ -55,15 +55,15 @@
 
             <div class="footer">
                     
-                <img src="./../IMAGES/logo.png" class="logo2" height="15%" width="10%">
-                    <img src="./../IMAGES/play-store.png" class="bind1" height="10%" width="10%">
-                    <img src="./../IMAGES/app-store.png" class="bind1" height="10%" width="10%">
-                    <img src="./../IMAGES/Contact us.png" class="bind1" height="10%" width="10%">
+                <img src="./../images/logo.png" class="logo2" height="15%" width="10%">
+                    <img src="./../images/play-store.png" class="bind1" height="10%" width="10%">
+                    <img src="./../images/app-store.png" class="bind1" height="10%" width="10%">
+                    <img src="./../Iimages/Contact us.png" class="bind1" height="10%" width="10%">
                     
 
-                <img src="./../IMAGES/fb.png" class="bind2"  width="3%">
-                <img src="./../IMAGES/inster.png" class="bind2" width="3%">
-                <img src="./../IMAGES/tw.png" class="bind2" width="3%">
+                <img src="./../images/fb.png" class="bind2"  width="3%">
+                <img src="./../images/inster.png" class="bind2" width="3%">
+                <img src="./../images/tw.png" class="bind2" width="3%">
                 
             </div>
 

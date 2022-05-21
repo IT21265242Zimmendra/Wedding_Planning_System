@@ -33,7 +33,7 @@
                     </div>
                     <nav>
                         <ul>
-                            <li> <a href="#" class="active1">Home</a></li>
+                            <li> <a href="././../php/User.php" class="active1">Home</a></li>
                             <li> <a href="./../php/userCategory.php"class="active1">Categories</a></li>
                             <li> <a href="./../html/about us.html" class="active1">About Us</a></li>
                         </ul>

@@ -9,14 +9,14 @@
 .navbar{
     display:flex;
     align-items: center;
-    padding: 40px;
-    width: 110%;
+    padding-bottom: 1%;
+    padding-right: 10%;
+    width: 100%;
 }
 
 nav{
     flex:1;
     text-align:right;
-    margin-right: 30px;
 }
 
 nav ul{
@@ -26,7 +26,7 @@ nav ul{
 
 nav ul li{
     list-style:none;
-    margin: 0 60px;
+    margin: 0 30px;
     cursor: pointer;
 }
 
@@ -35,32 +35,78 @@ nav ul li{
 {
     width: 220px;
     height:180px;
-    margin-left: -100px;
+    margin-left: 0%;
 }
+
+.sign-in img{
+    width: 30px;
+    margin-bottom: -10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-left: 0px;
+}
+
+.signinbtn {
+    background-color: #02120c;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-right:30px;
+    padding-left: 2px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    width: 100%;
+    
+
+  }
+  
+  .sign-in {
+    position: relative;
+    display: inline-block;
+    margin-right: -60px;
+  }
+  
+  .sign-in-content {
+    display: none;
+    position: absolute;
+    background-color: #fefbfb;
+    min-width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .sign-in-content a {
+    color: rgb(253, 245, 245);
+    padding: 12px 20px 0px 20px;
+    background-color: #000;
+    border-bottom: 1px dotted #fff;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .sign-in-content a:hover {background-color: rgb(16, 11, 11);}
+  
+  .sign-in:hover .sign-in-content {display: block;}
+  
+  .sign-in:hover .signinbtn {background-color: #3c3f3cf1;}
 
 .active1
 {
     color:rgb(230, 233, 236);
-
-    padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 30px;
     padding-left: 30px;
+    padding-top: 10px;
     text-decoration: none;
     background-color: #000;
     border-radius: 5px;
     border: 1px solid #fff;
-  
+    margin-right:75px;
 }
 
 .active1:hover{
   background-color: rgba(54, 54, 49, 0.788);
-}
-
-.sign-in
-{
-    display: flex;
-    margin-left: 110px;
 }
 
 .visitorbtn {
@@ -69,20 +115,13 @@ nav ul li{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 30px;
-    padding-left: 30px;
+    padding-left: 10px;
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #fff;
     margin-left: 40px;
-  }
 
-  .container1{
-    max-width: 1300px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom:25px;
-}
+  }
 
 /*-----------------------Body-------------------------------*/
 
@@ -90,13 +129,16 @@ nav ul li{
 {
     display: grid;
     grid-template-columns: 30% 30% 30%;    
-    grid-template-rows: 50% 50%;
-    grid-gap: 20px;
+    grid-template-rows: 50% 50% 50%;
+    grid-column-gap: 5%;
     justify-content: center;
     align-content: center;
     text-align:center;
     font-family: 'Papyrus';
-    margin-bottom: 5%;
+    margin-bottom: 8%;
+    padding-left: 1%;
+    margin-top: 15%;
+    padding: 2%;
 }
 
 
@@ -135,11 +177,23 @@ nav ul li{
     background-size: cover;
 }   
 
-.Vehicle
+.Music
 {
-    background-image: url("../images/Vehicle.jpg");
+    background-image: url("../images/Music.png");
     background-position: center;
     background-size: cover;
+}
+
+.Vehicle
+{
+    background-image:url("../images/Vehicle.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.hvr:hover
+{
+    transform: scale(1.1);
 }
 
 p
@@ -159,15 +213,14 @@ h2
 {
     font-family: 'Lucida Handwriting';
     color: white;
-    padding-left: 5%;
-    padding-bottom: 2%;
-    font-size: 35px;
+    font-size: 40px;
+    text-align: center;
 }
 
 body
 {
     background-image: url("../images/bg4\ \(1\).png");
-    background-size: 100% 100%;
+    background-size: 110% 150%;
     background-repeat: no-repeat;
 }
 

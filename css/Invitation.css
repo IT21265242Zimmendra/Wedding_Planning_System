@@ -1,0 +1,260 @@
+.Categories
+            {
+                display: grid;
+                grid-template-columns: 30% 30% 30%;    
+                grid-template-rows: 50% 50%;
+                grid-gap: 20px;
+                justify-content: center;
+                align-content: center;
+                text-align:center;
+                font-family: 'Arial';
+                padding-bottom: 25px;
+            }
+         
+
+            .item1
+            {
+                background-image: url("../images/vendor31.jpg");
+                background-position: center;
+                background-size: cover;
+            }
+
+            .item2
+            {
+                background-image: url("../images/vendor32.jpg");
+                background-position: center;
+                background-size: cover;
+            }
+
+            .item3
+            {
+                background-image: url("../images/vendor33.jpg");
+                background-position: center;
+                background-size:cover;
+            }
+
+            .item4
+            {
+                background-image: url("../images/vendor34.jpg");
+                background-position: center;
+                background-size: cover;
+            }
+
+            .item5
+            {
+                background-image: url("../images/vendor35.jpg");
+                background-position: center;
+                background-size: cover;
+            }   
+            
+            .item6
+            {
+                background-image: url("../images/vendor36.jpg");
+                background-position: center;
+                background-size: cover;
+            }
+
+            .item1:hover{
+                transform: scale(1.05);
+            }
+
+            .item2:hover{
+                transform: scale(1.05);
+            }
+
+            .item3:hover{
+                transform: scale(1.05);
+            }
+
+            .item4:hover{
+                transform: scale(1.05);
+            }
+
+            .item5:hover{
+                transform: scale(1.05);
+            }
+
+            .item6:hover{
+                transform: scale(1.05);
+            }
+
+            p
+            {
+                padding-top: 52%;
+                font-size: 20px;
+                color:black;
+                font-weight: bold;
+            }
+
+            a
+            {
+                text-decoration: none;
+            }
+
+            h2
+            {
+                font-family: 'Arial';
+                color: white;
+                padding-left: 5%;
+                padding-top: 2%;
+                font-size: 35px;
+                padding-bottom: 10px;
+                padding-bottom: 25px;
+            }
+
+            body
+            {
+                background-image: url("../images/bg4\ \(1\).png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+            }
+
+            span
+            {
+                background-color: white;
+            }
+
+
+            /*------------------------Header------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    padding-bottom: 1%;
+    padding-right: 10%;
+    width: 100%;
+}
+
+nav{
+    flex:1;
+    text-align:right;
+}
+
+nav ul{
+    display:inline-flex;
+    margin-top: 1px;
+}
+
+nav ul li{
+    list-style:none;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+
+.logo1 img
+{
+    width: 220px;
+    height:180px;
+    margin-left: 0%;
+}
+
+.sign-in img{
+    width: 30px;
+    margin-bottom: -10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-left: 0px;
+}
+
+.signinbtn {
+    background-color: #02120c;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-right:50px;
+    padding-left: 2px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    width: 100%;
+    
+
+  }
+  
+  .sign-in {
+    position: relative;
+    display: inline-block;
+    margin-right: -60px;
+  }
+  
+  .sign-in-content {
+    display: none;
+    position: absolute;
+    background-color: #fefbfb;
+    min-width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .sign-in-content a {
+    color: rgb(253, 245, 245);
+    padding: 12px 20px 0px 20px;
+    background-color: #000;
+    border-bottom: 1px dotted #fff;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .sign-in-content a:hover {background-color: rgb(16, 11, 11);}
+  
+  .sign-in:hover .sign-in-content {display: block;}
+  
+  .sign-in:hover .signinbtn {background-color: #3c3f3cf1;}
+
+.active1
+{
+    color:rgb(230, 233, 236);
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    text-decoration: none;
+    background-color: #000;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-right:75px;
+}
+
+.active1:hover{
+  background-color: rgba(54, 54, 49, 0.788);
+}
+
+/*--------------------------------------Footer---------------------------------*/
+
+.footer{
+    background:rgba(0, 0, 0, 0.979);
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    bottom: 0%;
+}
+
+.footer-contend{
+    display:inline;
+    margin-left:2%;
+    padding-bottom: 1%;
+}
+
+.logo2 {
+   
+    padding-right: 0%;
+}
+
+.bind1 {
+    padding-bottom: 1%;
+    margin-right: -20%;
+    margin-left: 20%;
+}
+
+.bind2 {
+    padding-bottom: 1%;
+    margin-right:-35%;
+    margin-left: 35%;
+}

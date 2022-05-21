@@ -2,7 +2,7 @@
 include("config.php");
 
 $desc = $_POST["descr"];
-$cid = "ID001";
+$cid = "1";
 
 
 $sql = "INSERT INTO feedback(description , Cid)

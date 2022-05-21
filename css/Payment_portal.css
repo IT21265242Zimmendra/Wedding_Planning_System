@@ -86,17 +86,6 @@ nav ul li{
 
 /*-------------------------Body--------------------------*/
 
-form
-{
-    width: 500px;
-    height: 500px;
-    background-color: rgba(0, 0, 0, 0.863);
-    margin: auto;
-    color: #FFFFFF;
-    padding: 50px 50px 50px 50px;
-    text-align: justify;
-    border-radius: 15px 15px 15px 15px;
-}
 
 body
 {
@@ -146,6 +135,23 @@ body
   {
       padding-bottom: 5%;
   }
+  .container3{
+    background-color: rgba(0, 0, 0, 0.24);
+	margin: auto auto;
+	padding: 30px 0px 85px 0px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #000;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 500px;
+	height: 320px;
+    margin-top: 5%;
+	color: rgb(238, 241, 244);
+	top:20%;
+  }
 
   /*----------------------------------Footer--------------------------------*/
 
@@ -154,7 +160,9 @@ body
     color: #8a8a8a;
     font-size: 14px;
     padding: 60px 0 20px;
-    bottom: 0%;
+    bottom: -10%;
+    position:absolute;
+
 }
 
 .footer-contend{

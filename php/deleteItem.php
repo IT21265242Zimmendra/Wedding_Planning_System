@@ -2,8 +2,8 @@
     require('config.php');
     
     $record_id = $_GET['id'];
-
-    $sql = "delete from customer_package where pid = '$record_id'";
+   
+    $sql = "delete from customer_package where Pid = '$record_id'";
   
     if ( $con -> query($sql))
     {

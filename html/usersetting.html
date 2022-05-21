@@ -15,40 +15,38 @@
             <form method="post" action="./../php/usersetting.php">
                 <label for="uname" id="setting">Change User Name</label><br>
                 <input type="text" id="setting" name="uname" pattern="{8,15}" title="  At least 8 or more characters" >
-                <input type="submit" class="btn" name="username"><br><br>
+                <input type="submit" class="btn" name="username" value="Change"><br><br>
             </form> 
             
             <form method="post" action="./../php/usersetting.php">
                 <label for="pswd" id="setting">Change Password</label><br>
                 <input type="text" id="setting" name="pswd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" >
-                <input type="submit" class="btn" name="userpassword"><br><br>
+                <input type="submit" class="btn" name="userpassword" value="Change"><br><br>
             </form>
 
             <form method="post" action="./../php/usersetting.php">
                 <label for="email" id="setting">Change Email</label><br>
                 <input type="text" id="setting" name="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" >
-                <input type="submit" class="btn" name="useremail"><br><br>
+                <input type="submit" class="btn" name="useremail" value="Change"><br><br>
             </form>
 
             <form method="post" action="./../php/usersetting.php">
                 <label for="nofg" id="setting">Change Number Of Guest</label><br>
                 <input type="text" id="setting" name="nofg" >
-                <input type="submit" class="btn" name="noofg"><br><br>
+                <input type="submit" class="btn" name="noofg" value="Change"><br><br>
             </form>
 
             <form method="post" action="./../php/usersetting.php">
                 <label for="contact" id="setting">Change Contact Number</label><br>
                 <input type="text" id="setting" name="contact" pattern="[0-9]{10}" title="Definitly there should be 10 digits">
-                <input type="submit" class="btn" name="contact_n"><br><br>
+                <input type="submit" class="btn" name="contact_n" value="Change"><br><br>
             </form>
             
             <form method="post" action="./../php/usersetting.php">
-                <label for="nofg" id="setting">Delete Acoount</label>
-                <inut type="submit" class="btndlt" name="dltbtn">Delete<br><br>
+                <label for="dlt" id="setting">Delete Acoount</label>
+                <input type="submit" class="btndlt" name="dltbtn" value="Delete"><br><br>
             </form>
-            
                
-    
     </div>
 
 </body>

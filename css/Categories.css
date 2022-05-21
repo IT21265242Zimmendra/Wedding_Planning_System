@@ -51,7 +51,7 @@ nav ul li{
     color: white;
     padding-top: 2px;
     padding-bottom: 10px;
-    padding-right:50px;
+    padding-right:30px;
     padding-left: 2px;
     font-size: 16px;
     border-radius: 5px;
@@ -109,6 +109,20 @@ nav ul li{
   background-color: rgba(54, 54, 49, 0.788);
 }
 
+.visitorbtn {
+    background-color: #02120c;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-left: 40px;
+
+  }
+
 /*-----------------------Body-------------------------------*/
 
 .Categories
@@ -124,6 +138,7 @@ nav ul li{
     margin-bottom: 8%;
     padding-left: 1%;
     margin-top: 15%;
+    padding: 2%;
 }
 
 
@@ -162,16 +177,16 @@ nav ul li{
     background-size: cover;
 }   
 
-.Vehicle
+.Music
 {
-    background-image: url("../images/Vehicle.jpg");
+    background-image: url("../images/Music.png");
     background-position: center;
     background-size: cover;
 }
 
-.Music
+.Vehicle
 {
-    background-image: url("../images/Music.png");
+    background-image:url("../images/Vehicle.jpg");
     background-position: center;
     background-size: cover;
 }

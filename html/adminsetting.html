@@ -8,6 +8,24 @@
     home page
 </title>
 <body class="body">
+    <div class="container">
+        <nav>
+            <img src = "./../images/logo.png" class = "logo">
+            <div class = "details">
+                 <img src = "./../images/pro.png" class = "logo1">
+             
+                 <a href = "#" class = "btn"><?php echo $username ?></a>
+                 <div class="admin-content">
+                     <ul>
+                         <li><a href="./../html/adminsetting.html">Settings</a></li>
+                         <li><a href="./../html/Visitor.html">Log Out</a></li>
+                      
+                     </ul>
+                 </div>
+            </div>
+            
+        </nav>
+    </div>
         <div class ="container1">
        
             <h1>Admin Account Settings</h1>
@@ -29,7 +47,7 @@
             <label for="delete account"  id="setting">Delete account</label>
                <input type = "submit" value="Delete" class="btndlt" name = "deletaccount"><br><br>  
          </form>
-           <a href="#"><button class = "addadminacoount">Add Admin account</button></a>
+           <a href="adminaccountcreate.html"><input type ="submit" value="Add Admin account" class = "addadminacoount"></a>
          </form>
         </div>
 

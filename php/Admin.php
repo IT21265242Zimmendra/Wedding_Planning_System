@@ -1,6 +1,7 @@
 <?php
     require('config.php');
 
+    require('setSession.php')
 ?>
 
 
@@ -17,7 +18,15 @@
                <img src = "./../images/logo.png" class = "logo">
                <div class = "details">
                     <img src = "./../images/pro.png" class = "logo1">
-                    <a href = "#" class = "btn">Username</a>
+                
+                    <a href = "#" class = "btn"><?php echo $username ?></a>
+                    <div class="admin-content">
+                        <ul>
+                            <li><a href="./../html/adminsetting.html">Settings</a></li>
+                            <li><a href="./../html/Visitor.html">Log Out</a></li>
+                         
+                        </ul>
+                    </div>
                </div>
                
            </nav>
@@ -107,12 +116,12 @@
              }
          }
          
-         $sql = "select Category_Name from vendors Where Number_of_Clicks = ( select max(Number_of_Clicks) from  vendors )";
+         $sql = "select Name from vendors Where Number_of_Clicks = ( select max(Number_of_Clicks) from  vendors )";
          $result = $con -> query($sql);
          $maxVendor = "";
    
          while ($row = $result->fetch_assoc()) {
-            $maxVendor = $row['Category_Name'];
+            $maxVendor = $row['Name'];
         }
 
         $sql = "select Category_Name from category Where Number_of_Clicks = ( select max(Number_of_Clicks) from  category)";
@@ -123,8 +132,7 @@
             $maxCate = $row['Category_Name'];
         }
 
-         echo '<script>'. 
-
+        echo '<script>'.
             "let counts=setInterval(updated);
              let upto=0;
              function updated(){
@@ -147,8 +155,6 @@
 
 
        ?>
-       <button class = "btnexistingpackage"><a href = "">Updating<br>existing package</button>
-       
     </body>
 
 

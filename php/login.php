@@ -32,7 +32,6 @@
                     header("location:Admin.php");
                 }
 
-
             }
 
         }

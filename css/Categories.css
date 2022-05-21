@@ -9,8 +9,7 @@
 .navbar{
     display:flex;
     align-items: center;
-    padding-bottom: 1%;
-    padding-right: 10%;
+    padding: 40px;
     width: 100%;
 }
 
@@ -102,6 +101,7 @@ nav ul li{
     background-color: #000;
     border-radius: 5px;
     border: 1px solid #fff;
+  
     margin-right:75px;
 }
 
@@ -109,19 +109,13 @@ nav ul li{
   background-color: rgba(54, 54, 49, 0.788);
 }
 
-.visitorbtn {
-    background-color: #02120c;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 30px;
-    padding-left: 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid #fff;
-    margin-left: 40px;
+.container1{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 
-  }
 
 /*-----------------------Body-------------------------------*/
 
@@ -135,10 +129,7 @@ nav ul li{
     align-content: center;
     text-align:center;
     font-family: 'Papyrus';
-    margin-bottom: 8%;
-    padding-left: 1%;
-    margin-top: 15%;
-    padding: 2%;
+    padding-bottom: 5%;
 }
 
 

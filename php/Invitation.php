@@ -41,12 +41,12 @@
         <h2>Invitation Cards</h2>
 
         <div class="Categories">
-            <a href="#"><div class="item1"><p><span>Anim8(Pvt.)Ltd</span></p></div></a>
-            <a href="#"><div class="item2"><p><span>Sahani Michelle</span></p></div></a>
-            <a href="#"><div class="item3"><p><span>Weddingway.lk</span></p></div></a>
-            <a href="#"><div class="item4"><p><span>Elegance by Design</span></p></div></a>
-            <a href="#"><div class="item5"><p><span>The Wedding Shop</span></p></div></a>
-            <a href="#"><div class="item6"><p><span>Colombo Card Factory</span></p></div></a>
+            <a href="#"><div class="item1 item"><p><span>Anim8(Pvt.)Ltd</span></p></div></a>
+            <a href="#"><div class="item2 item"><p><span>Sahani Michelle</span></p></div></a>
+            <a href="#"><div class="item3 item"><p><span>Weddingway.lk</span></p></div></a>
+            <a href="#"><div class="item4 item"><p><span>Elegance by Design</span></p></div></a>
+            <a href="#"><div class="item5 item"><p><span>The Wedding Shop</span></p></div></a>
+            <a href="#"><div class="item6 item"><p><span>Colombo Card Factory</span></p></div></a>
         </div>
 
          <!-----------------------------------------Footer---------------------------->

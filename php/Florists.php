@@ -41,12 +41,12 @@
         <h2>Florists</h2>
 
         <div class="Categories">
-            <a href="#"><div class="item1"><p><span>Lassana Flora</span></p></div></a>
-            <a href="#"><div class="item2"><p><span>Shirohana</span></p></div></a>
-            <a href="#"><div class="item3"><p><span>Blooms Flower Shop</span></p></div></a>
-            <a href="#"><div class="item4"><p><span>Chamathkara Flora</span></p></div></a>
-            <a href="#"><div class="item5"><p><span>Flower Bug</span></p></div></a>
-            <a href="#"><div class="item6"><p><span>amalka flora</span></p></div></a>
+            <a href="#"><div class="item1 item"><p><span>Lassana Flora</span></p></div></a>
+            <a href="#"><div class="item2 item"><p><span>Shirohana</span></p></div></a>
+            <a href="#"><div class="item3 item"><p><span>Blooms Flower Shop</span></p></div></a>
+            <a href="#"><div class="item4 item"><p><span>Chamathkara Flora</span></p></div></a>
+            <a href="#"><div class="item5 item"><p><span>Flower Bug</span></p></div></a>
+            <a href="#"><div class="item6 item"><p><span>amalka flora</span></p></div></a>
         </div>
 
          <!-----------------------------------------Footer---------------------------->

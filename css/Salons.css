@@ -10,6 +10,12 @@
                 font-family: 'Arial';
                 padding-bottom: 25px;
             }
+
+
+            .item
+            {
+                border-radius: 5px;
+            }
          
 
             .item1
@@ -17,6 +23,7 @@
                 background-image: url("../images/vendor7.jpg");
                 background-position: center;
                 background-size: cover;
+                
             }
 
             .item2

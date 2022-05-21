@@ -99,6 +99,7 @@ ul li
 .hotelimages{
    height: 300px;
    width: 500px;
+   object-fit: cover;
 
 }
 h3{

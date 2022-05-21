@@ -41,12 +41,12 @@
         <h2>Bridal Salons</h2>
 
         <div class="Categories">
-            <a href="#"><div class="item1"><p><span>Dananjaya Bandara</span></p></div></a>
-            <a href="#"><div class="item2"><p><span>Salon Chandimal</span></p></div></a>
-            <a href="#"><div class="item3"><p><span>Ramani Fernando Salons</span></p></div></a>
-            <a href="#"><div class="item4"><p><span>Reluxe Salon</span></p></div></a>
-            <a href="#"><div class="item5"><p><span>InBa</span></p></div></a>
-            <a href="#"><div class="item6"><p><span>Jaal Salon</span></p></div></a>
+            <a href="./../php/after click form(v7).php"><div class="item1 item"><p><span>Dananjaya Bandara</span></p></div></a>
+            <a href="./../php/after click form(v8).php"><div class="item2 item"><p><span>Salon Chandimal</span></p></div></a>
+            <a href="./../php/after click form(v9).php"><div class="item3 item"><p><span>Ramani Fernando Salons</span></p></div></a>
+            <a href="./../php/after click form(v10).php"><div class="item4 item"><p><span>Reluxe Salon</span></p></div></a>
+            <a href="./../php/after click form(v11).php"><div class="item5 item"><p><span>InBa</span></p></div></a>
+            <a href="./../php/after click form(v12).php"><div class="item6 item"><p><span>Jaal Salon</span></p></div></a>
         </div>
 
          <!-----------------------------------------Footer---------------------------->

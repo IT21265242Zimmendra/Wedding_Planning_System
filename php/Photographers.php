@@ -39,12 +39,12 @@
         <h2>Wedding Photography</h2>
 
         <div class="Categories">
-            <a href="#"><div class="item1"><p><span>Dark Room</span></p></div></a>
-            <a href="#"><div class="item2"><p><span>Danushka Senadeera Photography</span></p></div></a>
-            <a href="#"><div class="item3"><p><span>STUDIO3000DF</span></p></div></a>
-            <a href="#"><div class="item4"><p><span>Shine Photography</span></p></div></a>
-            <a href="#"><div class="item5"><p><span>Amarante Lifestyle Studio</span></p></div></a>
-            <a href="#"><div class="item6"><p><span>Beyond Destiny</span></p></div></a>
+            <a href="#"><div class="item1 item"><p><span>Dark Room</span></p></div></a>
+            <a href="#"><div class="item2 item"><p><span>Danushka Senadeera Photography</span></p></div></a>
+            <a href="#"><div class="item3 item"><p><span>STUDIO3000DF</span></p></div></a>
+            <a href="#"><div class="item4 item"><p><span>Shine Photography</span></p></div></a>
+            <a href="#"><div class="item5 item"><p><span>Amarante Lifestyle Studio</span></p></div></a>
+            <a href="#"><div class="item6 item"><p><span>Beyond Destiny</span></p></div></a>
         </div>
 
          <!-----------------------------------------Footer---------------------------->

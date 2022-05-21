@@ -36,47 +36,46 @@
         </header>
 
         <!----------------------------------------Payment Portal------------------------------------------->
-
-        <div class ="container3">
-            
+        
+        <div class="form">
+            <form>
                 <label>
                     Name on Card
                 </label>
                 <br>
-                    <input type="text" name="name" maxlength="20" placeholder="E.g: John Smith" required>
+                <input type="text" name="name" maxlength="20" placeholder="E.g: John Smith" required>
                 <br><br>
                 <label>
                 Card Number 
                 </label>
                 <br>
-                    <input type="text" name="CNo" maxlength="16" minlength="16" placeholder="XXXX-XXXX-XXXX-XXXX" required>
+                <input type="text" name="CNo" maxlength="16" minlength="16" placeholder="XXXX-XXXX-XXXX-XXXX" required>
                 <br><br>
                 <div>
                     <div>
-                        <label>
-                            Expiry Date
-                        </label>
-                        <label id="cvn">
-                            CVN
-                        </label>
+                <label>
+                    Expiry Date
+                </label>
+                <label id="cvn">
+                    CVN
+                </label>
                 
-                        <br>
-                        <input type="date">
-                        <div style="float:right">
+                <br><input type="date" min="2022-05-22">
+                    <div style="float:right">
                 
-                            <input type="text" name="cvn" maxlength="3" minlength="3" required>
-                        </div>
+                <input type="text" name="cvn" maxlength="3" minlength="3" required>
                     </div>
+                     </div>
                 </div>
                 
                 <br><br><br><br>
 
-                <form class ="totalform" name = "total"  method="post">
-                    <input type = "text" name = "total" class = "total" placeholder="total">
-                </form>
+                <p id="tot">Total</p>
+                <br><br>
+                <input type="submit" id="pay" value="Pay">
+        
+            </form>
         </div>
-
-
         <!----------------------------------------Footer------------------------------------------->
         
         <footer>

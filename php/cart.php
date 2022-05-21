@@ -26,7 +26,8 @@
 
     $sql = "select c.Category_Name,v.Name, p.Package_Name,p.price, p.pid
     from vendors v,package p,category c,customer_package cp
-    Where p.vid = v.vid and v.category_name = c.Category_Name and cp.pid = p.pid and cp.Cid ='ID001'";
+    Where p.vid = v.vid and v.category_name = c.Category_Name and cp.pid = p.pid and cp.Cid ='1'";
+    
   
 
 
@@ -37,25 +38,28 @@
 
     if($result->num_rows>0)
     {
-        echo "<table border = '1'><tr><th></th><th>Category</th><th>Vendor</th><th>Item Name</th></th><th>Price</th></tr>";
-
-       
+        echo "<table border = '1'><tr><th style='width:20%'></th><th>Category</th><th>Vendor</th><th>Item Name</th></th><th>Price</th></tr>";
+        $totalPrice = 0;
 
         while($row = $result ->fetch_assoc())
         {
                 $pid = $row["pid"];
-                
+                $pid = intval($pid);
+
                 echo "<tr>";
-                echo "<td>" . "<button type = 'submit'>"."<a href = 'deleteItem.php?id=$pid'>-</a></button></td>";
+                echo "<td width = '20%'>" . "<button type = 'submit'>"."<a href = 'deleteItem.php?id=$pid'>-</a></button></td>";
                 echo "<td >".$row["Category_Name"]."</td>";
                 echo "<td>".$row["Name"]."</td>";
                 echo "<td>"."<a href = ''>".$row["Package_Name"]."</a>"."</td>";
                 echo "<td>".$row["price"]."</td>";
+                $totalPrice += $row["price"];
                 echo "</tr>";
 
 
                 
         }
+        
+        echo "<tr> <td width = '20%'>Total Price</td><td></td><td></td><td></td><td>$totalPrice</td></tr>";
         echo "</table>";
     }
     

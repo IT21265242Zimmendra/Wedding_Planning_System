@@ -65,6 +65,7 @@
         }
         
         echo "<tr> <td width = '20%'>Total Price</td><td></td><td></td><td></td><td>$totalPrice</td></tr>";
+        $_SESSION['Totalprice'] = $totalPrice;
         echo "</table>";
     }
     

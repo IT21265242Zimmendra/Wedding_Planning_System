@@ -23,8 +23,8 @@
                         </ul>
                     </nav>
                         <div class="sign-in">
-                            <button class="visitorbtn" onclick = "location.href = 'sign-up.html'">Sign Up</button>
-                            <button class="visitorbtn" onclick = "location.href = 'log in.html'">Log In</button>
+                            <button class="visitorbtn" onclick = "location.href = './../html/sign-up.html'">Sign Up</button>
+                            <button class="visitorbtn" onclick = "location.href = './../html/log in.html'">Log In</button>
                         </div>
                 </div> 
 

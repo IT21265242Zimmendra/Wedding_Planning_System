@@ -6,7 +6,7 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href="../css/InvC.css?v=<?php echo time(); ?>s"> 
+        <link rel="stylesheet" href="../css/InvC.css">
     </head>
     <body>
 
@@ -38,15 +38,15 @@
         <!-------------------------------------------------Body------------------------------------------------->
 
         <form>
-            <h1>Anim8 (Pvt.) Ltd.</h1>
+            <h1>Wedding Channel.lk</h1>
         
         <div class="layout">
             <div id="slider"> <!--------------Slideshow----------->
                 <figure>
-                    <img src="../images/IC006.jpg">
-                    <img src="../images/IC007.jpg">
-                    <img src="../images/IC008.jpg">
-                    <img src="../images/IC003.jpg">
+                    <img src="../images/IC0012.png">
+                    <img src="../images/IC0013.jpg">
+                    <img src="../images/IC0014.jpg">
+                    <img src="../images/IC0015.jpg">
                 </figure>
 
                 <br><br>
@@ -99,13 +99,13 @@
             <div class="desc">
                 <br><br>
                 <h3>Description</h3>
-                <p>If you didn't already know, we have our very own brand of stationery for all your wedding needs. And while we might be just a little bit biased here, there are so many great reasons to choose our brand for your big day. So what makes ours the best place to order your wedding invitations online? <br>Let us fill you in.</p>
+                <p>Plan your dream wedding in one place - Weddingchannel.lk. You are free to select any wedding related service for your Dream Wedding Day from thousands of vendors</p>
                 
                 <br><br>
                 <h3>Location</h3>
                 <p>
                     <br>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9796411580614!2d79.86759881464529!3d6.8930383206696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25bd3f10b668d%3A0x27e34c43ed4171c5!2sAnim8%20(Pvt)%20Ltd!5e0!3m2!1sen!2slk!4v1652100832054!5m2!1sen!2slk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.3392221405998!2d79.99610251464574!3d7.086617418326985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2fbf11a590d7b%3A0x5e439bfa1eff6cf7!2sWeddingchannel.lk!5e0!3m2!1sen!2slk!4v1653220703059!5m2!1sen!2slk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </p>
 
                 <br><br><br><br><br>

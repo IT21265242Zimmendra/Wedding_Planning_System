@@ -64,6 +64,12 @@ h1{
 	margin-left: 38%;
 	color:white;
 	text-decoration: none;
+    
+}
+a 
+{
+    text-decoration: none;
+    color:white;
 }
 
 .btnsubmit{

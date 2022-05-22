@@ -57,12 +57,20 @@ body{
     width:20%;
 }
 
-button{
-    margin-top: 18%;
-    padding:5px;
-    background-color:rgb(184, 184, 177);
-    width: 75%;
-    cursor: pointer;
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    margin-left: 35%;
+    margin-top: 15%;
+    text-decoration: none;
 }
 
 

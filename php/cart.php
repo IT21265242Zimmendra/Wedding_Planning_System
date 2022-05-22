@@ -1,5 +1,6 @@
 <?php
     require('config.php');
+    require('setCid.php');
 
     session_start();
 
@@ -66,6 +67,8 @@
         
         echo "<tr> <td width = '20%'>Total Price</td><td></td><td></td><td></td><td>$totalPrice</td></tr>";
         echo "</table>";
+
+        $_SESSION['Totalprice'] = $totalPrice;
     }
     
 

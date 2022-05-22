@@ -18,7 +18,7 @@
        
         <h1>
         <?php 
-            require("config.php");
+       
 
         $sql = "SELECT Name 
         From vendors    
@@ -68,7 +68,6 @@
  
 
                         <?php
-  require("config.php");
 
   $sql = "SELECT Package_Name,Price
   From Package

@@ -1,26 +1,28 @@
 <?php
-include("config.php");
+    require("setSession.php");
+    require("setCid.php");
 
-$tot = $_POST["total"];
-$cid = "1";
-$date =  date("Y-m-d");
 
-echo $date;
+    $tot = $_SESSION['Totalprice'] ;
+    $Cid = $cid;
+    $date =  date("Y-m-d");
 
-$sql = "INSERT INTO orders(order_date, amount , Cid)
-        VALUES('$date', '$tot','$cid')";
- 
-if($con->query($sql)){
-    echo"<script>alert('Order placed!');</script>";
-    //header("location:");
+    echo $date;
 
-} 
-else{
-    echo"<script>alert('Could not place order');</script>";
+    $sql = "INSERT INTO orders(order_date, amount , Cid)
+            VALUES('$date', '$tot','$Cid')";
+    
+    if($con->query($sql))
+    {
+        echo"<script>alert('Order placed!');</script>";
+        header("location:userdashboard.php");
+    } 
+    else
+    {
+        echo"<script>alert('Could not place order');</script>";
+    }
 
-}
-
-$con -> close();
+    $con -> close();
 
 
 ?>

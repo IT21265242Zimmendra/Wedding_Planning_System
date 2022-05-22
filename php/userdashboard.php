@@ -1,7 +1,5 @@
 <?php
     require('config.php');
-    require('cid.php');
-
 ?>
 <html>
     
@@ -16,7 +14,6 @@
            <button class = "addmoreitems" >Add more Items</button>
            <button class = "setting"> Settings </button>
            
-            
         </div>
     </body>
 </html>
@@ -105,9 +102,6 @@
         echo "</table>";
     }
 
-    else{
-        echo "<script> alert('No record')</script>";
-    }
     $con->close();
 
 ?>

@@ -1,7 +1,6 @@
 <?php
     require('config.php');
 
-
 ?>
 
 <!DOCTYPE html>
@@ -68,7 +67,7 @@
  
 
                         <?php
-  require("config.php");
+ 
 
   $sql = "SELECT Package_Name,Price
   From Package

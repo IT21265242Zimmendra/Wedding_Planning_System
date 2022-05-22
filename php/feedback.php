@@ -1,6 +1,5 @@
 <?php
-    require 'config.php';
-    session_start();
+    require('setCid.php');
 ?>
 
 <!DOCTYPE html>
@@ -47,7 +46,7 @@
      <?php
         /*$cusId =  $_SESSION['Username'];*/
         $sql = "SELECT*
-                FROM feedback WHERE Cid = '1'";
+                FROM feedback WHERE Cid = '$cid'";
         $result = $con->query($sql);
         
         if($result -> num_rows >0){

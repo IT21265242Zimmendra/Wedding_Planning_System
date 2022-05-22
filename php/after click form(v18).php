@@ -1,7 +1,6 @@
 <?php
     require('config.php');
 
-
 ?>
 
 <!DOCTYPE html>
@@ -18,8 +17,7 @@
        
         <h1>
         <?php 
-            require("config.php");
-
+           
         $sql = "SELECT Name 
         From vendors    
         Where vid = '18'";
@@ -68,8 +66,7 @@
  
 
                         <?php
-  require("config.php");
-
+  
   $sql = "SELECT Package_Name,Price
   From Package
   Where vid = '18' AND Package_Name = 'Package 1'";
@@ -85,8 +82,7 @@
 
 ?></p></a></button></li>
                     &nbsp;&nbsp; &nbsp; <li><button class = "btnpackage"><a href="#"><p><?php
-  require("config.php");
-
+  
   $sql = "SELECT Package_Name,Price
   From Package
   Where vid = '18' AND Package_Name = 'Package 2'";
@@ -102,7 +98,7 @@
 
 ?></p></a></button></li>
                      &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="#"><p><?php
-  require("config.php");
+  
 
   $sql = "SELECT Package_Name,Price
   From Package

@@ -46,7 +46,7 @@
                     }
                     else
                     {
-                        echo "<script>alert('No record')</srcipt>";
+                        echo "<script>alert('No record')</script>";
                         echo "no result";
                     } 
 

@@ -1,5 +1,6 @@
 <?php
     require('config.php');
+    require('setCid.php');
     
     $record_id = $_GET['id'];
     $pid = intval($record_id);
@@ -8,6 +9,7 @@
     if ( $con -> query($sql))
     {
         echo "<script>Deleted succesfully</script>";
+        header("location:cart.php");
     }
     else
     {

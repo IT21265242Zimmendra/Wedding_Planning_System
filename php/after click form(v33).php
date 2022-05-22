@@ -14,7 +14,7 @@
             <h1>
                 <?php 
     
-                    $sql = "SELECT Name From vendors Where vid = '31'";
+                    $sql = "SELECT Name From vendors Where vid = '33'";
                     $result = $con -> query($sql);
                   
                     if($result->num_rows>0)
@@ -29,11 +29,11 @@
 
                 ?>
              </h1>
-             <img src = "./../images/vendor31.jpg" class = "hotelimages">
+             <img src = "./../images/vendor33.jpg" class = "hotelimages">
           <div class="description">
               <h3>
                 <?php 
-                    $sql = "select description from vendors where vid = '31'";
+                    $sql = "select description from vendors where vid = '33'";
                     $result = $con->query($sql);
 
                     if($result ->num_rows>0)
@@ -57,13 +57,13 @@
     
           <div class="package">
                 <nav>
-                    <ul> &nbsp;&nbsp;&nbsp;<li><button class = "btnpackage"><a href="navitems.php?id=91">
+                    <ul> &nbsp;&nbsp;&nbsp;<li><button class = "btnpackage"><a href="navitems.php?id=97">
                          <p>
                          <?php
 
                                 $sql = "SELECT Package_Name,Price
                                 From Package
-                                Where vid = '31' AND Package_Name = 'Design 1'";
+                                Where vid = '33' AND Package_Name = 'Design 1'";
 
                                 $result = $con -> query($sql);
   
@@ -76,12 +76,12 @@
 
                                 }
                             ?>
-                            </p></a></button></li>&nbsp;&nbsp; &nbsp; <li><button class = "btnpackage"><a href="navitems.php?id=92"><p><?php
+                            </p></a></button></li>&nbsp;&nbsp; &nbsp; <li><button class = "btnpackage"><a href="navitems.php?id=98"><p><?php
   
 
                             $sql = "SELECT Package_Name,Price
                             From Package
-                            Where vid = '31' AND Package_Name = 'Design 2'";
+                            Where vid = '33' AND Package_Name = 'Design 2'";
 
                             $result = $con -> query($sql);
 
@@ -94,13 +94,13 @@
                               }
 
                             }
-                            ?></p></a></button></li> &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="navitems.php?id=93"><p><?php
+                            ?></p></a></button></li> &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="navitems.php?id=99"><p><?php
  
 
 
                             $sql = "SELECT Package_Name,Price
                             From Package
-                            Where vid = '31' AND Package_Name = 'Design 3'";
+                            Where vid = '33' AND Package_Name = 'Design 3'";
 
                             $result = $con -> query($sql);
                             if($result->num_rows>0){

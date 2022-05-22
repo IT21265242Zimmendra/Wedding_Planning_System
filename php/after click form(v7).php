@@ -12,7 +12,7 @@
     </head>
     <body>
     <div class ="container">
-    <form>
+    
        
        
         <h1>
@@ -50,7 +50,7 @@
                     }
                     else
                     {
-                        echo "<script>alert('No record')</srcipt>";
+                        echo "<script>alert('No record')</script>";
                         echo "no result";
                     } 
 
@@ -84,7 +84,7 @@
 
 ?></p></a></button></li>
                     &nbsp;&nbsp; &nbsp; <li><button class = "btnpackage"><a href="navitems.php?id=20"><p><?php
-  require("config.php");
+
 
   $sql = "SELECT Package_Name,Price
   From Package
@@ -100,8 +100,7 @@
  
 
 ?></p></a></button></li>
-                     &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="navitems.php?id=121"><p><?php
-  require("config.php");
+                     &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="navitems.php?id=21"><p><?php
 
   $sql = "SELECT Package_Name,Price
   From Package
@@ -124,6 +123,6 @@
         
         <div>
 
-    </form>
+  
   </body>
 </html>

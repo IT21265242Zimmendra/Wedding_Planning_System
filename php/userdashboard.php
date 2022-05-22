@@ -1,5 +1,6 @@
 <?php
-    require('config.php');
+ 
+    require('setsession.php');
 ?>
 <html>
     
@@ -7,7 +8,24 @@
     <head>
   </head>
     <body>
-        <div class ="container">
+    <div class="container">
+        <nav>
+            <img src = "./../images/logo.png" class = "logo">
+            <div class = "details">
+                 <img src = "./../images/pro.png" class = "logo1">
+             
+                 <a href = "#"><?php echo $name ?></a>
+                 <div class="admin-content">
+                     <ul>
+                        <li><a href="./../php/User.php">Home</a></li>
+                         <li><a href="./../php/Admin.php">Dashboard</a></li>
+                         <li><a href="./../html/Visitor.html">Log Out</a></li>
+                     </ul>
+                 </div>
+            </div>
+        </nav>
+    </div>
+        <div class ="container1">
           <h1>User dashboard</h1>  
         
            <button class = "addfeedback" onclick="location.href = 'feedback.php';" >Add feedback</button>
@@ -21,7 +39,7 @@
 <?php 
     $sql = "select o.OrderId, Order_date, o.Amount, p.Package_Name, v.Name, p.price  
     from orders o , customer c, customer_package cp, package p, vendors v 
-    Where o.Cid = c.Cid and c.Cid = cp.cid and cp.Pid = p.Pid and p.Vid = v.Vid and c.Cid ='1'";
+    Where o.Cid = c.Cid and c.Cid = cp.cid and cp.Pid = p.Pid and p.Vid = v.Vid and c.Cid ='$cid'";
     $order = "";
     $count = 0;
 

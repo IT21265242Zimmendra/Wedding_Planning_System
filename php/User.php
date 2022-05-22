@@ -44,7 +44,7 @@
                       <button class="signinbtn"><img src = "./../IMAGES/pro.png"> &nbsp <?php echo $username ?></button>
                       <div class="sign-in-content">
                         <ul>
-                            <li><a href="./../html/Visitor.html">Log Out</a></li>
+                            <li><a href="./../php/logout.php">Log Out</a></li>
                             <li><a href="./../php/usersetting.php">Settings</a></li>
                             <li><a href="./../php/userdashboard.php">Dashboard</a></li>
                         </ul>

@@ -20,4 +20,6 @@
     $sql = "INSERT INTO customer_package VALUES ('$cid','$pid') ";
     $result = $con -> query($sql);
 
+    header("location:cart.php");
+
 ?>

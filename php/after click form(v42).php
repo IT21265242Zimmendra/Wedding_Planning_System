@@ -13,7 +13,6 @@
     </head>
     <body>
     <div class ="container">
-    <form>
        
        
         <h1>
@@ -64,7 +63,7 @@
                 <nav>
                     <ul>
                     
-                    &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="navitems.php?id=196"><p>
+                    &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="navitems.php?id=124"><p>
  
 
                         <?php
@@ -84,7 +83,7 @@
  
 
 ?></p></a></button></li>
-                    &nbsp;&nbsp; &nbsp; <li><button class = "btnpackage"><a href="navitems.php?id=197"><p><?php
+                    &nbsp;&nbsp; &nbsp; <li><button class = "btnpackage"><a href="navitems.php?id=125"><p><?php
   require("config.php");
 
   $sql = "SELECT Package_Name,Price
@@ -101,7 +100,7 @@
  
 
 ?></p></a></button></li>
-                     &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="navitems.php?id=198"><p><?php
+                     &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="navitems.php?id=126"><p><?php
   require("config.php");
 
   $sql = "SELECT Package_Name,Price
@@ -125,6 +124,5 @@
         
         <div>
 
-    </form>
   </body>
 </html>

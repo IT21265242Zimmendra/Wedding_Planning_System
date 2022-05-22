@@ -20,7 +20,7 @@
                      <ul>
                         <li><a href="./../php/User.php">Home</a></li>
                          <li><a href="./../php/Admin.php">Dashboard</a></li>
-                         <li><a href="./../html/Visitor.html">Log Out</a></li>
+                         <li><a href="logout.php">Log Out</a></li>
                      </ul>
                  </div>
             </div>

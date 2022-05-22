@@ -45,7 +45,7 @@
             
             <div class="info">
                 <h2 id = "02" >$150000</h2>
-                <h2 id = "title-card1">Total Revenue</h2>
+                <h2 id = "title-card1">Total Sales</h2>
             </div>
            
 
@@ -72,8 +72,8 @@
             <div class="card5">
                 
                 <div class="info">
-                    <h2>$150000</h2>
-                    <h2 id = "title-card1">Total Revenue</h2>
+                    <h2 id = "05">$150000</h2>
+                    <h2 id = "title-card1">Total Number of Admins</h2>
                 </div>
                 
                 </div> 
@@ -132,6 +132,19 @@
             $maxCate = $row['Category_Name'];
         }
 
+        $sql = "select * from users where type = 'User'";
+        $noOfAdmins = 0;
+        if( $result = $con -> query($sql))
+        {
+            if ($result -> num_rows > 0)
+            {
+                while($row = $result -> fetch_assoc())
+                {
+                   $noOfAdmins += 1;
+                }
+            }
+        }
+
         echo '<script>'.
             "let counts=setInterval(updated);
              let upto=0;
@@ -145,11 +158,13 @@
             }"
              . '</script>';
  
+         $totalIncome = ceil($totalRevenue*0.40);
 
-
-         echo '<script>'. "document.getElementById('02').innerHTML = '$totalRevenue';". '</script>';
+         echo '<script>'. "document.getElementById('02').innerHTML = '$' + '$totalRevenue';". '</script>';
          echo '<script>'. "document.getElementById('03').innerHTML = '$maxVendor';". '</script>';
          echo '<script>'. "document.getElementById('04').innerHTML = '$maxCate';". '</script>';
+         echo '<script>'. "document.getElementById('05').innerHTML = '$noOfAdmins';". '</script>';
+
 
 
 

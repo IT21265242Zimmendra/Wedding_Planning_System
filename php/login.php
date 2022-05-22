@@ -21,7 +21,7 @@
             {
                 echo "You have successfully logged in";
 
-                $_SESSION['Username'] = $row['Username'];
+                $_SESSION['Username'] = $username;
 
                 if($row['Type'] == 'User')
                 {
@@ -38,7 +38,7 @@
         }
         else
         {
-            echo "Incorrect user name or password";
+            echo "<script>Incorrect user name or password</script>";
             header("location:log in.html");
         }
 

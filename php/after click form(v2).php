@@ -55,7 +55,6 @@
                         echo "no result";
                     } 
 
-                    $con->close();
                 ?>
             <h3></div>
 

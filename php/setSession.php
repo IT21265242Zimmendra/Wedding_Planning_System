@@ -2,11 +2,11 @@
   require("config.php");
   session_start();
 
-  $username = "";
+  $name = "";
 
   if (isset($_SESSION["Username"]))
   {
-      $username = $_SESSION['Username'];
+      $name = $_SESSION['Username'];
   }
   else
   {

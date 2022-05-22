@@ -12,30 +12,31 @@
         <div class="header">
             <div class = "container1">
                 <div class="navbar">
-                    <div class = "logo1">
-                        <img src = "./../IMAGES/logo.png" width = "125px">
-                    </div>
-                    <nav>
-                        <ul>
-                            <li> <a href="#" class="active1">Home</a></li>
-                            <li> <a href="./../html/visitorCategory.html"class="active1">Categories</a></li>
-                            <li> <a href="./../html/about us_visitor.html" class="active1">About Us</a></li>
-                        </ul>
-                    </nav>
+                        <div class = "logo1">
+                            <img src = "./../IMAGES/logo.png" width = "125px">
+                        </div>
+                                <nav>
+                                    <ul>
+                                        <li> <a href="./../html/Visitor.html" class="active1">Home</a></li>
+                                        <li> <a href="./../html/visitorcategory.html"class="active1">Categories</a></li>
+                                        <li> <a href="./../html/about us_visitor.html" class="active1">About Us</a></li>
+                                    </ul>
+                                </nav>
                         <div class="sign-in">
                             <button class="visitorbtn" onclick = "location.href = './../html/sign-up.html'">Sign Up</button>
                             <button class="visitorbtn" onclick = "location.href = './../html/log in.html'">Log In</button>
                         </div>
                 </div> 
 
-                    <div class="row">
+                <div class="row">
                         <h1>THE<br>WEDDING TABLE</h1>
                         <h3>'Make your dream wedding a reality'</h3>
-                    </div>
-
                 </div>
+
+ 
             </div>
         </div>
+     
 
         <div class="slideshow-container">
 
@@ -145,6 +146,18 @@
             setTimeout(showSlides, 5000); // Change image every 5 seconds
           }
           </script>
+
+          <div class="hearts">
+            <img src="./../images/an3.png">
+            <img src="./../images/an3.png">
+            <img src="./../images/an3.png">
+            <img src="./../images/an3.png">
+            <img src="./../images/an3.png">
+            <img src="./../images/an3.png">
+            <img src="./../images/an3.png">
+
+          </div> 
+          
           
        
           <div class="footer">

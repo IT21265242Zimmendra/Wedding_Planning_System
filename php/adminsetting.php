@@ -18,7 +18,7 @@
                  <a href = "#"><?php echo $name ?></a>
                  <div class="admin-content">
                      <ul>
-                        <li><a href="./../php/User.php">Home</a></li>
+
                          <li><a href="./../php/Admin.php">Dashboard</a></li>
                          <li><a href="logout.php">Log Out</a></li>
                      </ul>

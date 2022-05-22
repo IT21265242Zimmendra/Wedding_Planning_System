@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html>
     <head>
-<link rel="stylesheet" href="./../css/stylesignup.css">
+        <link rel="stylesheet" href="./../css/stylesignup.css">
     </head>
-<title>
-    home page
-</title>
-<body>
+    <title>
+      home page
+    </title>
+    <body>
     
-    <form method="post" action="./../php/signup.php">
-    <div class ="container">
+        <form method="post" action="./../php/signup.php">
+            <div class ="container">
        
-        <h1>Sign-Up</h1>
+                <h1>Sign-Up</h1>
         
-    <input type = "text" id="name" name="Uname" placeholder="User name" pattern="{8,15}" title="  8 to 15 characters required"  required> &nbsp
-    <input type="password" id="password" name="pword" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="  at least 8 or more characters"  required >
-    <br><br>
-    <input type = "text" id="noofguest" name="nofg" placeholder="Number of Guests" required> &nbsp
-    <input type = "date" id="weddingdate" name="wdate" placeholder="Wedding date"  required>
-    <br><br>
+                <input type = "text" id="name" name="Uname" placeholder="User name" pattern="{8,15}" title="  8 to 15 characters required"  required> &nbsp
+                <input type="password" id="password" name="pword" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="  at least 8 or more characters"  required >
+                <br><br>
+                <input type = "text" id="noofguest" name="nofg" placeholder="Number of Guests" required> &nbsp
+                <input type = "date" id="weddingdate" name="wdate" placeholder="Wedding date"  required>
+                <br><br>
     
-    <input type = "text" id="nameofthegroom" name="gname" placeholder="Name of the groom" required>  &nbsp
-    <input type = "text" id="nameofthebride" name="bname" placeholder="Name of the bride" required>
-    <br><br>
-    <input type = "text" id="E-mail" name="email" placeholder="E-mail" required> &nbsp
-    <input type = "text" id="contactinfo" name="mobile" placeholder="Contact info" pattern="[0-9]{10}" title="the contact info should be exactly 10 digits " required>
-    <p>
-    <input type="checkbox" id="rememberpassword" name="rpword" required>
-    <label id="checkbox" >
-        Agreement on the terms and conditions
-   </label>
-    </p>
+                <input type = "text" id="nameofthegroom" name="gname" placeholder="Name of the groom" required>  &nbsp
+                <input type = "text" id="nameofthebride" name="bname" placeholder="Name of the bride" required>
+                <br><br>
+                <input type = "text" id="E-mail" name="email" placeholder="E-mail" required> &nbsp
+                <input type = "text" id="contactinfo" name="mobile" placeholder="Contact info" pattern="[0-9]{10}" title="the contact info should be exactly 10 digits " required>
+                <p>
+                    <input type="checkbox" id="rememberpassword" name="rpword" required>
+                    <label id="checkbox" >
+                        Agreement on the terms and conditions
+                    </label>
+                </p>
     
    
-    <input type="submit" name="submit" value = "Sign-Up">
+                <input type="submit" name="submit" value = "Sign-Up">
 
-</div>
-</form>
-
-
+            </div>
+        </form>
 
 
-</body>
+
+
+    </body>
 
 </html>

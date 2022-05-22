@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
- <head>
- <link rel= "stylesheet" href = "../css/addFeedback.css">
- <title> Add Feedback | The Wedding Table </title>
- </head>
- <body>
+    <head>
+        <link rel= "stylesheet" href = "../css/addFeedback.css">
+        <title> Add Feedback | The Wedding Table </title>
+    </head>
+    <body>
 
 
              <!------------------------------Header------------------------------------>
-             <div class="navbar">
-                <div class = "logo1">
-                    <img src = "./../IMAGES/logo.png" width = "125px">
-                </div>
-                <nav>
-                    <ul>
-                        <li> <a href="./../php/User.php" class="active1">Home</a></li>
-                        <li> <a href="./../php/usercategory.php"class="active1">Categories</a></li>
-                        <li> <a href="./../html/about us.html" class="active1">About Us</a></li>
-                    </ul>
-                </nav>
-                <div class="sign-in">
+        <div class="navbar">
+            <div class = "logo1">
+                <img src = "./../IMAGES/logo.png" width = "125px">
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href="./../php/User.php" class="active1">Home</a></li>
+                    <li> <a href="./../php/usercategory.php"class="active1">Categories</a></li>
+                    <li> <a href="./../html/about us.html" class="active1">About Us</a></li>
+                </ul>
+            </nav>
+            <div class="sign-in">
                   <button class="signinbtn"><img src = "./../IMAGES/pro.png"></button>
                   <div class="sign-in-content">
                     <ul>
@@ -28,51 +28,47 @@
                         <li><a href="./../php/userdashboard.php">Dashboard</a></li>
                     </ul>
                   </div>
-                </div>
-            </div> 
+            </div>
+        </div> 
       
 <!----------------------------------body------------------------------------------------------>
     
-    <div class = container>
-        <form method="post" action="../php/submitAddFeedback.php" >
+        <div class = container>
+            <form method="post" action="../php/submitAddFeedback.php" >
             <!--textarea to include feedback-->
-            <label>Your Feedback</label><br>
-            <textarea name="descr" placeholder="Share your comments and suggestions with us." maxlength="500" required></textarea><br><br>
+                <label>Your Feedback</label><br>
+                <textarea name="descr" placeholder="Share your comments and suggestions with us." maxlength="500" required></textarea><br><br>
 
             <!--Upload image-->
-            <label>Upload Image</label><br>
-            <input type="file" id="fileToUpload" name="fileToUpload" accept="image/*" ><br><br>
+                <label>Upload Image</label><br>
+                <input type="file" id="fileToUpload" name="fileToUpload" accept="image/*" ><br><br>
 
             <!--submit feedback-->
-            <button type="submit" id = "btn" class="subbtn" name="btnS">Submit Feedback</button>
+                <button type="submit" id = "btn" class="subbtn" name="btnS">Submit Feedback</button>
             
 
-        </form>
-    </div>
+            </form>
+        </div>
  
     <!-----------------------------------------Footer---------------------------->
 
-    <footer>
+        <footer>
 
-        <div class="footer">
+            <div class="footer">
                 
-            <img src="./../IMAGES/logo.png" class="logo2" height="15%" width="10%">
+                <img src="./../IMAGES/logo.png" class="logo2" height="15%" width="10%">
                 <img src="./../IMAGES/play-store.png" class="bind1" height="10%" width="10%">
                 <img src="./../IMAGES/app-store.png" class="bind1" height="10%" width="10%">
                 <img src="./../IMAGES/Contact us.png" class="bind1" height="10%" width="10%">
                 
         
-            <img src="./../IMAGES/fb.png" class="bind2"  width="3%">
-            <img src="./../IMAGES/inster.png" class="bind2" width="3%">
-            <img src="./../IMAGES/tw.png" class="bind2" width="3%">
+                <img src="./../IMAGES/fb.png" class="bind2"  width="3%">
+                <img src="./../IMAGES/inster.png" class="bind2" width="3%">
+                <img src="./../IMAGES/tw.png" class="bind2" width="3%">
             
-        </div>
+            </div>
         
         </footer>
-
-
-        
-
  
- </body>
+    </body>
 </html>

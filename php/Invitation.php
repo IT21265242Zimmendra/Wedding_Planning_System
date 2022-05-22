@@ -14,7 +14,7 @@
     <body>
 
          <!------------------------------Header------------------------------------>
-         <div class="navbar">
+        <div class="navbar">
             <div class = "logo1">
                 <img src = "./../IMAGES/logo.png" width = "125px">
             </div>
@@ -29,7 +29,7 @@
               <button class="signinbtn"><img src = "./../IMAGES/pro.png"> &nbsp <?php echo $name ?></button>
               <div class="sign-in-content">
                 <ul>
-                <li><a href="logout.php">Log Out</a></li>
+                    <li><a href="logout.php">Log Out</a></li>
                     <li><a href="usersetting.php">Settings</a></li>
                     <li><a href="userdashboard.php">Dashboard</a></li>
                 </ul>
@@ -57,9 +57,9 @@
             <div class="footer">
                     
                 <img src="./../IMAGES/logo.png" class="logo2" height="15%" width="10%">
-                    <img src="./../IMAGES/play-store.png" class="bind1" height="10%" width="10%">
-                    <img src="./../IMAGES/app-store.png" class="bind1" height="10%" width="10%">
-                    <img src="./../IMAGES/Contact us.png" class="bind1" height="10%" width="10%">
+                <img src="./../IMAGES/play-store.png" class="bind1" height="10%" width="10%">
+                <img src="./../IMAGES/app-store.png" class="bind1" height="10%" width="10%">
+                <img src="./../IMAGES/Contact us.png" class="bind1" height="10%" width="10%">
                     
 
                 <img src="./../IMAGES/fb.png" class="bind2"  width="3%">

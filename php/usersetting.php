@@ -1,6 +1,13 @@
 <?php
-    require('config.php');
     require('setSession.php');
+
+    $cid = "";
+
+  if (isset($_SESSION["Cid"]))
+  {
+      $cid = $_SESSION['Cid'];
+  }
+
 ?>
 
 <!DOCTYPE html>
@@ -82,7 +89,7 @@
 if(isset($_POST["username"]))
 {
     $uname = $_POST["uname"];
-    $sql = "UPDATE customer SET Username = '$uname' WHERE Uid = 'ID001'";
+    $sql = "UPDATE users SET Username = '$uname' WHERE Username = '$name'";
     var_dump($uname);
 
     if($con -> query($sql))
@@ -94,7 +101,7 @@ if(isset($_POST["username"]))
 if(isset($_POST["userpassword"]))
 {
     $password = $_POST["pswd"];
-    $sql = "UPDATE customer SET Password = '$password' WHERE Cid = 'ID001'";
+    $sql = "UPDATE customer SET Password = '$password' WHERE Cid = '$cid'";
     var_dump($password);
 
     if($con -> query($sql))
@@ -106,7 +113,7 @@ if(isset($_POST["userpassword"]))
 if(isset($_POST["useremail"]))
 {
     $uemail = $_POST["email"];
-    $sql = "UPDATE customer SET Email = '$uemail' WHERE Cid = 'ID001'";
+    $sql = "UPDATE customer SET Email = '$uemail' WHERE Cid = '$cid'";
     var_dump($uemail);
 
     if($con -> query($sql))
@@ -118,7 +125,7 @@ if(isset($_POST["useremail"]))
 if(isset($_POST["noofg"]))
 {
     $unoofg = $_POST["nofg"];
-    $sql = "UPDATE customer SET No_of_Guests = '$unoofg' WHERE Cid = 'ID001'";
+    $sql = "UPDATE customer SET No_of_Guests = '$unoofg' WHERE Cid = '$cid'";
     var_dump($unoofg);
 
     if($con -> query($sql))
@@ -130,7 +137,7 @@ if(isset($_POST["noofg"]))
 if(isset($_POST["contact_n"]))
 {
     $ucontact_n = $_POST["contact"];
-    $sql = "UPDATE customer_contact SET Phone = '$ucontact_n' WHERE Cid = 'ID001'";
+    $sql = "UPDATE customer_contact SET Phone = '$ucontact_n' WHERE Cid = '$cid'";
 
     if($con -> query($sql))
     {
@@ -141,7 +148,7 @@ if(isset($_POST["contact_n"]))
 if(isset($_POST["dltbtn"]))
 {
     $udlt = $_POST["dltbtn"];
-    $sql = "DELETE from customer  WHERE Cid = 'ID001'";
+    $sql = "DELETE from customer  WHERE Cid = '$cid'";
 
     if($con -> query($sql))
     {

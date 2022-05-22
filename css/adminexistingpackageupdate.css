@@ -6,30 +6,49 @@
 }
 
 body{
-	height: 100vh;
-	background-image: linear-gradient(to bottom right, rgb(37, 143, 8), rgba(17, 196, 82, 0.634));
-	background-repeat: no-repeat;
+	
+	background-image: url("./../images/updatepackage.jpg");
+	background-size: cover;
  }
 
 .container1{
 
-    background-color: rgba(0, 0, 0, 0.24);
+    background-color: rgba(255, 255, 255, 0.24);
 	margin: auto auto;
 	padding: 30px 0px 85px 0px;
 	border-radius: 8px;
 	box-shadow: 0 0 10px #000;
 	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
 	right: 0;
-	width: 30%;
-	height: 45vh;
-    margin-top: 5%;
+	width: 40%;
+	height: 40%;
+    left:9%;
 	color: rgb(238, 241, 244);
-	top:35%;
+	top:30%;
 }
-
+#packagename{
+    left: 40px;
+    position: relative;
+}
+#vendorname{
+    left: 40px;
+    position: relative;
+}
+.btnypdate{
+      
+      position:absolute;
+	  top:85%;
+	  left:70%;
+	  border-style: none;
+	  background-color:crimson;
+	  width: 20%;
+      height: 10%;
+      
+}
+.btnypdate:hover{
+    
+    transform: scaleX(1.1);
+}
 h1{
     text-align: center;
     color: rgb(238, 241, 244);

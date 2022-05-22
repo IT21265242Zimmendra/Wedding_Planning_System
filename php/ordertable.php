@@ -1,5 +1,5 @@
 <?php 
-require('setSession.php');
+    require('setSession.php');
 ?>
  <!DOCTYPE html>
 <html>
@@ -14,10 +14,10 @@ require('setSession.php');
                <div class = "details">
                     <img src = "./../images/pro.png" class = "logo1">
                 
-                    <a href = "#" class = "btn"><?php $name ?></a>
+                    <a href = "#" class = "btn"><?php echo $name ?></a>
                     <div class="admin-content">
                         <ul>
-                            <li><a href="./../php/adminsetting.php">Settings</a></li>
+                            <li><a href="./../php/adminsdashboard.php">Dashboard</a></li>
                             <li><a href="./../html/Visitor.html">Log Out</a></li>
                          
                         </ul>

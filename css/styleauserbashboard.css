@@ -15,7 +15,7 @@ body{
 	border-radius: 8px;
 	box-shadow: 0 0 10px #000;
 	position: absolute;
-	top: 30px;
+	top: 30%;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -58,14 +58,7 @@ th {
 	  height: min-content;
 	  
   }
-  .addmoreitems{
-	  position:absolute;
-	  top:85%;
-	  margin-left:660px;
-	  border-style: none;
-	  background-color:crimson;
-	  height: min-content;
-  }
+
   .setting{
 	  position:absolute;
 	  top:85%;
@@ -74,7 +67,7 @@ th {
 	  background-color: rgba(95, 95, 95, 0.644);
 	  color:white;
 	  height: min-content;
-	  margin-left:360px;
+	  margin-left:660px;
   }
 
   .container{

@@ -37,7 +37,7 @@
           <h1>User dashboard</h1>  
         
            <button class = "addfeedback" onclick="location.href = 'feedback.php';" >Add feedback</button>
-           <button class = "addmoreitems" onclick ="location.href = 'userCategory.php'">Add more Items</button>
+           
            <button class = "setting" onclick ="location.href = 'usersetting.php'"> Settings </button>
            
         </div>

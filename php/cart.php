@@ -7,21 +7,21 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-        <link rel = "stylesheet" href = "./../CSS/cart.css?v=<?php echo time(); ?>">
-</script>
-</head>
+    <head>
+            <link rel = "stylesheet" href = "./../CSS/cart.css?v=<?php echo time(); ?>">
+        </script>
+    </head>
 
 
-<form >
-    <div class ="container">
-        <h1>Cart</h1>
-    <div>
-    <div class="buttons">
-        <a href="./../html/paymentmethod.html" class="button">Payment</a>
-        <a href="./../php/userCategory.php" class="addmore">Add Category</a>
-    </div>
-    </form>
+        <form >
+            <div class ="container">
+                <h1>Cart</h1>
+            </div>
+            <div class="buttons">
+                <a href="./../html/paymentmethod.html" class="button">Payment</a>
+                <a href="./../php/userCategory.php" class="addmore">Add Category</a>
+            </div>
+        </form>
 </html>
 
 

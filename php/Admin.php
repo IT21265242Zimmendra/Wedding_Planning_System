@@ -23,7 +23,7 @@
                     <div class="admin-content">
                         <ul>
                             <li><a href="./../php/adminsetting.php">Settings</a></li>
-                            <li><a href="./../html/Visitor.html">Log Out</a></li>
+                            <li><a href="logout.php">Log Out</a></li>
                          
                         </ul>
                     </div>

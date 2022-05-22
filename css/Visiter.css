@@ -135,7 +135,7 @@ p{
 
 .hearts img{
     width:100px;
-    animation: bubble 8s linear infinite;
+    animation: bubble 10s linear infinite;
   }
   
   .hearts{
@@ -144,7 +144,7 @@ p{
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    bottom:-350px;
+    bottom:-200px;
   }
   
   @keyframes bubble{

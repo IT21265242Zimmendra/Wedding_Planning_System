@@ -2,7 +2,6 @@
     require('config.php');
     require('setCid.php');
 
-    session_start();
 
     $_SESSION['cart'] = array();
 ?>
@@ -31,7 +30,7 @@
 
     $sql = "select c.Category_Name,v.Name, p.Package_Name,p.price, p.pid
     from vendors v,package p,category c,customer_package cp
-    Where p.vid = v.vid and v.category_name = c.Category_Name and cp.pid = p.pid and cp.Cid ='1'";
+    Where p.vid = v.vid and v.category_name = c.Category_Name and cp.pid = p.pid and cp.Cid ='$cid'";
     
   
 

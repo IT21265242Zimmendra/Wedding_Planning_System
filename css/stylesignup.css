@@ -46,13 +46,7 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover{
-        background-image: linear-gradient( rgba(234, 0, 255, 0.205) , rgba(255, 0, 255, 0.178));
-        height: 30px;
-        width: 500px;
-        border-radius: 20px;
-        
-    }
+
 p{
     color: aliceblue;
     

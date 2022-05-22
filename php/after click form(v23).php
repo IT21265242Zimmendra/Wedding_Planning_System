@@ -13,8 +13,7 @@
     </head>
     <body>
     <div class ="container">
-    <form>
-       
+    
        
         <h1>
         <?php 
@@ -125,6 +124,6 @@
         
         <div>
 
-    </form>
+
   </body>
 </html>

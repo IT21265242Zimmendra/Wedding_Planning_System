@@ -268,4 +268,17 @@ span
     margin-left: 35%;
 }
 
+.cart{
+        position: absolute;
+        margin-left: 90%;
+        background-color: rgba(238, 204, 12, 0.966);
+        padding: 12px 20px;
+        text-decoration:none;
+        font-weight:bold;
+        border-radius:5px;
+        cursor:pointer;
+        margin-top: -4%; 
+        color: black;
+}
+
 

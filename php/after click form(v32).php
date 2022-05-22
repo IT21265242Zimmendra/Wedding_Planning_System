@@ -1,3 +1,9 @@
+<?php
+    require ('config.php');
+?>
+
+
+
 <html>
     <head>
         <link rel="stylesheet" href="../css/InvC.css?v=<?php echo time(); ?>s"> 
@@ -68,6 +74,12 @@
                     </select>
 
                     <br><br>
+
+                    <?php
+                        $sql="select price from package where vid = '31'";
+                        $sql="select price from package where vid = '31'";
+                        $sql="select price from package where vid = '31'";
+                    ?>
 
                     <label>Price/card</label><br>
                     <textarea name="price"></textarea>

@@ -1,6 +1,6 @@
 <?php
     require('config.php');
-    require('cid.php');
+ 
 
 ?>
 
@@ -65,7 +65,7 @@
                 <nav>
                     <ul>
                     
-                    &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="#"><p>
+                    &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="navitems.php?id=190"><p>
  
 
                         <?php
@@ -85,7 +85,7 @@
  
 
 ?></p></a></button></li>
-                    &nbsp;&nbsp; &nbsp; <li><button class = "btnpackage"><a href="#"><p><?php
+                    &nbsp;&nbsp; &nbsp; <li><button class = "btnpackage"><a href="navitems.php?id=191"><p><?php
   require("config.php");
 
   $sql = "SELECT Package_Name,Price
@@ -102,7 +102,7 @@
  
 
 ?></p></a></button></li>
-                     &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="#"><p><?php
+                     &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="navitems.php?id=192"><p><?php
   require("config.php");
 
   $sql = "SELECT Package_Name,Price

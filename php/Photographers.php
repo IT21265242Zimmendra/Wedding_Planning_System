@@ -39,12 +39,12 @@
         <h2>Wedding Photography</h2>
 
         <div class="Categories">
-            <a href="./../php/after click form(13).php"><div class="item1 item"><p><span>Dark Room</span></p></div></a>
-            <a href="./../php/after click form(14).php"><div class="item2 item"><p><span>Danushka Senadeera Photography</span></p></div></a>
-            <a href="./../php/after click form(15).php"><div class="item3 item"><p><span>STUDIO3000DF</span></p></div></a>
-            <a href="./../php/after click form(16).php"><div class="item4 item"><p><span>Shine Photography</span></p></div></a>
-            <a href="./../php/after click form(17).php"><div class="item5 item"><p><span>Amarante Lifestyle Studio</span></p></div></a>
-            <a href="./../php/after click form(18).php"><div class="item6 item"><p><span>Beyond Destiny</span></p></div></a>
+            <a href="./../php/after click form(v13).php"><div class="item1 item"><p><span>Dark Room</span></p></div></a>
+            <a href="./../php/after click form(v14).php"><div class="item2 item"><p><span>Danushka Senadeera Photography</span></p></div></a>
+            <a href="./../php/after click form(v15).php"><div class="item3 item"><p><span>STUDIO3000DF</span></p></div></a>
+            <a href="./../php/after click form(v16).php"><div class="item4 item"><p><span>Shine Photography</span></p></div></a>
+            <a href="./../php/after click form(v17).php"><div class="item5 item"><p><span>Amarante Lifestyle Studio</span></p></div></a>
+            <a href="./../php/after click form(v18).php"><div class="item6 item"><p><span>Beyond Destiny</span></p></div></a>
         </div>
 
          <!-----------------------------------------Footer---------------------------->

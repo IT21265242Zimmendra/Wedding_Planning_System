@@ -41,12 +41,12 @@
         <h2>Music</h2>
 
         <div class="Categories">
-            <a href="./../php/after click form(37).php"><div class="item1 item"><p><span>Kurumba</span></p></div></a>
-            <a href="./../php/after click form(38).php"><div class="item2 item"><p><span>Ministry</span></p></div></a>
-            <a href="./../php/after click form(39).php"><div class="item3 item"><p><span>The Gypsies</span></p></div></a>
-            <a href="./../php/after click form(40).php"><div class="item4 item"><p><span>Marians</span></p></div></a>
-            <a href="./../php/after click form(41).php"><div class="item5 item"><p><span>JAYASRI</span></p></div></a>
-            <a href="./../php/after click form(42).php"><div class="item6 item"><p><span>2FORTY2</span></p></div></a>
+            <a href="./../php/after click form(v37).php"><div class="item1 item"><p><span>Kurumba</span></p></div></a>
+            <a href="./../php/after click form(v38).php"><div class="item2 item"><p><span>Ministry</span></p></div></a>
+            <a href="./../php/after click form(v39).php"><div class="item3 item"><p><span>The Gypsies</span></p></div></a>
+            <a href="./../php/after click form(v40).php"><div class="item4 item"><p><span>Marians</span></p></div></a>
+            <a href="./../php/after click form(v41).php"><div class="item5 item"><p><span>JAYASRI</span></p></div></a>
+            <a href="./../php/after click form(v42).php"><div class="item6 item"><p><span>2FORTY2</span></p></div></a>
         </div>
 
          <!-----------------------------------------Footer---------------------------->

@@ -1,6 +1,6 @@
 <?php
     require('config.php');
-    require('cid.php');
+
 
 ?>
 
@@ -55,7 +55,7 @@
                         echo "no result";
                     } 
 
-                    $con->close();
+               
                 ?>
             <h3></div>
 

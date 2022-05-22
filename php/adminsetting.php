@@ -63,11 +63,13 @@
        
        $uname = $_POST["uname"];
        $sql = "UPDATE users SET Username = '$uname' WHERE Username = '$name'";
+      
        
 
        if($con -> query($sql))
        {
            echo "Updated successfully";
+           $_SESSION["Username"] = $uname;
        }
    }
    if(isset($_POST["adminpwrd"]))
@@ -86,7 +88,7 @@
 
        if($con->query($sql)){
            echo "Deleted successfully";
-           header('Location:./../html/Visitor.html');
+           header('Location:Visitor.php');
        }
    }
   

@@ -90,11 +90,11 @@ if(isset($_POST["username"]))
 {
     $uname = $_POST["uname"];
     $sql = "UPDATE users SET Username = '$uname' WHERE Username = '$name'";
-    var_dump($uname);
 
     if($con -> query($sql))
     {
         echo"Updated Successfully";
+        $_SESSION["Username"] = uname;
     }
 }
 
@@ -102,7 +102,6 @@ if(isset($_POST["userpassword"]))
 {
     $password = $_POST["pswd"];
     $sql = "UPDATE customer SET Password = '$password' WHERE Cid = '$cid'";
-    var_dump($password);
 
     if($con -> query($sql))
     {
@@ -114,7 +113,6 @@ if(isset($_POST["useremail"]))
 {
     $uemail = $_POST["email"];
     $sql = "UPDATE customer SET Email = '$uemail' WHERE Cid = '$cid'";
-    var_dump($uemail);
 
     if($con -> query($sql))
     {
@@ -126,7 +124,7 @@ if(isset($_POST["noofg"]))
 {
     $unoofg = $_POST["nofg"];
     $sql = "UPDATE customer SET No_of_Guests = '$unoofg' WHERE Cid = '$cid'";
-    var_dump($unoofg);
+
 
     if($con -> query($sql))
     {
@@ -153,6 +151,7 @@ if(isset($_POST["dltbtn"]))
     if($con -> query($sql))
     {
         echo"Delete Successfully";
+        header('Location:Visitor.php');
     }
 }
 

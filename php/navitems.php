@@ -16,6 +16,8 @@
 
     $sql = "Update vendors SET Number_of_Clicks = Number_of_clicks + 1 where Vid = '$vid'";
     $result = $con -> query($sql);
-
+   
+    $sql = "INSERT INTO customer_package VALUES ('$cid','$pid') ";
+    $result = $con -> query($sql);
 
 ?>

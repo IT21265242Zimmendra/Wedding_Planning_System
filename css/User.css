@@ -25,7 +25,7 @@ nav ul{
 
 nav ul li{
     list-style:none;
-    margin: 0 50px;
+    margin: 0 40px;
     cursor: pointer;
 }
 
@@ -34,7 +34,7 @@ nav ul li{
 {
     width: 220px;
     height:180px;
-    margin-left: -100px;
+    margin-left: -50px;
 }
 
 .sign-in img{
@@ -64,7 +64,7 @@ nav ul li{
   .sign-in {
     position: relative;
     display: inline-block;
-    margin-right: -60px;
+    margin-right: -40px;
   }
   
   .sign-in-content {
@@ -137,6 +137,7 @@ p{
 .col-2 img{
     max-width: 100%;
     padding: 50px 0px;
+    margin-left: 50px;
 }
 
 .col-2{
@@ -145,12 +146,25 @@ p{
     margin: 25px 0px;
 }
 
+.col-2 p{
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 2px 2px#000;
+}
+
+.col-2 h1{
+  color: white;
+  text-align: center;
+}
+
+
 .btn{
     display:inline-block;
-    background: #ff523b;
+    background: #a81630;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
+    margin-left: 200px;
     border-radius: 30px;
     text-decoration: none;
 }

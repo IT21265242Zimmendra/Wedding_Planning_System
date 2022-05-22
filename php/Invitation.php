@@ -26,7 +26,7 @@
                 </ul>
             </nav>
             <div class="sign-in">
-              <button class="signinbtn"><img src = "./../IMAGES/pro.png"> &nbsp <?php echo $username ?></button>
+              <button class="signinbtn"><img src = "./../IMAGES/pro.png"> &nbsp <?php echo $name ?></button>
               <div class="sign-in-content">
                 <ul>
                     <li><a href="#">Log Out</a></li>
@@ -42,12 +42,12 @@
         <h2>Invitation Cards</h2>
 
         <div class="Categories">
-            <a href="after click form(1).php"><div class="item1 item"><p><span>Anim8(Pvt.)Ltd</span></p></div></a>
-            <a href="#"><div class="item2 item"><p><span>Sahani Michelle</span></p></div></a>
-            <a href="#"><div class="item3 item"><p><span>Weddingway.lk</span></p></div></a>
-            <a href="#"><div class="item4 item"><p><span>Elegance by Design</span></p></div></a>
-            <a href="#"><div class="item5 item"><p><span>The Wedding Shop</span></p></div></a>
-            <a href="#"><div class="item6 item"><p><span>Colombo Card Factory</span></p></div></a>
+            <a href="./../php/after click form(v31).php"><div class="item1 item"><p><span>Anim8(Pvt.)Ltd</span></p></div></a>
+            <a href="./../php/after click form(v32).php"><div class="item2 item"><p><span>Sahani Michelle</span></p></div></a>
+            <a href="./../php/after click form(v33).php"><div class="item3 item"><p><span>Weddingway.lk</span></p></div></a>
+            <a href="./../php/after click form(v34).php"><div class="item4 item"><p><span>Elegance by Design</span></p></div></a>
+            <a href="./../php/after click form(v35).php"><div class="item5 item"><p><span>The Wedding Shop</span></p></div></a>
+            <a href="./../php/after click form(v36).php"><div class="item6 item"><p><span>Colombo Card Factory</span></p></div></a>
         </div>
 
          <!-----------------------------------------Footer---------------------------->

@@ -156,7 +156,7 @@ nav .details a{
   
   .admin-content a {
     color: rgb(253, 245, 245);
-    padding: 15px 20px 0px 20px;
+    padding: 20px 20px 0px 20px;
     background-color: #000;
     border-bottom: 1px dotted #fff;
     text-decoration: none;
@@ -168,6 +168,7 @@ nav .details a{
   .details:hover  .admin-content{display: block;}
   
   .admin-content:hover .btn{background-color: #3c3f3cf1;}
+
 
   
   

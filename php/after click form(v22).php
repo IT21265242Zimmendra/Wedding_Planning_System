@@ -1,6 +1,5 @@
 <?php
     require('config.php');
-    require('setCid.php');
 
 ?>
 
@@ -39,7 +38,7 @@
             <img src = "./../images/ChamathkaraFlora.jpg" class = "hotelimages">
             <div class="description"><h3>
                 <?php 
-                    $sql = "select description from vendors where vid = '22'";
+                    $sql = "select description from vendors where vid = '64'";
                     $result = $con->query($sql);
 
                     if($result ->num_rows>0)
@@ -56,7 +55,6 @@
                         echo "no result";
                     } 
 
-                    $con->close();
                 ?>
             <h3></div>
 
@@ -65,7 +63,7 @@
                 <nav>
                     <ul>
                     
-                    &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="#"><p>
+                    &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="navitems.php?id=65"><p>
  
 
                         <?php
@@ -85,8 +83,8 @@
  
 
 ?></p></a></button></li>
-                    &nbsp;&nbsp; &nbsp; <li><button class = "btnpackage"><a href="#"><p><?php
-
+                    &nbsp;&nbsp; &nbsp; <li><button class = "btnpackage"><a href="navitems.php?id=66"><p><?php
+  require("config.php");
 
   $sql = "SELECT Package_Name,Price
   From Package

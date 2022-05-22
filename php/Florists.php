@@ -26,7 +26,7 @@
                 </ul>
             </nav>
             <div class="sign-in">
-              <button class="signinbtn"><img src = "./../images/pro.png"> &nbsp <?php echo $username ?></button>
+              <button class="signinbtn"><img src = "./../images/pro.png"> &nbsp <?php echo $name ?></button>
               <div class="sign-in-content">
                 <ul>
                     <li><a href="#">Log Out</a></li>
@@ -42,12 +42,12 @@
         <h2>Florists</h2>
 
         <div class="Categories">
-            <a href="./../php/after click form(19).php"><div class="item1 item"><p><span>Lassana Flora</span></p></div></a>
-            <a href="./../php/after click form(13).php"><div class="item2 item"><p><span>Shirohana</span></p></div></a>
-            <a href="./../php/after click form(13).php"><div class="item3 item"><p><span>Blooms Flower Shop</span></p></div></a>
-            <a href="./../php/after click form(13).php"><div class="item4 item"><p><span>Chamathkara Flora</span></p></div></a>
-            <a href="./../php/after click form(13).php"><div class="item5 item"><p><span>Flower Bug</span></p></div></a>
-            <a href="./../php/after click form(13).php"><div class="item6 item"><p><span>amalka flora</span></p></div></a>
+            <a href="./../php/after click form(v19).php"><div class="item1 item"><p><span>Lassana Flora</span></p></div></a>
+            <a href="./../php/after click form(v20).php"><div class="item2 item"><p><span>Shirohana</span></p></div></a>
+            <a href="./../php/after click form(v21).php"><div class="item3 item"><p><span>Blooms Flower Shop</span></p></div></a>
+            <a href="./../php/after click form(v22).php"><div class="item4 item"><p><span>Chamathkara Flora</span></p></div></a>
+            <a href="./../php/after click form(v23).php"><div class="item5 item"><p><span>Flower Bug</span></p></div></a>
+            <a href="./../php/after click form(v24).php"><div class="item6 item"><p><span>amalka flora</span></p></div></a>
         </div>
 
          <!-----------------------------------------Footer---------------------------->

@@ -1,6 +1,5 @@
 <?php
     require('config.php');
-    require('setCid.php');
 
 ?>
 
@@ -55,7 +54,7 @@
                         echo "no result";
                     } 
 
-                    $con->close();
+
                 ?>
             <h3></div>
 
@@ -64,7 +63,7 @@
                 <nav>
                     <ul>
                     
-                    &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="#"><p>
+                    &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="navitems.php?id=31"><p>
  
 
                         <?php
@@ -83,8 +82,8 @@
  
 
 ?></p></a></button></li>
-                    &nbsp;&nbsp; &nbsp; <li><button class = "btnpackage"><a href="#"><p><?php
-
+                    &nbsp;&nbsp; &nbsp; <li><button class = "btnpackage"><a href="navitems.php?id=32"><p><?php
+  require("config.php");
 
   $sql = "SELECT Package_Name,Price
   From Package
@@ -100,8 +99,8 @@
  
 
 ?></p></a></button></li>
-                     &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="#"><p><?php
-
+                     &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="navitems.php?id=33"><p><?php
+  require("config.php");
 
   $sql = "SELECT Package_Name,Price
   From Package

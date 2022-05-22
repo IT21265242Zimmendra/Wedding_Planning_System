@@ -1,6 +1,5 @@
 <?php
     require('config.php');
-    require('setCid.php');
 
 ?>
 
@@ -54,7 +53,7 @@
                         echo "no result";
                     } 
 
-                    $con->close();
+               
                 ?>
             <h3></div>
 

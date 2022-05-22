@@ -15,9 +15,10 @@
             <div class = "details">
                  <img src = "./../images/pro.png" class = "logo1">
              
-                 <a href = "#"><?php echo $username ?></a>
+                 <a href = "#"><?php echo $name ?></a>
                  <div class="admin-content">
                      <ul>
+                        <li><a href="./../php/User.php">Home</a></li>
                          <li><a href="./../php/Admin.php">Dashboard</a></li>
                          <li><a href="./../html/Visitor.html">Log Out</a></li>
                      </ul>
@@ -32,7 +33,7 @@
        
        <form method = "post" action = "./../php/adminsetting.php">
            <label for="uname" id="setting">Change Admin Name</label><br>
-           <input type="text" id="setting" name="uname" pattern="{8,15}" title="  At least 8 or more characters" >
+           <input type="text" id="setting" name="uname" pattern="{8,15}" title="  At least 8 or more characters" > 
            <input type = "submit" class="btn" name = "adminname"><br><br>
        
        </form> 
@@ -49,7 +50,7 @@
        </form>
 
        <form>
-            <a href="adminaccountcreate.html"><input type ="submit" value="Add Admin account" class = "addadminacoount"></a>
+            <button class = "addadminacoount"><a href="./../html/adminaccountcreate.html"> Add admin account </a></button>
        </form>
     </div>
 </body>
@@ -61,7 +62,7 @@
    {
        
        $uname = $_POST["uname"];
-       $sql = "UPDATE users SET Username = '$uname' WHERE Uid = 'UD001'";
+       $sql = "UPDATE users SET Username = '$uname' WHERE Username = '$name'";
        
 
        if($con -> query($sql))
@@ -73,7 +74,7 @@
    {
     
        $password = $_POST["pswd"];
-       $sql = "UPDATE users set Password = '$password' where Uid = 'UD001'";
+       $sql = "UPDATE users set Password = '$password' WHERE Username = '$name'";
        if($con ->query($sql)){
            echo "Updated successfully";
        }
@@ -81,11 +82,11 @@
    if(isset($_POST["deletaccount"])){
         
        $delete = $_POST["deletaccount"];
-       $sql = "DELETE FROM users where Uid = 'UD001'";
+       $sql = "DELETE FROM users WHERE Username = '$name'";
 
        if($con->query($sql)){
            echo "Deleted successfully";
-           header('Location:./../html/Visitor.html')
+           header('Location:./../html/Visitor.html');
        }
    }
   

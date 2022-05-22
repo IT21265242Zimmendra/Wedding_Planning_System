@@ -7,7 +7,6 @@ body{
 }
 
 .container{
-
     background-color: rgba(0, 0, 0, 0.24);
 	margin: auto auto;
 	padding: 40px;
@@ -21,6 +20,7 @@ body{
 	width: 500px;
 	height: 450px;
 }
+
 .container input{
     margin: 10px 0px;
     border: none;
@@ -33,23 +33,20 @@ h1{
     text-align: center;
     color: aliceblue;
 }
-.container .button{
-    padding-left: 48%; 
-    top: 64%;
-    position: relative;
+
+
+
+input[type=submit] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
-.button{
-        border-style: none;
-        text-decoration-style: solid;
-
-        height: 30px;
-        width: 500px;
-        border-radius: 15px;
-        
-    }
-
-.button:hover{
+input[type=submit]:hover{
         background-image: linear-gradient( rgba(234, 0, 255, 0.205) , rgba(255, 0, 255, 0.178));
         height: 30px;
         width: 500px;

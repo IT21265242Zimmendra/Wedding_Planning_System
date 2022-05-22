@@ -2,6 +2,7 @@
    require('setSession.php');
 
    $totalPrice = $_SESSION['Totalprice'];
+
 ?>
 
 <html>
@@ -38,7 +39,7 @@
         <!----------------------------------------Payment Portal------------------------------------------->
         
         <div class="form">
-            <form>
+            <form method = "post" action = "submitOrder.php" >
                 <label>
                     Name on Card
                 </label>
@@ -70,7 +71,7 @@
                 
                 <br><br><br><br>
 
-                <p id="tot">Total : <?> echo $totalPrice?> </p>
+                <p id="tot">Total : <?php echo $totalPrice ?> </p>
                 <br><br>
                 <input type="submit" id="pay" value="Pay">
         

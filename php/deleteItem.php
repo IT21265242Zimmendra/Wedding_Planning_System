@@ -8,6 +8,7 @@
     if ( $con -> query($sql))
     {
         echo "<script>Deleted succesfully</script>";
+        header("location:cart.php");
     }
     else
     {

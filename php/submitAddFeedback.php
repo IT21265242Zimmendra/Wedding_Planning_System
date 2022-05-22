@@ -1,8 +1,10 @@
 <?php
 include("config.php");
 
+require('setCid.php');
+
 $desc = $_POST["descr"];
-$cid = "1";
+
 
 
 $sql = "INSERT INTO feedback(description , Cid)

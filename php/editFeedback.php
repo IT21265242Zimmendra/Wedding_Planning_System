@@ -14,27 +14,27 @@
     <!------------------------------Header------------------------------------>
 
     <div class="navbar">
-        <div class = "logo1">
-            <img src = "./../IMAGES/logo.png" width = "125px">
-        </div>
-        <nav>
-            <ul>
-                <li> <a href="User.php" class="active1">Home</a></li>
-                <li> <a href="usercategory.php"class="active1">Categories</a></li>
-                <li> <a href="./../html/about us.html" class="active1">About Us</a></li>
-            </ul>
-        </nav>
-        <div class="sign-in">
-          <button class="signinbtn"><img src = "./../IMAGES/pro.png"> &nbsp Sign In</button>
-          <div class="sign-in-content">
-            <ul>
-                <li><a href="logout.php">Log Out</a></li>
-                <li><a href="usersetting.php">Settings</a></li>
-                <li><a href="userdashboard.php">Dashboard</a></li>
-            </ul>
-          </div>
-        </div>
-    </div> 
+            <div class = "logo1">
+                <img src = "./../IMAGES/logo.png" width = "125px">
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href="User.php" class="active1">Home</a></li>
+                    <li> <a href="usercategory.php"class="active1">Categories</a></li>
+                    <li> <a href="./../html/about us.html" class="active1">About Us</a></li>
+                </ul>
+            </nav>
+            <div class="sign-in">
+              <button class="signinbtn"><img src = "./../IMAGES/pro.png"></button>
+              <div class="sign-in-content">
+                <ul>
+                    <li><a href="logout.php">Log Out</a></li>
+                    <li><a href="usersetting.php">Settings</a></li>
+                    <li><a href="userdashboard.php">Dashboard</a></li>
+                </ul>
+              </div>
+            </div>
+        </div> 
     
 <!----------------------------------------body------------------------------------------------>
     

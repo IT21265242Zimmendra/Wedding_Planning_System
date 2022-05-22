@@ -1,5 +1,4 @@
 <?php
-    require('config.php');
     require('setCid.php');
 
 
@@ -8,21 +7,21 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-        <link rel = "stylesheet" href = "./../CSS/cart.css?v=<?php echo time(); ?>">
-</script>
-</head>
+    <head>
+            <link rel = "stylesheet" href = "./../CSS/cart.css?v=<?php echo time(); ?>">
+        </script>
+    </head>
 
 
-<form >
-    <div class ="container">
-        <h1>Cart</h1>
-    <div>
-    <div class="buttons">
-        <a href="./../html/paymentmethod.html" class="button">Payment</a>
-        <a href="./../php/userCategory.php" class="addmore">Add Category</a>
-    </div>
-    </form>
+        <form >
+            <div class ="container">
+                <h1>Cart</h1>
+            </div>
+            <div class="buttons">
+                <a href="./../html/paymentmethod.html" class="button">Payment</a>
+                <a href="./../php/userCategory.php" class="addmore">Add Category</a>
+            </div>
+        </form>
 </html>
 
 
@@ -52,7 +51,7 @@
                 array_push($_SESSION['cart'],$row["Category_Name"]); 
 
                 echo "<tr>";
-                echo "<td width = '20%'>" . "<button type = 'submit'>"."<a href = 'deleteItem.php?id=$pid'>-</a></button></td>";
+                echo "<td width = '20%'>" . "<button type = 'submit' class = 'deletebtn'>"."<a href = 'deleteItem.php?id=$pid'>delete</a></button></td>";
                 echo "<td >".$row["Category_Name"]."</td>";
                 echo "<td>".$row["Name"]."</td>";
                 echo "<td>"."<a href = ''>".$row["Package_Name"]."</a>"."</td>";
@@ -71,11 +70,7 @@
     }
     
 
-    else{
-        echo "<script> alert('No record')</script>";
-        echo "No result";
-    }
-
+   
 
 ?>
 

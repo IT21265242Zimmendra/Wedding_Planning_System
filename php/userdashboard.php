@@ -1,6 +1,14 @@
 <?php
  
     require('setsession.php');
+
+    $cid = "";
+
+  if (isset($_SESSION["Cid"]))
+  {
+      $cid = $_SESSION['Cid'];
+  }
+
 ?>
 <html>
     
@@ -29,8 +37,8 @@
           <h1>User dashboard</h1>  
         
            <button class = "addfeedback" onclick="location.href = 'feedback.php';" >Add feedback</button>
-           <button class = "addmoreitems" >Add more Items</button>
-           <button class = "setting"> Settings </button>
+           
+           <button class = "setting" onclick ="location.href = 'usersetting.php'"> Settings </button>
            
         </div>
     </body>

@@ -68,6 +68,11 @@ margin-left:-1%;
   
     
 }
+.deletebtn{
+    color:#4CAF50;
+    border-style: none;
+    background-color: #4169e1;
+}
 .button{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     top: 93%;

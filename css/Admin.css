@@ -199,7 +199,7 @@ nav .details a{
     }
 .btnupdateexistingpackage{
     position: absolute;
-    right: 10%;
+    right: 9%;
     top:135%;
     background-color: rgba(6, 10, 245, 0.99);
     border-style: none;
@@ -214,7 +214,7 @@ a{
 }
 .btncheckingupdate{
     position: absolute;
-    left: 2%;
+    left: 3%;
     top:135%;
     background-color:crimson;
     border-style: none;

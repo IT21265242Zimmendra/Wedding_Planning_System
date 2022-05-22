@@ -42,12 +42,108 @@
         <h2>Music</h2>
 
         <div class="Categories">
-            <a href="./../php/after click form(v37).php"><div class="item1 item"><p><span>Kurumba</span></p></div></a>
-            <a href="./../php/after click form(v38).php"><div class="item2 item"><p><span>Ministry</span></p></div></a>
-            <a href="./../php/after click form(v39).php"><div class="item3 item"><p><span>The Gypsies</span></p></div></a>
-            <a href="./../php/after click form(v40).php"><div class="item4 item"><p><span>Marians</span></p></div></a>
-            <a href="./../php/after click form(v41).php"><div class="item5 item"><p><span>JAYASRI</span></p></div></a>
-            <a href="./../php/after click form(v42).php"><div class="item6 item"><p><span>2FORTY2</span></p></div></a>
+            <a href="./../php/after click form(v37).php"><div class="item1 item"><p><span><?php
+
+$sql = "SELECT Name
+From vendors
+Where vid = '37'";
+
+$result = $con -> query($sql);
+
+if($result->num_rows>0)
+{
+    while($row = $result -> fetch_assoc())
+    {
+      echo $row["Name"] ;
+    }
+
+}
+?></span></p></div></a>
+            <a href="./../php/after click form(v38).php"><div class="item2 item"><p><span><?php
+
+$sql = "SELECT Name
+From vendors
+Where vid = '38'";
+
+$result = $con -> query($sql);
+
+if($result->num_rows>0)
+{
+    while($row = $result -> fetch_assoc())
+    {
+      echo $row["Name"] ;
+    }
+
+}
+?></span></p></div></a>
+            <a href="./../php/after click form(v39).php"><div class="item3 item"><p><span><?php
+
+$sql = "SELECT Name
+From vendors
+Where vid = '39'";
+
+$result = $con -> query($sql);
+
+if($result->num_rows>0)
+{
+    while($row = $result -> fetch_assoc())
+    {
+      echo $row["Name"] ;
+    }
+
+}
+?></span></p></div></a>
+            <a href="./../php/after click form(v40).php"><div class="item4 item"><p><span><?php
+
+$sql = "SELECT Name
+From vendors
+Where vid = '40'";
+
+$result = $con -> query($sql);
+
+if($result->num_rows>0)
+{
+    while($row = $result -> fetch_assoc())
+    {
+      echo $row["Name"] ;
+    }
+
+}
+?></span></p></div></a>
+            <a href="./../php/after click form(v41).php"><div class="item5 item"><p><span><?php
+
+$sql = "SELECT Name
+From vendors
+Where vid = '41'";
+
+$result = $con -> query($sql);
+
+if($result->num_rows>0)
+{
+    while($row = $result -> fetch_assoc())
+    {
+      echo $row["Name"] ;
+    }
+
+}
+?></span></p></div></a>
+            <a href="./../php/after click form(v42).php"><div class="item6 item"><p><span><?php
+
+$sql = "SELECT Name
+From vendors
+Where vid = '42'";
+
+$result = $con -> query($sql);
+
+if($result->num_rows>0)
+{
+    while($row = $result -> fetch_assoc())
+    {
+      echo $row["Name"] ;
+    }
+
+}
+?></span></p></div></a>
         </div>
 
          <!-----------------------------------------Footer---------------------------->

@@ -54,13 +54,14 @@
 
                 <div class="row">
                   <div class="col-2">
-                      <h1>Give your workout <br>A New Style!</h1>
-                      <p>Success isn't always about greatness. It's about consistency. Consistent <br>hard work gains success. Greatness will come.</p>
-                      <a href="#" class="btn">Explore Now </a>
+                      <h1>Start planning your wedding now!<br></h1>
+                      <p>We're here to help throughout your planning. The one thing we can't do? Be there on your wedding day, coordinating like a professional planner with a clipboard and headset.
+                          <br>  We'll be there in spirit!</p>
+                      <a href="#" class="btn">Get Started! </a>
                   </div>
 
                   <div class="col-2">
-                      <img src="./../IMAGES/pro.png">
+                      <img src="./../IMAGES/check.png">
                   </div>
 
                 </div>

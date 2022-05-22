@@ -19,7 +19,7 @@
                <div class = "details">
                     <img src = "./../images/pro.png" class = "logo1">
                 
-                    <a href = "#" class = "btn"><?php echo $username ?></a>
+                    <a href = "#" class = "btn"><?php echo $name ?></a>
                     <div class="admin-content">
                         <ul>
                             <li><a href="./../php/adminsetting.php">Settings</a></li>

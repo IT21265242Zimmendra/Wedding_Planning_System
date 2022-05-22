@@ -64,7 +64,7 @@
                 <nav>
                     <ul>
                     
-                    &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="navitems.php?id=181"><p>
+                    &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="navitems.php?id=109"><p>
  
 
                         <?php
@@ -84,7 +84,7 @@
  
 
 ?></p></a></button></li>
-                    &nbsp;&nbsp; &nbsp; <li><button class = "btnpackage"><a href="navitems.php?id=182"><p><?php
+                    &nbsp;&nbsp; &nbsp; <li><button class = "btnpackage"><a href="navitems.php?id=110"><p><?php
   require("config.php");
 
   $sql = "SELECT Package_Name,Price
@@ -101,7 +101,7 @@
  
 
 ?></p></a></button></li>
-                     &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="navitems.php?id=183"><p><?php
+                     &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="navitems.php?id=111"><p><?php
   require("config.php");
 
   $sql = "SELECT Package_Name,Price

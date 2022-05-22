@@ -14,7 +14,11 @@
     </head>
     <body>
     <div class ="container">
+<<<<<<< Updated upstream
     
+=======
+ 
+>>>>>>> Stashed changes
        
        
         <h1>
@@ -125,6 +129,10 @@
         
         <div>
 
+<<<<<<< Updated upstream
    
+=======
+
+>>>>>>> Stashed changes
   </body>
 </html>

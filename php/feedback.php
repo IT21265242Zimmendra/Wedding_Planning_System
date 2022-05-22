@@ -47,7 +47,7 @@
      <?php
         /*$cusId =  $_SESSION['Username'];*/
         $sql = "SELECT*
-                FROM feedback WHERE Cid = '1'/*$cusId*/";
+                FROM feedback WHERE Cid = '1'";
         $result = $con->query($sql);
         
         if($result -> num_rows >0){

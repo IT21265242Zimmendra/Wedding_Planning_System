@@ -68,7 +68,7 @@ if(isset($_POST["dltbtn"]))
 
     if($con -> query($sql))
     {
-        echo"Updated Successfully";
+        echo"Delete Successfully";
     }
 }
 

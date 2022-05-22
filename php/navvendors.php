@@ -12,8 +12,8 @@
           {
              if ($_SESSION['cart'][$i] == $category_name)
              {
-                 $_SESSION['AddedCategory'] = 1;
                  header('location:./../php/userCategory.php');
+                 echo "<script>alert('Category already added to cart')</script>";
                  exit();
              }
           }

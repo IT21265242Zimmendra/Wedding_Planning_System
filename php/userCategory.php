@@ -42,6 +42,7 @@
         <!------------------------------Body------------------------------------>
 
         <h2>Categories</h2>
+        <a href = "cart.php" class = "cart" id = "cart" style = "visibility: hidden">Cart</a>
 
         <!--------------------------------Grid---------------------------------->
         <div class="Categories">
@@ -105,14 +106,13 @@
 <?php
 
 
-if(isset($_SESSION['AddedCategory']))
+if (isset($_SESSION['cart']))
 {
-    if ($_SESSION['AddedCategory'] == 1)
-    {
-        $_SESSION['AddedCategory'] = 0;
-        echo "<script>alert('Category already added to cart')</script>";
-    }
+    echo "<script> document.getElementById('cart').style.visibility = 'visible'</script>";
 }
+
+
+
 
 
 ?>

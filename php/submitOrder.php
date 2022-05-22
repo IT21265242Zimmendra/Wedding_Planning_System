@@ -10,7 +10,7 @@
     echo $date;
 
     $sql = "INSERT INTO orders(order_date, amount , Cid)
-            VALUES('$date', '$tot','$Cid')";
+            VALUES('$date', '$tot','$Cid')"; 
     
     if($con->query($sql))
     {

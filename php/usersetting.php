@@ -17,9 +17,10 @@
                 <div class = "details">
                     <img src = "./../images/pro.png" class = "logo1">
                 
-                    <a href = "#" ><?php echo $username ?></a>
+                    <a href = "#" ><?php echo $name ?></a>
                     <div class="admin-content">
                         <ul>
+                            <li><a href="./../php/User.php">Home</a></li>
                             <li><a href="./../php/userdashboard.php">Dashboard</a></li>
                             <li><a href="./../html/Visitor.html">Log Out</a></li>
                         </ul>

@@ -26,7 +26,7 @@
                 </ul>
             </nav>
             <div class="sign-in">
-              <button class="signinbtn"><img src = "./../IMAGES/pro.png"> &nbsp <?php echo $username ?></button>
+              <button class="signinbtn"><img src = "./../IMAGES/pro.png"> &nbsp <?php echo $name ?></button>
               <div class="sign-in-content">
                 <ul>
                     <li><a href="#">Log Out</a></li>

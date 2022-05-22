@@ -21,7 +21,8 @@
         
         if($con->query($sql))
         {
-            echo "updated successfully";
+            
+            header("location:Admin.php");
         }
                  
          

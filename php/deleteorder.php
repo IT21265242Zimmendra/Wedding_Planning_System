@@ -8,6 +8,7 @@
     if ( $con -> query($sql))
     {
         echo "Deleted succesfully";
+        header("location:ordertable.php");
     }
     else
     {

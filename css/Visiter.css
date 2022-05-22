@@ -249,13 +249,28 @@ p{
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 25px;
   padding: 8px 12px;
   position: absolute;
+  text-shadow:2px 1px rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.34);
   Top: 8%;
   width: 100%;
-  text-align: left;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.bgtext{
+  font-size: 30px;
+  text-shadow: 2px 2px #000;
+  text-align: center;
+  padding: 8px 12px;
+  background-color: rgba(12, 39, 16, 0.183);
+  
+  text-align: center;
+}
+
+
 
 
 

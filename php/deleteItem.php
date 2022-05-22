@@ -1,5 +1,6 @@
 <?php
     require('config.php');
+    require('setCid.php');
     
     $record_id = $_GET['id'];
     $pid = intval($record_id);

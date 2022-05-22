@@ -1,5 +1,6 @@
 <?php
     include("config.php");
+    require('setCid.php');
 ?>
 <!DOCTYPE html>
 <html>

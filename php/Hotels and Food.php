@@ -1,5 +1,6 @@
 <?php
     require('setSession.php');
+    require('setCid.php');
 ?>
 
 

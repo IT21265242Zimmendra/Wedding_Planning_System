@@ -1,6 +1,7 @@
 <?php
     
     require('config.php');
+    require('setCid.php');
 
 
     $vendor_name = $_POST['name'];

@@ -1,5 +1,7 @@
 <?php
 
+   require('config.php');
+
   session_start();
 
   $username = "";
@@ -43,7 +45,7 @@
                       <div class="sign-in-content">
                         <ul>
                             <li><a href="./../html/Visitor.html">Log Out</a></li>
-                            <li><a href="./../html/usersetting.html">Settings</a></li>
+                            <li><a href="./../php/usersetting.php">Settings</a></li>
                             <li><a href="./../php/userdashboard.php">Dashboard</a></li>
                         </ul>
                       </div>

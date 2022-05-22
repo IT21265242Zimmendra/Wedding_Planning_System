@@ -1,6 +1,6 @@
 <?php
     require('config.php');
-    require('cid.php');
+    require('setCid.php');
 
 ?>
 

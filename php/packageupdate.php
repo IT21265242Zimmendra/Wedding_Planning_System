@@ -1,5 +1,6 @@
 <?php
     require('config.php');
+    require('setCid.php');
     
 
     if(isset($_POST['btnypdate']))

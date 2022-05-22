@@ -1,5 +1,6 @@
 <?php
     require('setSession.php');
+    require('setCid.php');
 ?>
 
 
@@ -36,7 +37,7 @@
             </div>
         </div> 
 
-        <!-------------------body -->
+        <!-------------------body ---------------------->
 
         <h2>Florists</h2>
 

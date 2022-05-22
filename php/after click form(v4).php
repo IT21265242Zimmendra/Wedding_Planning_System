@@ -1,6 +1,6 @@
 <?php
     require('config.php');
-    require('cid.php');
+    require('setCid.php');
 
 ?>
 
@@ -18,7 +18,7 @@
        
         <h1>
         <?php 
-            require("config.php");
+           
 
         $sql = "SELECT Name 
         From vendors    
@@ -68,7 +68,7 @@
  
 
                         <?php
-  require("config.php");
+
 
   $sql = "SELECT Package_Name,Price
   From Package
@@ -85,7 +85,7 @@
 
 ?></p></a></button></li>
                     &nbsp;&nbsp; &nbsp; <li><button class = "btnpackage"><a href="#"><p><?php
-  require("config.php");
+
 
   $sql = "SELECT Package_Name,Price
   From Package
@@ -102,7 +102,7 @@
 
 ?></p></a></button></li>
                      &nbsp;&nbsp;&nbsp;  <li><button class = "btnpackage"><a href="#"><p><?php
-  require("config.php");
+
 
   $sql = "SELECT Package_Name,Price
   From Package

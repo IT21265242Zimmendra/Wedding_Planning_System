@@ -1,6 +1,6 @@
 <?php
     require('config.php');
-    require('cid.php');
+    require('setCid.php');
 
 ?>
 
@@ -69,7 +69,7 @@
  
 
                         <?php
-  require("config.php");
+ 
 
   $sql = "SELECT Package_Name,Price
   From Package

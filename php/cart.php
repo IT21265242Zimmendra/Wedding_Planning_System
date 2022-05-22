@@ -1,5 +1,6 @@
 <?php
     require('config.php');
+    require('setCid.php');
 
     session_start();
 

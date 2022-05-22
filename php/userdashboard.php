@@ -105,9 +105,6 @@
         echo "</table>";
     }
 
-    else{
-        echo "<script> alert('No record')</script>";
-    }
     $con->close();
 
 ?>

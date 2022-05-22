@@ -22,15 +22,15 @@
                     <a href = "#" class = "btn"><?php echo $username ?></a>
                     <div class="admin-content">
                         <ul>
-                            <li><a href="./../html/adminsetting.html">Settings</a></li>
+                            <li><a href="./../php/adminsetting.php">Settings</a></li>
                             <li><a href="./../html/Visitor.html">Log Out</a></li>
                          
                         </ul>
                     </div>
                </div>
-               
            </nav>
        </div>
+
        <div class="card-1">
         <div class="card1">
            

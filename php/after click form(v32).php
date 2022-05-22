@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link rel="stylesheet" href="../css/InvC.css">
+        <link rel="stylesheet" href="../css/InvC.css?v=<?php echo time(); ?>"> 
     </head>
     <body>
 

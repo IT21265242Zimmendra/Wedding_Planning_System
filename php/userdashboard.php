@@ -12,7 +12,7 @@
         <div class ="container">
           <h1>User dashboard</h1>  
         
-           <button class = "addfeedback" >Add feedback</button>
+           <button class = "addfeedback" onclick="location.href = 'feedback.php';" >Add feedback</button>
            <button class = "addmoreitems" >Add more Items</button>
            <button class = "setting"> Settings </button>
            
